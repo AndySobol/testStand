@@ -5,59 +5,65 @@
         "brand": {
           "400": {
             "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "figma.modify": {
                 "type": "lighten",
-                "space": "hsl",
-                "value": 0.2
+                "value": "0.2",
+                "space": "hsl"
               }
-            }
+            },
+            "$description": "Auto-generated light version of main brand color."
           },
           "600": {
-            "$value": "rgba(114, 187, 255, 1)",
+            "$value": "rgba(37, 137, 229, 1)",
             "$type": "color",
             "$description": "Main brand color of your project."
           },
           "700": {
             "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "figma.modify": {
                 "type": "darken",
-                "space": "hsl",
-                "value": 0.15
+                "value": "0.15",
+                "space": "hsl"
               }
-            }
+            },
+            "$description": "Auto-generated dark version of main brand color."
           },
           "800": {
             "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "figma.modify": {
                 "type": "darken",
-                "space": "hsl",
-                "value": 0.25
+                "value": "0.25",
+                "space": "hsl"
               }
-            }
+            },
+            "$description": "Auto-generated dark version of main brand color."
           }
         }
       },
       "utility": {
         "body": {
-          "$value": "{sjs2.palette.gray.999}",
+          "$value": "{sjs2.palette.gray.000}",
           "$type": "color",
           "$description": "The very basic page background color."
         },
         "sheet": {
-          "$value": "{sjs2.palette.gray.900}",
+          "$value": "{sjs2.palette.gray.000}",
           "$type": "color",
           "$description": "Background color for drop, bottomsheet and modal."
         },
         "a11y": {
-          "$value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
+          "$value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
           "$type": "color",
           "$description": "Tab-focus border color."
         },
         "scrollbar": {
-          "$value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
+          "$value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
           "$type": "color",
           "$description": "Scrollbar color."
         },
@@ -67,17 +73,17 @@
           "$description": "Color for overlay behind modal and bottomsheet."
         },
         "toolbox": {
-          "$value": "rgba(43, 48, 63, 1)",
+          "$value": "{sjs2.palette.gray.000}",
           "$type": "color",
           "$description": "Background color for Toolbox panel (left panel)."
         },
         "property-grid": {
-          "$value": "rgba(43, 48, 63, 1)",
+          "$value": "{sjs2.palette.gray.000}",
           "$type": "color",
           "$description": "Background color for Property Grid panel (right panel)."
         },
         "tabs": {
-          "$value": "rgba(43, 48, 63, 1)",
+          "$value": "{sjs2.palette.gray.000}",
           "$type": "color",
           "$description": "Background color for Tabs panel (top panel above all)."
         },
@@ -88,12 +94,12 @@
             "$description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
           "designer": {
-            "$value": "#161519",
+            "$value": "rgba(255, 255, 255, 1)",
             "$type": "color",
             "$description": "Surface color for Designer tab."
           },
           "presets-manager": {
-            "$value": "#161519",
+            "$value": "#F4F4F4",
             "$type": "color",
             "$description": "Surface color for Presets Configuration Manager."
           },
@@ -156,7 +162,7 @@
           },
           "surface": {
             "default": {
-              "$value": "{sjs2.color.border.basic.secondary}",
+              "$value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "$type": "color",
               "$description": "Shadow (or border effect) color for interactive and non-interactive elements located on surface, state: default."
             },
@@ -181,14 +187,14 @@
               "$description": "Shadow (or border effect) color for interactive elements located on surface, state: disabled."
             },
             "dragging": {
-              "$value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x010} )",
+              "$value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
               "$type": "color",
               "$description": "Shadow (or border effect) color for interactive elements located on surface, state: dragging."
             }
           },
           "floating": {
             "default": {
-              "$value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x060} )",
+              "$value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
               "$type": "color",
               "$description": "Shadow (or border effect) color for floating elements, such as: tooltip, drop, floating button, notifier, ..."
             }
@@ -198,31 +204,31 @@
       "bg": {
         "basic": {
           "primary": {
-            "$value": "rgba(43, 48, 63, 1)",
+            "$value": "{sjs2.palette.gray.000}",
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba(36, 41, 55, 1)",
+            "$value": "rgba(255, 255, 255, 1)",
             "$type": "color"
           },
           "tertiary": {
-            "$value": "#202531",
+            "$value": "{sjs2.palette.gray.150}",
             "$type": "color"
           },
           "primary-dim": {
-            "$value": "rgba(50, 55, 72, 1)",
+            "$value": "rgba(248, 248, 248, 1)",
             "$type": "color"
           },
           "secondary-dim": {
-            "$value": "rgba(40, 46, 61, 1)",
+            "$value": "rgba(243, 243, 243, 1)",
             "$type": "color"
           },
           "tertiary-dim": {
-            "$value": "#202531",
+            "$value": "{sjs2.palette.gray.200}",
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "#1b1f2a",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
@@ -232,7 +238,7 @@
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           },
           "tertiary": {
@@ -244,15 +250,15 @@
             "$type": "color"
           },
           "secondary-dim": {
-            "$value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
+            "$value": "{sjs2.palette.gray.150}",
             "$type": "color"
           },
           "tertiary-dim": {
-            "$value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x010} )",
+            "$value": "rgba(255, 255, 255, 1)",
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "{sjs2.palette.gray.750}",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
@@ -262,7 +268,7 @@
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba(114, 187, 255, 0.1)",
+            "$value": "rgba(37, 137, 229, 0.1)",
             "$type": "color"
           },
           "tertiary": {
@@ -270,7 +276,7 @@
             "$type": "color"
           },
           "primary-dim": {
-            "$value": "rgba(151, 205, 255, 1)",
+            "$value": "rgba(21, 119, 209, 1)",
             "$type": "color"
           },
           "secondary-dim": {
@@ -282,17 +288,17 @@
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "{sjs2.palette.gray.750}",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
         "note": {
           "primary": {
-            "$value": "rgba(91, 151, 242, 1)",
+            "$value": "{sjs2.palette.blue.600}",
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba(91, 151, 242, 0.1)",
+            "$value": "rgba(67, 127, 217, 0.1)",
             "$type": "color"
           },
           "tertiary": {
@@ -312,17 +318,17 @@
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "{sjs2.palette.gray.750}",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
         "positive": {
           "primary": {
-            "$value": "rgba(36, 197, 164, 1)",
+            "$value": "{sjs2.palette.green.600}",
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba(36, 197, 164, 0.1)",
+            "$value": "rgba(25, 179, 148, 0.1)",
             "$type": "color"
           },
           "tertiary": {
@@ -342,7 +348,7 @@
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "{sjs2.palette.gray.750}",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
@@ -372,17 +378,17 @@
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "{sjs2.palette.gray.750}",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
         "alert": {
           "primary": {
-            "$value": "rgba(254, 76, 108, 1)",
+            "$value": "{sjs2.palette.red.600}",
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba(254, 76, 108, 0.1)",
+            "$value": "rgba(229, 10, 62, 0.1)",
             "$type": "color"
           },
           "tertiary": {
@@ -402,7 +408,7 @@
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "{sjs2.palette.gray.750}",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
@@ -455,7 +461,7 @@
       "fg": {
         "basic": {
           "primary": {
-            "$value": "#d9edff",
+            "$value": "rgba(0, 0, 0, 0.91)",
             "$type": "color"
           },
           "primary-muted": {
@@ -463,7 +469,7 @@
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
+            "$value": "rgba(0, 0, 0, 0.45)",
             "$type": "color"
           },
           "tertiary": {
@@ -511,11 +517,11 @@
             "$type": "color"
           },
           "on-primary": {
-            "$value": "rgba(32, 32, 32, 1)",
+            "$value": "{sjs2.palette.gray.000}",
             "$type": "color"
           },
           "primary-disabled": {
-            "$value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "$value": "rgba(255, 255, 255, 0.25)",
             "$type": "color"
           }
         },
@@ -525,7 +531,7 @@
             "$type": "color"
           },
           "on-primary": {
-            "$value": "rgba(48, 48, 48, 1)",
+            "$value": "{sjs2.palette.gray.000}",
             "$type": "color"
           },
           "primary-disabled": {
@@ -539,7 +545,7 @@
             "$type": "color"
           },
           "on-primary": {
-            "$value": "rgba(48, 48, 48, 1)",
+            "$value": "{sjs2.palette.gray.000}",
             "$type": "color"
           },
           "primary-disabled": {
@@ -553,7 +559,7 @@
             "$type": "color"
           },
           "on-primary": {
-            "$value": "rgba(48, 48, 48, 1)",
+            "$value": "{sjs2.palette.gray.000}",
             "$type": "color"
           },
           "primary-disabled": {
@@ -567,7 +573,7 @@
             "$type": "color"
           },
           "on-primary": {
-            "$value": "rgba(48, 48, 48, 1)",
+            "$value": "{sjs2.palette.gray.000}",
             "$type": "color"
           },
           "primary-disabled": {
@@ -595,15 +601,15 @@
             "$type": "color"
           },
           "secondary": {
-            "$value": "rgba(55, 62, 79, 1)",
+            "$value": "rgba(0, 0, 0, 0.15)",
             "$type": "color"
           },
           "secondary-overlay": {
-            "$value": "rgba(158,189,241,0.08)",
+            "$value": "rgba(0, 0, 0, 0.16)",
             "$type": "color"
           },
           "secondary-disabled": {
-            "$value": "rgba({sjs2.color.border.basic.secondary}, {sjs2.opacity.disabled})",
+            "$value": "{sjs2.palette.gray.100}",
             "$type": "color"
           }
         },
@@ -866,7 +872,7 @@
           },
           "track": {
             "color-0": {
-              "$value": "{sjs2.color.bg.basic.secondary}",
+              "$value": "{sjs2.palette.gray.150}",
               "$type": "color"
             }
           }
@@ -1971,7 +1977,7 @@
             },
             "readonly": {
               "bg": {
-                "$value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
+                "$value": "{sjs2.color.bg.basic.primary}",
                 "$type": "color"
               },
               "border": {
@@ -2005,7 +2011,7 @@
                 "$type": "color"
               },
               "border": {
-                "$value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
+                "$value": "{sjs2.color.border.basic.secondary}",
                 "$type": "color"
               },
               "value": {
@@ -2029,7 +2035,7 @@
             },
             "readonly": {
               "bg": {
-                "$value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
+                "$value": "{sjs2.color.bg.basic.primary}",
                 "$type": "color"
               },
               "border": {
@@ -3143,7 +3149,7 @@
               "$type": "color"
             },
             "border": {
-              "$value": "{sjs2.color.border.basic.secondary}",
+              "$value": "{sjs2.color.utility.shadow.surface.default}",
               "$type": "color"
             }
           },
@@ -3317,15 +3323,15 @@
     "border-spread": {
       "form": {
         "default": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         },
         "hovered": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         },
         "pressed": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         },
         "focused": {
@@ -3349,11 +3355,11 @@
           "$type": "number"
         },
         "readonly": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         },
         "design": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         }
       },
@@ -3389,7 +3395,7 @@
       },
       "surface": {
         "default": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         },
         "hovered": {
@@ -3405,7 +3411,7 @@
           "$type": "number"
         },
         "disabled": {
-          "$value": "{sjs2.border-width.x000}",
+          "$value": "{sjs2.border-width.x100}",
           "$type": "number"
         },
         "dragging": {
@@ -3746,20 +3752,20 @@
           "default": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.default}",
-                "$y": "{sjs2.border-offset.y.form.default}",
-                "$blur": "{sjs2.border-blur.form.default}",
-                "$spread": "{sjs2.border-spread.form.default}",
-                "$color": "{sjs2.color.component.formbox.default.border}",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "1",
+                "color": "rgba(0, 0, 0, 0.15)",
+                "type": "dropShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3767,20 +3773,20 @@
           "hovered": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.hovered}",
-                "$y": "{sjs2.border-offset.y.form.hovered}",
-                "$blur": "{sjs2.border-blur.form.hovered}",
-                "$spread": "{sjs2.border-spread.form.hovered}",
-                "$color": "{sjs2.color.component.formbox.hovered.border}",
-                "$type": "innerShadow"
+                "x": "{sjs2.border-offset.x.form.hovered}",
+                "y": "{sjs2.border-offset.y.form.hovered}",
+                "blur": "{sjs2.border-blur.form.hovered}",
+                "spread": "{sjs2.border-spread.form.hovered}",
+                "color": "{sjs2.color.component.formbox.hovered.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3788,20 +3794,20 @@
           "focused": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.focused}",
-                "$y": "{sjs2.border-offset.y.form.focused}",
-                "$blur": "{sjs2.border-blur.form.focused}",
-                "$spread": "{sjs2.border-spread.form.focused}",
-                "$color": "{sjs2.color.component.formbox.focused.border}",
-                "$type": "dropShadow"
+                "x": "{sjs2.border-offset.x.form.focused}",
+                "y": "{sjs2.border-offset.y.form.focused}",
+                "blur": "{sjs2.border-blur.form.focused}",
+                "spread": "{sjs2.border-spread.form.focused}",
+                "color": "{sjs2.color.component.formbox.focused.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3809,20 +3815,20 @@
           "disabled": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.disabled}",
-                "$y": "{sjs2.border-offset.y.form.disabled}",
-                "$blur": "{sjs2.border-blur.form.disabled}",
-                "$spread": "{sjs2.border-spread.form.disabled}",
-                "$color": "{sjs2.color.component.formbox.disabled.border}",
-                "$type": "innerShadow"
+                "x": "{sjs2.border-offset.x.form.disabled}",
+                "y": "{sjs2.border-offset.y.form.disabled}",
+                "blur": "{sjs2.border-blur.form.disabled}",
+                "spread": "{sjs2.border-spread.form.disabled}",
+                "color": "{sjs2.color.component.formbox.disabled.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3830,20 +3836,20 @@
           "invalid": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.invalid}",
-                "$y": "{sjs2.border-offset.y.form.invalid}",
-                "$blur": "{sjs2.border-blur.form.invalid}",
-                "$spread": "{sjs2.border-spread.form.invalid}",
-                "$color": "{sjs2.color.component.formbox.invalid.border}",
-                "$type": "innerShadow"
+                "x": "{sjs2.border-offset.x.form.invalid}",
+                "y": "{sjs2.border-offset.y.form.invalid}",
+                "blur": "{sjs2.border-blur.form.invalid}",
+                "spread": "{sjs2.border-spread.form.invalid}",
+                "color": "{sjs2.color.component.formbox.invalid.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3851,20 +3857,20 @@
           "invalid-focused": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.invalid-focused}",
-                "$y": "{sjs2.border-offset.y.form.invalid-focused}",
-                "$blur": "{sjs2.border-blur.form.invalid-focused}",
-                "$spread": "{sjs2.border-spread.form.invalid-focused}",
-                "$color": "{sjs2.color.component.formbox.invalid-focused.border}",
-                "$type": "dropShadow"
+                "x": "{sjs2.border-offset.x.form.invalid-focused}",
+                "y": "{sjs2.border-offset.y.form.invalid-focused}",
+                "blur": "{sjs2.border-blur.form.invalid-focused}",
+                "spread": "{sjs2.border-spread.form.invalid-focused}",
+                "color": "{sjs2.color.component.formbox.invalid-focused.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3872,20 +3878,20 @@
           "highlighted": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.highlighted}",
-                "$y": "{sjs2.border-offset.y.form.highlighted}",
-                "$blur": "{sjs2.border-blur.form.highlighted}",
-                "$spread": "{sjs2.border-spread.form.highlighted}",
-                "$color": "{sjs2.color.component.formbox.highlighted.border}",
-                "$type": "dropShadow"
+                "x": "{sjs2.border-offset.x.form.highlighted}",
+                "y": "{sjs2.border-offset.y.form.highlighted}",
+                "blur": "{sjs2.border-blur.form.highlighted}",
+                "spread": "{sjs2.border-spread.form.highlighted}",
+                "color": "{sjs2.color.component.formbox.highlighted.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3893,20 +3899,20 @@
           "readonly": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.readonly}",
-                "$y": "{sjs2.border-offset.y.form.readonly}",
-                "$blur": "{sjs2.border-blur.form.readonly}",
-                "$spread": "{sjs2.border-spread.form.readonly}",
-                "$color": "{sjs2.color.component.formbox.readonly.border}",
-                "$type": "innerShadow"
+                "x": "{sjs2.border-offset.x.form.readonly}",
+                "y": "{sjs2.border-offset.y.form.readonly}",
+                "blur": "{sjs2.border-blur.form.readonly}",
+                "spread": "{sjs2.border-spread.form.readonly}",
+                "color": "{sjs2.color.component.formbox.readonly.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
@@ -3914,32 +3920,32 @@
           "design": {
             "$value": [
               {
-                "$x": "{sjs2.border-offset.x.form.design}",
-                "$y": "{sjs2.border-offset.y.form.design}",
-                "$blur": "{sjs2.border-blur.form.design}",
-                "$spread": "{sjs2.border-spread.form.design}",
-                "vcolor": "{sjs2.color.component.formbox.design.border}",
-                "$type": "innerShadow"
+                "x": "{sjs2.border-offset.x.form.design}",
+                "y": "{sjs2.border-offset.y.form.design}",
+                "blur": "{sjs2.border-blur.form.design}",
+                "spread": "{sjs2.border-spread.form.design}",
+                "color": "{sjs2.color.component.formbox.design.border}",
+                "type": "innerShadow"
               },
               {
-                "$x": "0",
-                "$y": "0",
-                "$blur": "0",
-                "$spread": "0",
-                "$color": "rgba(0,0,0,0)",
-                "$type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
               }
             ],
             "$type": "boxShadow"
           },
           "a11y": {
             "$value": {
-              "$x": "0",
-              "$y": "0",
-              "$blur": "0",
-              "$spread": "0",
-              "$color": "transparent",
-              "$type": "dropShadow"
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "transparent",
+              "type": "dropShadow"
             },
             "$type": "boxShadow"
           }
@@ -7095,8 +7101,8 @@
               "x": "0",
               "y": "0",
               "blur": "0",
-              "spread": "0",
-              "color": "rgba(0, 0, 0, 0.35)",
+              "spread": "1",
+              "color": "rgba(0, 0, 0, 0.15)",
               "type": "dropShadow"
             },
             {
@@ -7221,10 +7227,10 @@
           "$value": [
             {
               "x": "0",
-              "y": "2",
-              "blur": "6",
-              "spread": "0",
-              "color": "rgba(0, 0, 0, 0.2)",
+              "y": "0",
+              "blur": "0",
+              "spread": "1",
+              "color": "rgba(0, 0, 0, 0.1)",
               "type": "dropShadow"
             },
             {
@@ -7232,7 +7238,7 @@
               "y": "8",
               "blur": "16",
               "spread": "0",
-              "color": "rgba(0, 0, 0, 0.2)",
+              "color": "rgba(0, 0, 0, 0.05)",
               "type": "dropShadow"
             },
             {
@@ -7268,7 +7274,6 @@
         ],
         "$type": "boxShadow"
       }
-    },
-    "$type": "color"
+    }
   }
 }
