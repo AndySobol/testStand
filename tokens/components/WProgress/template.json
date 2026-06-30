@@ -1,0 +1,455 @@
+{
+  "WProgress": {
+    "component": {
+      "bar": {
+        "item": {
+          "clear": {
+            "start": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.clear}"
+              }
+            },
+            "middle": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.clear}"
+              }
+            },
+            "end": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
+                "fill": "{w-progress.style.clear}"
+              }
+            }
+          },
+          "progress": {
+            "start": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.progress}"
+              }
+            },
+            "middle": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.progress}"
+              }
+            },
+            "end": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
+                "fill": "{w-progress.style.progress}"
+              }
+            }
+          },
+          "success": {
+            "start": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.success}"
+              }
+            },
+            "middle": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.success}"
+              }
+            },
+            "end": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
+                "fill": "{w-progress.style.success}"
+              }
+            }
+          },
+          "error": {
+            "start": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.error}"
+              }
+            },
+            "middle": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.error}"
+              }
+            },
+            "end": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
+                "fill": "{w-progress.style.error}"
+              }
+            }
+          },
+          "disable": {
+            "start": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.disable}"
+              }
+            },
+            "middle": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
+                "fill": "{w-progress.style.disable}"
+              }
+            },
+            "end": {
+              "$type": "composition",
+              "$value": {
+                "height": "{w-progress.size.bar.item.height}",
+                "maxHeight": "{w-progress.size.bar.item.max-height}",
+                "minHeight": "{w-progress.size.bar.item.min-height}",
+                "borderRadiusTopLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusTopRight": "{w-progress.size.bar.item.radius}",
+                "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
+                "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
+                "fill": "{w-progress.style.disable}"
+              }
+            }
+          }
+        },
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "height": "{w-progress.size.bar.wrap.height}",
+            "maxHeight": "{w-progress.size.bar.wrap.max-height}",
+            "minHeight": "{w-progress.size.bar.wrap.min-height}",
+            "borderRadius": "{w-progress.size.bar.wrap.radius}",
+            "itemSpacing": "{w-progress.size.bar.wrap.gap}",
+            "paddingTop": "{w-progress.size.bar.wrap.sp-top}",
+            "paddingRight": "{w-progress.size.bar.wrap.sp-right}",
+            "paddingBottom": "{w-progress.size.bar.wrap.sp-bottom}",
+            "paddingLeft": "{w-progress.size.bar.wrap.sp-left}",
+            "fill": "{w-progress.style.wrap}"
+          }
+        },
+        "wrap-static": {
+          "$type": "composition",
+          "$value": {
+            "height": "{w-progress.size.bar.wrap.height}",
+            "maxHeight": "{w-progress.size.bar.wrap.max-height}",
+            "minHeight": "{w-progress.size.bar.wrap.min-height}",
+            "borderRadius": "{w-progress.size.bar.wrap.radius}",
+            "itemSpacing": "{w-progress.size.bar.wrap.gap}",
+            "paddingTop": "{w-progress.size.bar.wrap.sp-top}",
+            "paddingRight": "{w-progress.size.bar.wrap.sp-right}",
+            "paddingBottom": "{w-progress.size.bar.wrap.sp-bottom}",
+            "paddingLeft": "{w-progress.size.bar.wrap.sp-left}",
+            "fill": "{w-progress.style.wrap-static}"
+          }
+        }
+      },
+      "circle": {
+        "xs": {
+          "progress": {
+            "base": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}",
+                "fill": "{w-progress.style.wrap}"
+              }
+            },
+            "vector": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}",
+                "fill": "{w-progress.style.progress}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}"
+              }
+            }
+          },
+          "success": {
+            "base": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}",
+                "fill": "{w-progress.style.wrap}"
+              }
+            },
+            "vector": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}",
+                "fill": "{w-progress.style.success}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}"
+              }
+            }
+          },
+          "error": {
+            "base": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}",
+                "fill": "{w-progress.style.wrap}"
+              }
+            },
+            "vector": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}",
+                "fill": "{w-progress.style.error}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.xs.width}",
+                "minWidth": "{w-progress.size.circle.xs.width}",
+                "height": "{w-progress.size.circle.xs.height}",
+                "minHeight": "{w-progress.size.circle.xs.height}",
+                "borderRadius": "{w-progress.size.circle.xs.radius}"
+              }
+            }
+          }
+        },
+        "sm": {
+          "progress": {
+            "base": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}",
+                "fill": "{w-progress.style.wrap}"
+              }
+            },
+            "vector": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}",
+                "fill": "{w-progress.style.progress}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}"
+              }
+            }
+          },
+          "success": {
+            "base": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}",
+                "fill": "{w-progress.style.wrap}"
+              }
+            },
+            "vector": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}",
+                "fill": "{w-progress.style.success}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}"
+              }
+            }
+          },
+          "error": {
+            "base": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}",
+                "fill": "{w-progress.style.wrap}"
+              }
+            },
+            "vector": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}",
+                "fill": "{w-progress.style.error}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-progress.size.circle.sm.width}",
+                "minWidth": "{w-progress.size.circle.sm.width}",
+                "height": "{w-progress.size.circle.sm.height}",
+                "minHeight": "{w-progress.size.circle.sm.height}",
+                "borderRadius": "{w-progress.size.circle.sm.radius}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

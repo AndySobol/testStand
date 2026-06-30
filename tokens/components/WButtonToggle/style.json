@@ -1,0 +1,2580 @@
+{
+  "w-button-toggle": {
+    "style": {
+      "neutral": {
+        "primary": {
+          "wrap": {
+            "default": {
+              "$type": "color",
+              "$value": "{neutral.medium}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{neutral.weak}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{neutral.medium}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{neutral.weak}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{neutral.medium}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable}"
+            }
+          },
+          "label": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.weakest}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{text.weakest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{text.weakest}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{text.weakest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{text.weakest}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{icon.weakest}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{icon.weakest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{icon.weakest}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{icon.weakest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{icon.weakest}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "stroke": {
+            "default": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{transparent}"
+            }
+          },
+          "shadow": {
+            "default": {
+              "$type": "boxShadow",
+              "$value": [
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.two.default}",
+                  "blur": "{sem.w-button.shadow.blur.two.default}",
+                  "spread": "{sem.w-button.shadow.spread.two.default}",
+                  "color": "{sem.w-button.shadow.color.neutral.two.default}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.three.default}",
+                  "blur": "{sem.w-button.shadow.blur.three.default}",
+                  "spread": "{sem.w-button.shadow.spread.three.default}",
+                  "color": "{sem.w-button.shadow.color.neutral.three.default}",
+                  "type": "dropShadow"
+                }
+              ]
+            },
+            "hover": {
+              "$type": "boxShadow",
+              "$value": [
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.two.hover}",
+                  "blur": "{sem.w-button.shadow.blur.two.hover}",
+                  "spread": "{sem.w-button.shadow.spread.two.hover}",
+                  "color": "{sem.w-button.shadow.color.neutral.two.hover}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.three.hover}",
+                  "blur": "{sem.w-button.shadow.blur.three.hover}",
+                  "spread": "{sem.w-button.shadow.spread.three.hover}",
+                  "color": "{sem.w-button.shadow.color.neutral.three.hover}",
+                  "type": "dropShadow"
+                }
+              ]
+            },
+            "select": {
+              "$type": "boxShadow",
+              "$value": [
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.two.select}",
+                  "blur": "{sem.w-button.shadow.blur.two.select}",
+                  "spread": "{sem.w-button.shadow.spread.two.select}",
+                  "color": "{sem.w-button.shadow.color.neutral.two.select}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.three.select}",
+                  "blur": "{sem.w-button.shadow.blur.three.select}",
+                  "spread": "{sem.w-button.shadow.spread.three.select}",
+                  "color": "{sem.w-button.shadow.color.neutral.three.select}",
+                  "type": "dropShadow"
+                }
+              ]
+            },
+            "loader": {
+              "$type": "boxShadow",
+              "$value": [
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.two.default}",
+                  "blur": "{sem.w-button.shadow.blur.two.default}",
+                  "spread": "{sem.w-button.shadow.spread.two.default}",
+                  "color": "{sem.w-button.shadow.color.neutral.two.default}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.three.default}",
+                  "blur": "{sem.w-button.shadow.blur.three.default}",
+                  "spread": "{sem.w-button.shadow.spread.three.default}",
+                  "color": "{sem.w-button.shadow.color.neutral.three.default}",
+                  "type": "dropShadow"
+                }
+              ]
+            },
+            "focus": {
+              "$type": "boxShadow",
+              "$value": [
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.two.focus}",
+                  "blur": "{sem.w-button.shadow.blur.two.focus}",
+                  "spread": "{sem.w-button.shadow.spread.two.focus}",
+                  "color": "{sem.w-button.shadow.color.neutral.two.focus}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{sem.w-button.shadow.axis.three.focus}",
+                  "blur": "{sem.w-button.shadow.blur.three.focus}",
+                  "spread": "{sem.w-button.shadow.spread.three.focus}",
+                  "color": "{sem.w-button.shadow.color.neutral.three.focus}",
+                  "type": "dropShadow"
+                }
+              ]
+            },
+            "disable": {
+              "$type": "boxShadow",
+              "$value": [
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              ]
+            }
+          }
+        },
+        "secondary": {
+          "wrap": {
+            "default": {
+              "$type": "color",
+              "$value": "{neutral.weaker}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{neutral.weakly}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{neutral.weaker}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{neutral.weakly}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{neutral.weaker}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable}"
+            }
+          },
+          "label": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "stroke": {
+            "default": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{transparent}"
+            }
+          },
+          "shadow": {
+            "default": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "hover": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "select": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "loader": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "focus": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.spread.25}",
+                "color": "{neutral.strong}",
+                "type": "dropShadow"
+              }
+            },
+            "disable": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            }
+          }
+        },
+        "tertiary": {
+          "wrap": {
+            "default": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{neutral.weaker}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{neutral.weaker}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{transparent}"
+            }
+          },
+          "label": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.medium}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{text.medium}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{text.medium}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{icon.medium}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{icon.medium}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{icon.medium}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "stroke": {
+            "default": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{transparent}"
+            }
+          },
+          "shadow": {
+            "default": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "hover": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "select": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "loader": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "focus": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.spread.25}",
+                "color": "{neutral.strong}",
+                "type": "dropShadow"
+              }
+            },
+            "disable": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            }
+          }
+        },
+        "inline": {
+          "wrap": {
+            "default": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{transparent}"
+            }
+          },
+          "label": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.medium}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{text.medium}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{text.strongest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{text.medium}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{icon.medium}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{icon.medium}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{icon.strongest}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{icon.medium}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{state.disable-layer}"
+            }
+          },
+          "stroke": {
+            "default": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "select": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "loader": {
+              "$type": "color",
+              "$value": "{transparent}"
+            },
+            "disable": {
+              "$type": "color",
+              "$value": "{transparent}"
+            }
+          },
+          "shadow": {
+            "default": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "hover": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "select": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "loader": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            },
+            "focus": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.spread.25}",
+                "color": "{neutral.strong}",
+                "type": "dropShadow"
+              }
+            },
+            "disable": {
+              "$type": "boxShadow",
+              "$value": {
+                "x": "{fx.axis.none}",
+                "y": "{fx.axis.none}",
+                "blur": "{fx.blur.none}",
+                "spread": "{fx.blur.none}",
+                "color": "{transparent}",
+                "type": "dropShadow"
+              }
+            }
+          }
+        }
+      },
+      "static": {
+        "white": {
+          "primary": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.default}",
+                    "blur": "{sem.w-button.shadow.blur.two.default}",
+                    "spread": "{sem.w-button.shadow.spread.two.default}",
+                    "color": "{sem.w-button.shadow.color.static-white.two.default}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.default}",
+                    "blur": "{sem.w-button.shadow.blur.three.default}",
+                    "spread": "{sem.w-button.shadow.spread.three.default}",
+                    "color": "{sem.w-button.shadow.color.static-white.three.default}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.hover}",
+                    "blur": "{sem.w-button.shadow.blur.two.hover}",
+                    "spread": "{sem.w-button.shadow.spread.two.hover}",
+                    "color": "{sem.w-button.shadow.color.static-white.two.hover}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.hover}",
+                    "blur": "{sem.w-button.shadow.blur.three.hover}",
+                    "spread": "{sem.w-button.shadow.spread.three.hover}",
+                    "color": "{sem.w-button.shadow.color.static-white.three.hover}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.select}",
+                    "blur": "{sem.w-button.shadow.blur.two.select}",
+                    "spread": "{sem.w-button.shadow.spread.two.select}",
+                    "color": "{sem.w-button.shadow.color.static-white.two.select}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.select}",
+                    "blur": "{sem.w-button.shadow.blur.three.select}",
+                    "spread": "{sem.w-button.shadow.spread.three.select}",
+                    "color": "{sem.w-button.shadow.color.static-white.three.select}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.default}",
+                    "blur": "{sem.w-button.shadow.blur.two.default}",
+                    "spread": "{sem.w-button.shadow.spread.two.default}",
+                    "color": "{sem.w-button.shadow.color.static-white.two.default}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.default}",
+                    "blur": "{sem.w-button.shadow.blur.three.default}",
+                    "spread": "{sem.w-button.shadow.spread.three.default}",
+                    "color": "{sem.w-button.shadow.color.static-white.three.default}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.focus}",
+                    "blur": "{sem.w-button.shadow.blur.two.focus}",
+                    "spread": "{sem.w-button.shadow.spread.two.focus}",
+                    "color": "{sem.w-button.shadow.color.static-white.two.focus}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.focus}",
+                    "blur": "{sem.w-button.shadow.blur.three.focus}",
+                    "spread": "{sem.w-button.shadow.spread.three.focus}",
+                    "color": "{sem.w-button.shadow.color.static-white.three.focus}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{fx.axis.none}",
+                    "blur": "{fx.blur.none}",
+                    "spread": "{fx.blur.none}",
+                    "color": "{transparent}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{fx.axis.none}",
+                    "blur": "{fx.blur.none}",
+                    "spread": "{fx.blur.none}",
+                    "color": "{transparent}",
+                    "type": "dropShadow"
+                  }
+                ]
+              }
+            }
+          },
+          "secondary": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.alpha.weaker}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.alpha.weaker}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.alpha.weaker}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.spread.25}",
+                  "color": "{static.white.stronger}",
+                  "type": "dropShadow"
+                }
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              }
+            }
+          },
+          "tertiary": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strong}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strong}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.alpha.strong}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.spread.25}",
+                  "color": "{static.white.stronger}",
+                  "type": "dropShadow"
+                }
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              }
+            }
+          },
+          "inline": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.spread.25}",
+                  "color": "{static.white.stronger}",
+                  "type": "dropShadow"
+                }
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              }
+            }
+          }
+        },
+        "black": {
+          "primary": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.default}",
+                    "blur": "{sem.w-button.shadow.blur.two.default}",
+                    "spread": "{sem.w-button.shadow.spread.two.default}",
+                    "color": "{sem.w-button.shadow.color.static-black.two.default}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.default}",
+                    "blur": "{sem.w-button.shadow.blur.three.default}",
+                    "spread": "{sem.w-button.shadow.spread.three.default}",
+                    "color": "{sem.w-button.shadow.color.static-black.three.default}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.hover}",
+                    "blur": "{sem.w-button.shadow.blur.two.hover}",
+                    "spread": "{sem.w-button.shadow.spread.two.hover}",
+                    "color": "{sem.w-button.shadow.color.static-black.two.hover}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.hover}",
+                    "blur": "{sem.w-button.shadow.blur.three.hover}",
+                    "spread": "{sem.w-button.shadow.spread.three.hover}",
+                    "color": "{sem.w-button.shadow.color.static-black.three.hover}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.select}",
+                    "blur": "{sem.w-button.shadow.blur.two.select}",
+                    "spread": "{sem.w-button.shadow.spread.two.select}",
+                    "color": "{sem.w-button.shadow.color.static-black.two.select}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.select}",
+                    "blur": "{sem.w-button.shadow.blur.three.select}",
+                    "spread": "{sem.w-button.shadow.spread.three.select}",
+                    "color": "{sem.w-button.shadow.color.static-black.three.select}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.default}",
+                    "blur": "{sem.w-button.shadow.blur.two.default}",
+                    "spread": "{sem.w-button.shadow.spread.two.default}",
+                    "color": "{sem.w-button.shadow.color.static-black.two.default}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.default}",
+                    "blur": "{sem.w-button.shadow.blur.three.default}",
+                    "spread": "{sem.w-button.shadow.spread.three.default}",
+                    "color": "{sem.w-button.shadow.color.static-black.three.default}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.two.focus}",
+                    "blur": "{sem.w-button.shadow.blur.two.focus}",
+                    "spread": "{sem.w-button.shadow.spread.two.focus}",
+                    "color": "{sem.w-button.shadow.color.static-black.two.focus}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{sem.w-button.shadow.axis.three.focus}",
+                    "blur": "{sem.w-button.shadow.blur.three.focus}",
+                    "spread": "{sem.w-button.shadow.spread.three.focus}",
+                    "color": "{sem.w-button.shadow.color.static-black.three.focus}",
+                    "type": "dropShadow"
+                  }
+                ]
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": [
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{fx.axis.none}",
+                    "blur": "{fx.blur.none}",
+                    "spread": "{fx.blur.none}",
+                    "color": "{transparent}",
+                    "type": "dropShadow"
+                  },
+                  {
+                    "x": "{fx.axis.none}",
+                    "y": "{fx.axis.none}",
+                    "blur": "{fx.blur.none}",
+                    "spread": "{fx.blur.none}",
+                    "color": "{transparent}",
+                    "type": "dropShadow"
+                  }
+                ]
+              }
+            }
+          },
+          "secondary": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.alpha.weaker}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.alpha.weaker}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.alpha.weaker}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.spread.25}",
+                  "color": "{static.black.stronger}",
+                  "type": "dropShadow"
+                }
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              }
+            }
+          },
+          "tertiary": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strong}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strong}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.alpha.strong}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.white.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.spread.25}",
+                  "color": "{static.black.stronger}",
+                  "type": "dropShadow"
+                }
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              }
+            }
+          },
+          "inline": {
+            "wrap": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "label": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "icon": {
+              "default": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{static.black.strong}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{static.black.strong}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{static.black.strongest}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{state.disable-layer}"
+              }
+            },
+            "stroke": {
+              "default": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "focus": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "select": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "loader": {
+                "$type": "color",
+                "$value": "{transparent}"
+              },
+              "disable": {
+                "$type": "color",
+                "$value": "{transparent}"
+              }
+            },
+            "shadow": {
+              "default": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "hover": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "select": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "loader": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              },
+              "focus": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.spread.25}",
+                  "color": "{static.black.stronger}",
+                  "type": "dropShadow"
+                }
+              },
+              "disable": {
+                "$type": "boxShadow",
+                "$value": {
+                  "x": "{fx.axis.none}",
+                  "y": "{fx.axis.none}",
+                  "blur": "{fx.blur.none}",
+                  "spread": "{fx.blur.none}",
+                  "color": "{transparent}",
+                  "type": "dropShadow"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "sm": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{cfg.sz.static.sm}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{cfg.sz.static.sm}"
+        },
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{sem.w-button-toggle.radius.sm}"
+        },
+        "border": {
+          "inselect": {
+            "$type": "borderWidth",
+            "$value": "{bw.sm}"
+          },
+          "select": {
+            "$type": "borderWidth",
+            "$value": "{bw.md}"
+          }
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.xs}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.xs}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.xs}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.xs}"
+        },
+        "icon": {
+          "$type": "sizing",
+          "$value": "{cfg.sz.static.2xs}"
+        },
+        "typography": {
+          "$type": "typography",
+          "$value": "{tp.label.sm.regular}"
+        },
+        "wrap-label": {
+          "gap": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.xs}"
+          },
+          "sp-top": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-right": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.xs}"
+          },
+          "sp-bottom": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-left": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.xs}"
+          }
+        },
+        "inline": {
+          "height": {
+            "$type": "sizing",
+            "$value": "{cfg.sz.static.2xs}"
+          },
+          "width": {
+            "$type": "sizing",
+            "$value": "{cfg.sz.static.2xs}"
+          },
+          "radius": {
+            "$type": "borderRadius",
+            "$value": "{sem.w-button-toggle.radius.sm}"
+          },
+          "border": {
+            "inselect": {
+              "$type": "borderWidth",
+              "$value": "{bw.sm}"
+            },
+            "select": {
+              "$type": "borderWidth",
+              "$value": "{bw.md}"
+            }
+          },
+          "gap": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.xs}"
+          },
+          "sp-top": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-right": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-bottom": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-left": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "icon": {
+            "$type": "sizing",
+            "$value": "{cfg.sz.static.2xs}"
+          },
+          "typography": {
+            "$type": "typography",
+            "$value": "{tp.label.sm.regular}"
+          },
+          "wrap-label": {
+            "gap": {
+              "$type": "spacing",
+              "$value": "{cfg.sp.static.xs}"
+            },
+            "sp-top": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            },
+            "sp-right": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            },
+            "sp-bottom": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            },
+            "sp-left": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            }
+          }
+        }
+      },
+      "lg": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{cfg.sz.static.xl}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{cfg.sz.static.xl}"
+        },
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{sem.w-button-toggle.radius.lg}"
+        },
+        "border": {
+          "inselect": {
+            "$type": "borderWidth",
+            "$value": "{bw.sm}"
+          },
+          "select": {
+            "$type": "borderWidth",
+            "$value": "{bw.md}"
+          }
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.md}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.md}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.md}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{cfg.sp.static.md}"
+        },
+        "icon": {
+          "$type": "sizing",
+          "$value": "{cfg.sz.static.xs}"
+        },
+        "typography": {
+          "$type": "typography",
+          "$value": "{tp.label.md.regular}"
+        },
+        "wrap-label": {
+          "gap": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.sm}"
+          },
+          "sp-top": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-right": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.sm}"
+          },
+          "sp-bottom": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-left": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.sm}"
+          }
+        },
+        "inline": {
+          "height": {
+            "$type": "sizing",
+            "$value": "{cfg.sz.static.sm}"
+          },
+          "width": {
+            "$type": "sizing",
+            "$value": "{cfg.sz.static.sm}"
+          },
+          "radius": {
+            "$type": "borderRadius",
+            "$value": "{sem.w-button-toggle.radius.lg}"
+          },
+          "border": {
+            "inselect": {
+              "$type": "borderWidth",
+              "$value": "{bw.sm}"
+            },
+            "select": {
+              "$type": "borderWidth",
+              "$value": "{bw.md}"
+            }
+          },
+          "gap": {
+            "$type": "spacing",
+            "$value": "{cfg.sp.static.sm}"
+          },
+          "sp-top": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-right": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-bottom": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "sp-left": {
+            "$type": "spacing",
+            "$value": "{sp.none}"
+          },
+          "icon": {
+            "$type": "sizing",
+            "$value": "{cfg.sz.static.sm}"
+          },
+          "typography": {
+            "$type": "typography",
+            "$value": "{tp.label.lg.regular}"
+          },
+          "wrap-label": {
+            "gap": {
+              "$type": "spacing",
+              "$value": "{cfg.sp.static.sm}"
+            },
+            "sp-top": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            },
+            "sp-right": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            },
+            "sp-bottom": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            },
+            "sp-left": {
+              "$type": "spacing",
+              "$value": "{sp.none}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

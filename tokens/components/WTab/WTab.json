@@ -1,0 +1,38 @@
+{
+  "WTab": {
+    "casino": {
+      "first": {
+        "$type": "composition",
+        "$value": {
+          "itemSpacing": "{sem.w-tab.group.first}",
+          "paddingTop": "{sp.none}",
+          "paddingRight": "{sp.none}",
+          "paddingBottom": "{sp.none}",
+          "paddingLeft": "{sp.none}"
+        }
+      },
+      "second": {
+        "$type": "composition",
+        "$value": {
+          "itemSpacing": "{sem.w-tab.group.second}",
+          "paddingTop": "{sp.none}",
+          "paddingRight": "{sp.none}",
+          "paddingBottom": "{sp.none}",
+          "paddingLeft": "{sp.none}"
+        }
+      }
+    },
+    "general": {
+      "second": {
+        "$type": "composition",
+        "$value": {
+          "itemSpacing": "{sem.w-tab.group.general}",
+          "paddingTop": "{sp.none}",
+          "paddingRight": "{sp.none}",
+          "paddingBottom": "{sp.none}",
+          "paddingLeft": "{sp.none}"
+        }
+      }
+    }
+  }
+}

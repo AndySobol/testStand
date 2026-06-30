@@ -1,0 +1,190 @@
+{
+  "w-list": {
+    "style": {
+      "contrast": {
+        "wrap": {
+          "static": {
+            "$type": "color",
+            "$value": "{transparent}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{bg.weakest}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{bg.weaker}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{bg.weakest}"
+          },
+          "select": {
+            "$type": "color",
+            "$value": "{bg.weak}"
+          },
+          "disable": {
+            "$type": "color",
+            "$value": "{state.disable}"
+          }
+        },
+        "stroke": {
+          "static": {
+            "$type": "color",
+            "$value": "{transparent}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{transparent}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{transparent}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{accent.medium}"
+          },
+          "select": {
+            "$type": "color",
+            "$value": "{transparent}"
+          },
+          "disable": {
+            "$type": "color",
+            "$value": "{transparent}"
+          }
+        }
+      },
+      "soft": {
+        "wrap": {
+          "static": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{neutral.weakly}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "select": {
+            "$type": "color",
+            "$value": "{neutral.weakest}"
+          },
+          "disable": {
+            "$type": "color",
+            "$value": "{state.disable}"
+          }
+        },
+        "stroke": {
+          "static": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{accent.medium}"
+          },
+          "select": {
+            "$type": "color",
+            "$value": "{neutral.weaker}"
+          },
+          "disable": {
+            "$type": "color",
+            "$value": "{transparent}"
+          }
+        }
+      }
+    },
+    "size": {
+      "wrap": {
+        "radius": {
+          "$type": "borderRadius",
+          "flat": {
+            "$value": "{br.none}"
+          },
+          "rounded": {
+            "$value": "{br.lg}"
+          }
+        },
+        "border": {
+          "$type": "borderWidth",
+          "flat": {
+            "static": {
+              "$value": "{bw.none}"
+            },
+            "default": {
+              "$value": "{bw.none}"
+            },
+            "hover": {
+              "$value": "{bw.none}"
+            },
+            "select": {
+              "$value": "{bw.none}"
+            },
+            "focus": {
+              "$value": "{bw.md}"
+            },
+            "disable": {
+              "$value": "{bw.none}"
+            }
+          },
+          "rounded": {
+            "static": {
+              "$value": "{bw.md}"
+            },
+            "default": {
+              "$value": "{bw.md}"
+            },
+            "hover": {
+              "$value": "{bw.md}"
+            },
+            "select": {
+              "$value": "{bw.md}"
+            },
+            "focus": {
+              "$value": "{bw.md}"
+            },
+            "disable": {
+              "$value": "{bw.none}"
+            }
+          }
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        }
+      }
+    }
+  }
+}

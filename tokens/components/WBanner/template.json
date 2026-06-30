@@ -1,0 +1,84 @@
+{
+  "WBanner": {
+    "component": {
+      "full": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-banner.size.full.wrap.width}",
+            "height": "{w-banner.size.full.wrap.height}",
+            "maxHeight": "{w-banner.size.full.wrap.height}",
+            "minHeight": "{w-banner.size.full.wrap.height}",
+            "borderRadius": "{w-banner.size.full.wrap.radius}",
+            "itemSpacing": "{w-banner.size.full.wrap.gap}",
+            "paddingTop": "{w-banner.size.full.wrap.sp-top}",
+            "paddingRight": "{w-banner.size.full.wrap.sp-right}",
+            "paddingBottom": "{w-banner.size.full.wrap.sp-bottom}",
+            "paddingLeft": "{w-banner.size.full.wrap.sp-left}",
+            "fill": "{w-banner.style.wrap.default}"
+          }
+        },
+        "content": {
+          "$type": "composition",
+          "$value": {
+            "borderRadius": "{w-banner.size.full.content.radius}",
+            "itemSpacing": "{w-banner.size.full.content.gap}",
+            "paddingTop": "{w-banner.size.full.content.sp-top}",
+            "paddingRight": "{w-banner.size.full.content.sp-right}",
+            "paddingBottom": "{w-banner.size.full.content.sp-bottom}",
+            "paddingLeft": "{w-banner.size.full.content.sp-left}"
+          }
+        },
+        "title": {
+          "$type": "composition",
+          "$value": {
+            "fontFamilies": "PF Din Text Comp Pro",
+            "fontWeights": "Bold Italic",
+            "fontSizes": "32px",
+            "lineHeights": "44px",
+            "fill": "{text.strongest}"
+          }
+        }
+      },
+      "compact": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-banner.size.compact.wrap.width}",
+            "height": "{w-banner.size.compact.wrap.height}",
+            "maxHeight": "{w-banner.size.compact.wrap.height}",
+            "minHeight": "{w-banner.size.compact.wrap.height}",
+            "borderRadius": "{w-banner.size.compact.wrap.radius}",
+            "itemSpacing": "{w-banner.size.compact.wrap.gap}",
+            "paddingTop": "{w-banner.size.compact.wrap.sp-top}",
+            "paddingRight": "{w-banner.size.compact.wrap.sp-right}",
+            "paddingBottom": "{w-banner.size.compact.wrap.sp-bottom}",
+            "paddingLeft": "{w-banner.size.compact.wrap.sp-left}",
+            "fill": "{w-banner.style.wrap.default}"
+          }
+        },
+        "content": {
+          "$type": "composition",
+          "$value": {
+            "borderRadius": "{w-banner.size.compact.content.radius}",
+            "itemSpacing": "{w-banner.size.compact.content.gap}",
+            "paddingTop": "{w-banner.size.compact.content.sp-top}",
+            "paddingRight": "{w-banner.size.compact.content.sp-right}",
+            "paddingBottom": "{w-banner.size.compact.content.sp-bottom}",
+            "paddingLeft": "{w-banner.size.compact.content.sp-left}"
+          }
+        },
+        "title": {
+          "$type": "composition",
+          "$value": {
+            "fontFamilies": "PF Din Text Comp Pro",
+            "fontWeights": "Bold Italic",
+            "fontSizes": "32px",
+            "lineHeights": "44px",
+            "fill": "{text.strongest}"
+          }
+        }
+      }
+    }
+  }
+}

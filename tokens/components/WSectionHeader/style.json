@@ -1,0 +1,38 @@
+{
+  "w-section-header": {
+    "style": {
+      "border": {
+        "$type": "color",
+        "$value": "{stroke.medium}"
+      }
+    },
+    "size": {
+      "wrap": {
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sz.none}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{sz.none}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{sz.none}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{sz.none}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{sz.none}"
+        },
+        "border": {
+          "$type": "borderWidth",
+          "$value": "{bw.md}"
+        }
+      }
+    }
+  }
+}

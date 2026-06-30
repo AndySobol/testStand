@@ -1,0 +1,165 @@
+{
+  "w-cell": {
+    "size": {
+      "height": {
+        "$type": "sizing",
+        "inline": {
+          "$value": "{sz.2xs}"
+        },
+        "2xs": {
+          "$value": "{sz.sm}"
+        },
+        "xs": {
+          "$value": "{sz.lg}"
+        },
+        "sm": {
+          "$value": "{sz.2xl}"
+        },
+        "md": {
+          "$value": "{sz.big.xs}"
+        },
+        "lg": {
+          "$value": "{sz.big.sm}"
+        }
+      },
+      "radius": {
+        "$type": "borderRadius",
+        "$value": "{br.none}"
+      },
+      "gap": {
+        "$type": "spacing",
+        "$value": "{sp.none}"
+      },
+      "sp-top": {
+        "$type": "spacing",
+        "inline": {
+          "$value": "{sp.none}"
+        },
+        "2xs": {
+          "$value": "{sp.xs}"
+        },
+        "xs": {
+          "$value": "{sp.md}"
+        },
+        "sm": {
+          "$value": "{sp.xl}"
+        },
+        "md": {
+          "$value": "{sp.2xl}"
+        },
+        "lg": {
+          "$value": "{sp.big.2xs}"
+        }
+      },
+      "sp-bottom": {
+        "$type": "spacing",
+        "inline": {
+          "$value": "{sp.none}"
+        },
+        "2xs": {
+          "$value": "{sp.xs}"
+        },
+        "xs": {
+          "$value": "{sp.md}"
+        },
+        "sm": {
+          "$value": "{sp.xl}"
+        },
+        "md": {
+          "$value": "{sp.2xl}"
+        },
+        "lg": {
+          "$value": "{sp.big.2xs}"
+        }
+      },
+      "sp-right": {
+        "$type": "spacing",
+        "clear": {
+          "$value": "{sem.w-table.w-cell.clear.one}"
+        },
+        "min": {
+          "$value": "{sem.w-table.w-cell.min.one}"
+        },
+        "normal": {
+          "$value": "{sem.w-table.w-cell.normal.one}"
+        },
+        "big": {
+          "$value": "{sem.w-table.w-cell.big.one}"
+        }
+      },
+      "sp-left": {
+        "$type": "spacing",
+        "none": {
+          "clear": {
+            "$value": "{sem.w-table.w-cell.clear.one}"
+          },
+          "min": {
+            "$value": "{sem.w-table.w-cell.min.one}"
+          },
+          "normal": {
+            "$value": "{sem.w-table.w-cell.normal.one}"
+          },
+          "big": {
+            "$value": "{sem.w-table.w-cell.big.one}"
+          }
+        },
+        "two": {
+          "clear": {
+            "$value": "{sem.w-table.w-cell.clear.two}"
+          },
+          "min": {
+            "$value": "{sem.w-table.w-cell.min.two}"
+          },
+          "normal": {
+            "$value": "{sem.w-table.w-cell.normal.two}"
+          },
+          "big": {
+            "$value": "{sem.w-table.w-cell.big.two}"
+          }
+        },
+        "three": {
+          "clear": {
+            "$value": "{sem.w-table.w-cell.clear.three}"
+          },
+          "min": {
+            "$value": "{sem.w-table.w-cell.min.three}"
+          },
+          "normal": {
+            "$value": "{sem.w-table.w-cell.normal.three}"
+          },
+          "big": {
+            "$value": "{sem.w-table.w-cell.big.three}"
+          }
+        },
+        "four": {
+          "clear": {
+            "$value": "{sem.w-table.w-cell.clear.four}"
+          },
+          "min": {
+            "$value": "{sem.w-table.w-cell.min.four}"
+          },
+          "normal": {
+            "$value": "{sem.w-table.w-cell.normal.four}"
+          },
+          "big": {
+            "$value": "{sem.w-table.w-cell.big.four}"
+          }
+        },
+        "five": {
+          "clear": {
+            "$value": "{sem.w-table.w-cell.clear.five}"
+          },
+          "min": {
+            "$value": "{sem.w-table.w-cell.min.five}"
+          },
+          "normal": {
+            "$value": "{sem.w-table.w-cell.normal.five}"
+          },
+          "big": {
+            "$value": "{sem.w-table.w-cell.big.five}"
+          }
+        }
+      }
+    }
+  }
+}

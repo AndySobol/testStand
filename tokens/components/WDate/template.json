@@ -1,0 +1,420 @@
+{
+  "WDate": {
+    "component": {
+      "header": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-date.size.header.width}",
+            "minWidth": "{w-date.size.header.width}",
+            "height": "{w-date.size.header.height}",
+            "maxHeight": "{w-date.size.header.height}",
+            "minHeight": "{w-date.size.header.height}",
+            "borderRadius": "{w-date.size.header.radius}",
+            "itemSpacing": "{w-date.size.header.gap}",
+            "paddingTop": "{w-date.size.header.sp-top}",
+            "paddingRight": "{w-date.size.header.sp-right}",
+            "paddingBottom": "{w-date.size.header.sp-bottom}",
+            "paddingLeft": "{w-date.size.header.sp-left}",
+            "fill": "{w-date.style.header.wrap.default}"
+          }
+        },
+        "label": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{w-date.size.header.label}",
+            "fill": "{w-date.style.header.label.default}"
+          }
+        }
+      },
+      "item": {
+        "default": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.item.width}",
+              "maxWidth": "{w-date.size.item.width}",
+              "minWidth": "{w-date.size.item.width}",
+              "height": "{w-date.size.item.height}",
+              "maxHeight": "{w-date.size.item.height}",
+              "minHeight": "{w-date.size.item.height}",
+              "borderRadius": "{w-date.size.item.radius}",
+              "itemSpacing": "{w-date.size.item.gap}",
+              "paddingTop": "{w-date.size.item.sp-top}",
+              "paddingRight": "{w-date.size.item.sp-right}",
+              "paddingBottom": "{w-date.size.item.sp-bottom}",
+              "paddingLeft": "{w-date.size.item.sp-left}",
+              "fill": "{w-date.style.item.wrap.default}"
+            }
+          },
+          "label": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-date.size.item.label}",
+              "fill": "{w-date.style.item.label.default}"
+            }
+          }
+        },
+        "hover": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.item.width}",
+              "maxWidth": "{w-date.size.item.width}",
+              "minWidth": "{w-date.size.item.width}",
+              "height": "{w-date.size.item.height}",
+              "maxHeight": "{w-date.size.item.height}",
+              "minHeight": "{w-date.size.item.height}",
+              "borderRadius": "{w-date.size.item.radius}",
+              "itemSpacing": "{w-date.size.item.gap}",
+              "paddingTop": "{w-date.size.item.sp-top}",
+              "paddingRight": "{w-date.size.item.sp-right}",
+              "paddingBottom": "{w-date.size.item.sp-bottom}",
+              "paddingLeft": "{w-date.size.item.sp-left}",
+              "fill": "{w-date.style.item.wrap.hover}"
+            }
+          },
+          "label": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-date.size.item.label}",
+              "fill": "{w-date.style.item.label.hover}"
+            }
+          }
+        },
+        "active": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.item.width}",
+              "maxWidth": "{w-date.size.item.width}",
+              "minWidth": "{w-date.size.item.width}",
+              "height": "{w-date.size.item.height}",
+              "maxHeight": "{w-date.size.item.height}",
+              "minHeight": "{w-date.size.item.height}",
+              "borderRadius": "{w-date.size.item.radius}",
+              "itemSpacing": "{w-date.size.item.gap}",
+              "paddingTop": "{w-date.size.item.sp-top}",
+              "paddingRight": "{w-date.size.item.sp-right}",
+              "paddingBottom": "{w-date.size.item.sp-bottom}",
+              "paddingLeft": "{w-date.size.item.sp-left}",
+              "fill": "{w-date.style.item.wrap.active}"
+            }
+          },
+          "label": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-date.size.item.label}",
+              "fill": "{w-date.style.item.label.active}"
+            }
+          }
+        },
+        "range": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.item.width}",
+              "maxWidth": "{w-date.size.item.width}",
+              "minWidth": "{w-date.size.item.width}",
+              "height": "{w-date.size.item.height}",
+              "maxHeight": "{w-date.size.item.height}",
+              "minHeight": "{w-date.size.item.height}",
+              "borderRadius": "{w-date.size.item.radius}",
+              "itemSpacing": "{w-date.size.item.gap}",
+              "paddingTop": "{w-date.size.item.sp-top}",
+              "paddingRight": "{w-date.size.item.sp-right}",
+              "paddingBottom": "{w-date.size.item.sp-bottom}",
+              "paddingLeft": "{w-date.size.item.sp-left}",
+              "fill": "{w-date.style.item.wrap.range}"
+            }
+          },
+          "label": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-date.size.item.label}",
+              "fill": "{w-date.style.item.label.range}"
+            }
+          }
+        },
+        "dayoff": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.item.width}",
+              "maxWidth": "{w-date.size.item.width}",
+              "minWidth": "{w-date.size.item.width}",
+              "height": "{w-date.size.item.height}",
+              "maxHeight": "{w-date.size.item.height}",
+              "minHeight": "{w-date.size.item.height}",
+              "borderRadius": "{w-date.size.item.radius}",
+              "itemSpacing": "{w-date.size.item.gap}",
+              "paddingTop": "{w-date.size.item.sp-top}",
+              "paddingRight": "{w-date.size.item.sp-right}",
+              "paddingBottom": "{w-date.size.item.sp-bottom}",
+              "paddingLeft": "{w-date.size.item.sp-left}",
+              "fill": "{w-date.style.item.wrap.dayoff}"
+            }
+          },
+          "label": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-date.size.item.label}",
+              "fill": "{w-date.style.item.label.dayoff}"
+            }
+          }
+        },
+        "disable": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.item.width}",
+              "maxWidth": "{w-date.size.item.width}",
+              "minWidth": "{w-date.size.item.width}",
+              "height": "{w-date.size.item.height}",
+              "maxHeight": "{w-date.size.item.height}",
+              "minHeight": "{w-date.size.item.height}",
+              "borderRadius": "{w-date.size.item.radius}",
+              "itemSpacing": "{w-date.size.item.gap}",
+              "paddingTop": "{w-date.size.item.sp-top}",
+              "paddingRight": "{w-date.size.item.sp-right}",
+              "paddingBottom": "{w-date.size.item.sp-bottom}",
+              "paddingLeft": "{w-date.size.item.sp-left}",
+              "fill": "{w-date.style.item.wrap.disable}"
+            }
+          },
+          "label": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-date.size.item.label}",
+              "fill": "{w-date.style.item.label.disable}"
+            }
+          }
+        }
+      },
+      "cell": {
+        "default": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.cell.width}",
+              "minWidth": "{w-date.size.cell.width}",
+              "height": "{w-date.size.cell.height}",
+              "maxHeight": "{w-date.size.cell.height}",
+              "minHeight": "{w-date.size.cell.height}",
+              "borderRadiusTopLeft": "{w-date.size.cell.radius}",
+              "borderRadiusTopRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomLeft": "{w-date.size.cell.radius}",
+              "itemSpacing": "{w-date.size.cell.gap}",
+              "paddingTop": "{w-date.size.cell.sp-top}",
+              "paddingRight": "{w-date.size.cell.sp-right}",
+              "paddingBottom": "{w-date.size.cell.sp-bottom}",
+              "paddingLeft": "{w-date.size.cell.sp-left}",
+              "fill": "{w-date.style.cell.wrap.default}"
+            }
+          }
+        },
+        "range-start": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.cell.width}",
+              "minWidth": "{w-date.size.cell.width}",
+              "height": "{w-date.size.cell.height}",
+              "maxHeight": "{w-date.size.cell.height}",
+              "minHeight": "{w-date.size.cell.height}",
+              "borderRadiusTopLeft": "{w-date.size.cell.radius-range}",
+              "borderRadiusTopRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomLeft": "{w-date.size.cell.radius-range}",
+              "itemSpacing": "{w-date.size.cell.gap}",
+              "paddingTop": "{w-date.size.cell.sp-top}",
+              "paddingRight": "{w-date.size.cell.sp-right}",
+              "paddingBottom": "{w-date.size.cell.sp-bottom}",
+              "paddingLeft": "{w-date.size.cell.sp-left}",
+              "fill": "{w-date.style.cell.wrap.range}"
+            }
+          }
+        },
+        "range-middle": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.cell.width}",
+              "minWidth": "{w-date.size.cell.width}",
+              "height": "{w-date.size.cell.height}",
+              "maxHeight": "{w-date.size.cell.height}",
+              "minHeight": "{w-date.size.cell.height}",
+              "borderRadiusTopLeft": "{w-date.size.cell.radius}",
+              "borderRadiusTopRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomLeft": "{w-date.size.cell.radius}",
+              "itemSpacing": "{w-date.size.cell.gap}",
+              "paddingTop": "{w-date.size.cell.sp-top}",
+              "paddingRight": "{w-date.size.cell.sp-right}",
+              "paddingBottom": "{w-date.size.cell.sp-bottom}",
+              "paddingLeft": "{w-date.size.cell.sp-left}",
+              "fill": "{w-date.style.cell.wrap.range}"
+            }
+          }
+        },
+        "range-end": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.cell.width}",
+              "minWidth": "{w-date.size.cell.width}",
+              "height": "{w-date.size.cell.height}",
+              "maxHeight": "{w-date.size.cell.height}",
+              "minHeight": "{w-date.size.cell.height}",
+              "borderRadiusTopLeft": "{w-date.size.cell.radius}",
+              "borderRadiusTopRight": "{w-date.size.cell.radius-range}",
+              "borderRadiusBottomRight": "{w-date.size.cell.radius-range}",
+              "borderRadiusBottomLeft": "{w-date.size.cell.radius}",
+              "itemSpacing": "{w-date.size.cell.gap}",
+              "paddingTop": "{w-date.size.cell.sp-top}",
+              "paddingRight": "{w-date.size.cell.sp-right}",
+              "paddingBottom": "{w-date.size.cell.sp-bottom}",
+              "paddingLeft": "{w-date.size.cell.sp-left}",
+              "fill": "{w-date.style.cell.wrap.range}"
+            }
+          }
+        },
+        "day-off": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.cell.width}",
+              "minWidth": "{w-date.size.cell.width}",
+              "height": "{w-date.size.cell.height}",
+              "maxHeight": "{w-date.size.cell.height}",
+              "minHeight": "{w-date.size.cell.height}",
+              "borderRadiusTopLeft": "{w-date.size.cell.radius}",
+              "borderRadiusTopRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomLeft": "{w-date.size.cell.radius}",
+              "itemSpacing": "{w-date.size.cell.gap}",
+              "paddingTop": "{w-date.size.cell.sp-top}",
+              "paddingRight": "{w-date.size.cell.sp-right}",
+              "paddingBottom": "{w-date.size.cell.sp-bottom}",
+              "paddingLeft": "{w-date.size.cell.sp-left}",
+              "fill": "{w-date.style.cell.wrap.dayoff}"
+            }
+          }
+        },
+        "disable": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-date.size.cell.width}",
+              "minWidth": "{w-date.size.cell.width}",
+              "height": "{w-date.size.cell.height}",
+              "maxHeight": "{w-date.size.cell.height}",
+              "minHeight": "{w-date.size.cell.height}",
+              "borderRadiusTopLeft": "{w-date.size.cell.radius}",
+              "borderRadiusTopRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomRight": "{w-date.size.cell.radius}",
+              "borderRadiusBottomLeft": "{w-date.size.cell.radius}",
+              "itemSpacing": "{w-date.size.cell.gap}",
+              "paddingTop": "{w-date.size.cell.sp-top}",
+              "paddingRight": "{w-date.size.cell.sp-right}",
+              "paddingBottom": "{w-date.size.cell.sp-bottom}",
+              "paddingLeft": "{w-date.size.cell.sp-left}",
+              "fill": "{w-date.style.cell.wrap.disable}"
+            }
+          }
+        }
+      },
+      "row": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "borderRadius": "{w-date.size.row.radius}",
+            "itemSpacing": "{w-date.size.row.gap}",
+            "paddingTop": "{w-date.size.row.sp-top}",
+            "paddingRight": "{w-date.size.row.sp-right}",
+            "paddingBottom": "{w-date.size.row.sp-bottom}",
+            "paddingLeft": "{w-date.size.row.sp-left}"
+          }
+        }
+      },
+      "selector": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "borderRadius": "{w-date.size.selector.wrap.radius}",
+            "itemSpacing": "{w-date.size.selector.wrap.gap}",
+            "paddingTop": "{w-date.size.selector.wrap.sp-top}",
+            "paddingRight": "{w-date.size.selector.wrap.sp-right}",
+            "paddingBottom": "{w-date.size.selector.wrap.sp-bottom}",
+            "paddingLeft": "{w-date.size.selector.wrap.sp-left}",
+            "fill": "{w-date.style.selector.wrap}"
+          }
+        },
+        "label-wrap": {
+          "$type": "composition",
+          "$value": {
+            "height": "{w-date.size.selector.label-wrap.height}",
+            "minHeight": "{w-date.size.selector.label-wrap.height}",
+            "maxHeight": "{w-date.size.selector.label-wrap.height}",
+            "itemSpacing": "{w-date.size.selector.label-wrap.gap}",
+            "paddingTop": "{w-date.size.selector.label-wrap.sp-top}",
+            "paddingRight": "{w-date.size.selector.label-wrap.sp-right}",
+            "paddingBottom": "{w-date.size.selector.label-wrap.sp-bottom}",
+            "paddingLeft": "{w-date.size.selector.label-wrap.sp-left}"
+          }
+        },
+        "button-wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-date.size.selector.button-wrap.gap}",
+            "paddingTop": "{w-date.size.selector.button-wrap.sp-top}",
+            "paddingRight": "{w-date.size.selector.button-wrap.sp-right}",
+            "paddingBottom": "{w-date.size.selector.button-wrap.sp-bottom}",
+            "paddingLeft": "{w-date.size.selector.button-wrap.sp-left}"
+          }
+        },
+        "month": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{w-date.size.selector.label-wrap.month}",
+            "fill": "{w-date.style.selector.label.month}"
+          }
+        },
+        "year": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{w-date.size.selector.label-wrap.year}",
+            "fill": "{w-date.style.selector.label.year}"
+          }
+        }
+      },
+      "calendar": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "borderRadius": "{w-date.size.calendar.radius}",
+            "itemSpacing": "{w-date.size.calendar.gap}",
+            "paddingTop": "{w-date.size.calendar.sp-top}",
+            "paddingRight": "{w-date.size.calendar.sp-right}",
+            "paddingBottom": "{w-date.size.calendar.sp-bottom}",
+            "paddingLeft": "{w-date.size.calendar.sp-left}"
+          }
+        }
+      },
+      "wrap": {
+        "$type": "composition",
+        "$value": {
+          "minWidth": "{w-date.size.wrap.width}",
+          "borderRadius": "{w-date.size.wrap.radius}",
+          "itemSpacing": "{w-date.size.wrap.gap}",
+          "paddingTop": "{w-date.size.wrap.sp-top}",
+          "paddingRight": "{w-date.size.wrap.sp-right}",
+          "paddingBottom": "{w-date.size.wrap.sp-bottom}",
+          "paddingLeft": "{w-date.size.wrap.sp-left}",
+          "fill": "{w-date.style.wrap}"
+        }
+      }
+    }
+  }
+}

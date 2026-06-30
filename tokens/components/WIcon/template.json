@@ -1,0 +1,176 @@
+{
+  "WIcon": {
+    "wrap": {
+      "$type": "composition",
+      "$value": {
+        "borderRadius": "{w-icon.size.wrap.radius}",
+        "itemSpacing": "{w-icon.size.wrap.gap}",
+        "paddingTop": "{w-icon.size.wrap.sp-top}",
+        "paddingRight": "{w-icon.size.wrap.sp-right}",
+        "paddingBottom": "{w-icon.size.wrap.sp-bottom}",
+        "paddingLeft": "{w-icon.size.wrap.sp-left}"
+      }
+    },
+    "custom": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.custom}",
+        "height": "{w-icon.size.icon.custom}"
+      }
+    },
+    "3xs": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.3xs}",
+        "maxWidth": "{w-icon.size.icon.3xs}",
+        "minWidth": "{w-icon.size.icon.3xs}",
+        "height": "{w-icon.size.icon.3xs}",
+        "maxHeight": "{w-icon.size.icon.3xs}",
+        "minHeight": "{w-icon.size.icon.3xs}"
+      }
+    },
+    "2xs": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.2xs}",
+        "maxWidth": "{w-icon.size.icon.2xs}",
+        "minWidth": "{w-icon.size.icon.2xs}",
+        "height": "{w-icon.size.icon.2xs}",
+        "maxHeight": "{w-icon.size.icon.2xs}",
+        "minHeight": "{w-icon.size.icon.2xs}"
+      }
+    },
+    "xs": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.xs}",
+        "maxWidth": "{w-icon.size.icon.xs}",
+        "minWidth": "{w-icon.size.icon.xs}",
+        "height": "{w-icon.size.icon.xs}",
+        "maxHeight": "{w-icon.size.icon.xs}",
+        "minHeight": "{w-icon.size.icon.xs}"
+      }
+    },
+    "sm": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.sm}",
+        "maxWidth": "{w-icon.size.icon.sm}",
+        "minWidth": "{w-icon.size.icon.sm}",
+        "height": "{w-icon.size.icon.sm}",
+        "maxHeight": "{w-icon.size.icon.sm}",
+        "minHeight": "{w-icon.size.icon.sm}"
+      }
+    },
+    "md": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.md}",
+        "maxWidth": "{w-icon.size.icon.md}",
+        "minWidth": "{w-icon.size.icon.md}",
+        "height": "{w-icon.size.icon.md}",
+        "maxHeight": "{w-icon.size.icon.md}",
+        "minHeight": "{w-icon.size.icon.md}"
+      }
+    },
+    "lg": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.lg}",
+        "maxWidth": "{w-icon.size.icon.lg}",
+        "minWidth": "{w-icon.size.icon.lg}",
+        "height": "{w-icon.size.icon.lg}",
+        "maxHeight": "{w-icon.size.icon.lg}",
+        "minHeight": "{w-icon.size.icon.lg}"
+      }
+    },
+    "xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.xl}",
+        "maxWidth": "{w-icon.size.icon.xl}",
+        "minWidth": "{w-icon.size.icon.xl}",
+        "height": "{w-icon.size.icon.xl}",
+        "maxHeight": "{w-icon.size.icon.xl}",
+        "minHeight": "{w-icon.size.icon.xl}"
+      }
+    },
+    "2xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.2xl}",
+        "maxWidth": "{w-icon.size.icon.2xl}",
+        "minWidth": "{w-icon.size.icon.2xl}",
+        "height": "{w-icon.size.icon.2xl}",
+        "maxHeight": "{w-icon.size.icon.2xl}",
+        "minHeight": "{w-icon.size.icon.2xl}"
+      }
+    },
+    "3xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.3xl}",
+        "maxWidth": "{w-icon.size.icon.3xl}",
+        "minWidth": "{w-icon.size.icon.3xl}",
+        "height": "{w-icon.size.icon.3xl}",
+        "maxHeight": "{w-icon.size.icon.3xl}",
+        "minHeight": "{w-icon.size.icon.3xl}"
+      }
+    },
+    "4xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.4xl}",
+        "maxWidth": "{w-icon.size.icon.4xl}",
+        "minWidth": "{w-icon.size.icon.4xl}",
+        "height": "{w-icon.size.icon.4xl}",
+        "maxHeight": "{w-icon.size.icon.4xl}",
+        "minHeight": "{w-icon.size.icon.4xl}"
+      }
+    },
+    "5xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.5xl}",
+        "maxWidth": "{w-icon.size.icon.5xl}",
+        "minWidth": "{w-icon.size.icon.5xl}",
+        "height": "{w-icon.size.icon.5xl}",
+        "maxHeight": "{w-icon.size.icon.5xl}",
+        "minHeight": "{w-icon.size.icon.5xl}"
+      }
+    },
+    "6xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.6xl}",
+        "maxWidth": "{w-icon.size.icon.6xl}",
+        "minWidth": "{w-icon.size.icon.6xl}",
+        "height": "{w-icon.size.icon.6xl}",
+        "maxHeight": "{w-icon.size.icon.6xl}",
+        "minHeight": "{w-icon.size.icon.6xl}"
+      }
+    },
+    "7xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.7xl}",
+        "maxWidth": "{w-icon.size.icon.7xl}",
+        "minWidth": "{w-icon.size.icon.7xl}",
+        "height": "{w-icon.size.icon.7xl}",
+        "maxHeight": "{w-icon.size.icon.7xl}",
+        "minHeight": "{w-icon.size.icon.7xl}"
+      }
+    },
+    "8xl": {
+      "$type": "composition",
+      "$value": {
+        "width": "{w-icon.size.icon.8xl}",
+        "maxWidth": "{w-icon.size.icon.8xl}",
+        "minWidth": "{w-icon.size.icon.8xl}",
+        "height": "{w-icon.size.icon.8xl}",
+        "maxHeight": "{w-icon.size.icon.8xl}",
+        "minHeight": "{w-icon.size.icon.8xl}"
+      }
+    }
+  }
+}

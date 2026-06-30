@@ -1,0 +1,160 @@
+{
+  "w-accordion": {
+    "style": {
+      "$type": "color",
+      "wrap": {
+        "contrast": {
+          "default": {
+            "$value": "{neutral.weakest}"
+          },
+          "hover": {
+            "$value": "{neutral.weaker}"
+          },
+          "active": {
+            "$value": "{neutral.weakest}"
+          },
+          "focus": {
+            "$value": "{neutral.weakest}"
+          }
+        },
+        "soft": {
+          "default": {
+            "$value": "{neutral.weaker}"
+          },
+          "hover": {
+            "$value": "{neutral.weakly}"
+          },
+          "active": {
+            "$value": "{neutral.weaker}"
+          },
+          "focus": {
+            "$value": "{neutral.weaker}"
+          }
+        }
+      },
+      "stroke": {
+        "default": {
+          "$value": "{stroke.weak}"
+        },
+        "hover": {
+          "$value": "{stroke.weak}"
+        },
+        "focus": {
+          "$value": "{stroke.weak}"
+        },
+        "active": {
+          "$value": "{stroke.weak}"
+        }
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "default": {
+          "$value": {
+            "x": "{fx.axis.none}",
+            "y": "{fx.axis.none}",
+            "blur": "{fx.blur.none}",
+            "spread": "{fx.blur.none}",
+            "color": "{transparent}",
+            "type": "dropShadow"
+          }
+        },
+        "hover": {
+          "$value": {
+            "x": "{fx.axis.none}",
+            "y": "{fx.axis.none}",
+            "blur": "{fx.blur.none}",
+            "spread": "{fx.blur.none}",
+            "color": "{transparent}",
+            "type": "dropShadow"
+          }
+        },
+        "active": {
+          "$value": {
+            "x": "{fx.axis.none}",
+            "y": "{fx.axis.none}",
+            "blur": "{fx.blur.none}",
+            "spread": "{fx.blur.none}",
+            "color": "{transparent}",
+            "type": "dropShadow"
+          }
+        },
+        "focus": {
+          "$value": {
+            "x": "{fx.axis.none}",
+            "y": "{fx.axis.none}",
+            "blur": "{fx.blur.none}",
+            "spread": "{fx.spread.25}",
+            "color": "{accent.medium}",
+            "type": "dropShadow"
+          }
+        }
+      }
+    },
+    "size": {
+      "sm": {
+        "wrap": {
+          "radius": {
+            "$type": "borderRadius",
+            "$value": "{br.2xl}"
+          },
+          "gap": {
+            "$type": "spacing",
+            "$value": "{sp.md}"
+          },
+          "sp-left": {
+            "$type": "spacing",
+            "$value": "{sp.lg}"
+          },
+          "sp-right": {
+            "$type": "spacing",
+            "$value": "{sp.lg}"
+          },
+          "sp-top": {
+            "$type": "spacing",
+            "$value": "{sp.lg}"
+          },
+          "sp-bottom": {
+            "$type": "spacing",
+            "$value": "{sp.lg}"
+          },
+          "border": {
+            "$type": "borderWidth",
+            "$value": "{bw.md}"
+          }
+        }
+      },
+      "xs": {
+        "wrap": {
+          "radius": {
+            "$type": "borderRadius",
+            "$value": "{br.lg}"
+          },
+          "gap": {
+            "$type": "spacing",
+            "$value": "{sp.xs}"
+          },
+          "sp-left": {
+            "$type": "spacing",
+            "$value": "{sp.md}"
+          },
+          "sp-right": {
+            "$type": "spacing",
+            "$value": "{sp.md}"
+          },
+          "sp-top": {
+            "$type": "spacing",
+            "$value": "{sp.md}"
+          },
+          "sp-bottom": {
+            "$type": "spacing",
+            "$value": "{sp.md}"
+          },
+          "border": {
+            "$type": "borderWidth",
+            "$value": "{bw.md}"
+          }
+        }
+      }
+    }
+  }
+}

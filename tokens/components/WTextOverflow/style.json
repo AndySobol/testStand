@@ -1,0 +1,32 @@
+{
+  "w-text-overflow": {
+    "size": {
+      "wrap": {
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{br.none}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        }
+      }
+    }
+  }
+}

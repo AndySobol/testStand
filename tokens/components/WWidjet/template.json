@@ -1,0 +1,419 @@
+{
+  "w-widjet": {
+    "wrap": {
+      "default": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "100",
+          "borderRadius": "{cfg.br.static.xl}",
+          "itemSpacing": "{cfg.sp.static.md}",
+          "paddingTop": "{cfg.sp.static.lg}",
+          "paddingRight": "{cfg.sp.static.lg}",
+          "paddingBottom": "{cfg.sp.static.lg}",
+          "paddingLeft": "{cfg.sp.static.lg}",
+          "fill": "{bg.body}"
+        }
+      },
+      "rayback": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "100",
+          "borderRadius": "{cfg.br.static.xl}",
+          "itemSpacing": "{cfg.sp.static.md}",
+          "paddingTop": "{cfg.sp.static.lg}",
+          "paddingRight": "{cfg.sp.static.lg}",
+          "paddingBottom": "{cfg.sp.static.lg}",
+          "paddingLeft": "{cfg.sp.static.lg}",
+          "fill": "{bg.body}",
+          "asset": "{w-widjet.img.rayback}"
+        }
+      },
+      "freebet": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "100",
+          "borderRadius": "{cfg.br.static.xl}",
+          "itemSpacing": "{cfg.sp.static.md}",
+          "paddingTop": "{cfg.sp.static.lg}",
+          "paddingRight": "{cfg.sp.static.lg}",
+          "paddingBottom": "{cfg.sp.static.lg}",
+          "paddingLeft": "{cfg.sp.static.lg}",
+          "fill": "{bg.body}",
+          "asset": "{w-widjet.img.freebet}"
+        }
+      },
+      "reloud": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "100",
+          "borderRadius": "{cfg.br.static.xl}",
+          "itemSpacing": "{cfg.sp.static.md}",
+          "paddingTop": "{cfg.sp.static.lg}",
+          "paddingRight": "{cfg.sp.static.lg}",
+          "paddingBottom": "{cfg.sp.static.lg}",
+          "paddingLeft": "{cfg.sp.static.lg}",
+          "fill": "{bg.body}",
+          "asset": "{w-widjet.img.reloud}"
+        }
+      },
+      "freespin": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "100",
+          "borderRadius": "{cfg.br.static.xl}",
+          "itemSpacing": "{cfg.sp.static.md}",
+          "paddingTop": "{cfg.sp.static.lg}",
+          "paddingRight": "{cfg.sp.static.lg}",
+          "paddingBottom": "{cfg.sp.static.lg}",
+          "paddingLeft": "{cfg.sp.static.lg}",
+          "fill": "{bg.body}",
+          "asset": "{w-widjet.img.freespin}"
+        }
+      },
+      "quest": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "100",
+          "borderRadius": "{cfg.br.static.xl}",
+          "itemSpacing": "{cfg.sp.static.md}",
+          "paddingTop": "{cfg.sp.static.lg}",
+          "paddingRight": "{cfg.sp.static.lg}",
+          "paddingBottom": "{cfg.sp.static.lg}",
+          "paddingLeft": "{cfg.sp.static.lg}",
+          "fill": "{bg.body}",
+          "asset": "{w-widjet.img.quest}"
+        }
+      }
+    },
+    "img": {
+      "$type": "asset",
+      "rayback": {
+        "$value": "https://raw.githubusercontent.com/AndySobol/wds/main/assets/Rayback.png"
+      },
+      "freebet": {
+        "$value": "https://raw.githubusercontent.com/AndySobol/wds/main/assets/Freebet.png"
+      },
+      "reloud": {
+        "$value": "https://raw.githubusercontent.com/AndySobol/wds/main/assets/Reloud.png"
+      },
+      "freespin": {
+        "$value": "https://raw.githubusercontent.com/AndySobol/wds/main/assets/Freespin.png"
+      },
+      "quest": {
+        "$value": "https://raw.githubusercontent.com/AndySobol/wds/main/assets/Quest.png"
+      }
+    },
+    "slot": {
+      "right": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.md}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "bottom": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{cfg.sp.static.md}",
+              "paddingTop": "{sp.none}",
+              "paddingRight": "{sp.none}",
+              "paddingBottom": "{sp.none}",
+              "paddingLeft": "{sp.none}"
+            }
+          },
+          "buttons-wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{cfg.sp.static.xs}",
+              "paddingTop": "{sp.none}",
+              "paddingRight": "{sp.none}",
+              "paddingBottom": "{sp.none}",
+              "paddingLeft": "{sp.none}"
+            }
+          }
+        }
+      },
+      "left": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.md}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "content": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{cfg.sp.static.sm}",
+              "paddingTop": "{sp.none}",
+              "paddingRight": "{sp.none}",
+              "paddingBottom": "{sp.none}",
+              "paddingLeft": "{sp.none}"
+            }
+          },
+          "title": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{tp.label.lg.semibold}",
+              "fill": "{static.white.strongest}"
+            }
+          },
+          "description": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{tp.label.sm.regular}",
+              "fill": "{static.white.strongest}"
+            }
+          }
+        }
+      },
+      "step": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.sm}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "group": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.xs}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "dot": {
+          "$type": "composition",
+          "$value": {
+            "width": "{cfg.sz.static.micro.lg}",
+            "height": "{cfg.sz.static.2xs}"
+          }
+        },
+        "vector": {
+          "$type": "composition",
+          "$value": {
+            "width": "{sz.micro.lg}",
+            "height": "{sz.micro.lg}",
+            "borderColor": "{accent.medium}",
+            "borderWidth": "{bw.md}"
+          }
+        },
+        "text": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{tp.label.sm.regular}",
+            "fill": "{static.white.strongest}"
+          }
+        }
+      },
+      "progress": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.md}",
+            "paddingTop": "{cfg.sp.static.2xs}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "content": {
+          "$type": "composition",
+          "$value": {
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "title": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{tp.label.xs.regular}",
+            "fill": "{static.white.alpha.weak}"
+          }
+        },
+        "value": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{tp.label.xs.bold}",
+            "fill": "{static.white.strongest}"
+          }
+        }
+      },
+      "time": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.2xs}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "text": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{tp.label.sm.regular}",
+            "fill": "{static.white.strongest}"
+          }
+        }
+      },
+      "title": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{sp.none}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "text": {
+          "sm": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{tp.special.md.bold}",
+              "fill": "{static.white.strongest}"
+            }
+          }
+        }
+      },
+      "available": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{sz.md}",
+            "itemSpacing": "{sp.none}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "text": {
+          "sm": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{tp.label.sm.regular}",
+              "fill": "{static.white.strongest}"
+            }
+          }
+        }
+      },
+      "stepper-ly": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.lg}",
+            "paddingTop": "{cfg.sp.static.sm}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        },
+        "stepper": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{sp.none}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{sp.none}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{sp.none}"
+          }
+        }
+      },
+      "badge": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "height": "{cfg.sz.static.sm}",
+            "maxHeight": "{cfg.sz.static.sm}",
+            "minHeight": "{cfg.sz.static.sm}",
+            "borderRadius": "{br.full}",
+            "itemSpacing": "{cfg.sp.static.2xs}",
+            "paddingTop": "{cfg.sp.static.2xs}",
+            "paddingRight": "{cfg.sp.static.md}",
+            "paddingBottom": "{cfg.sp.static.2xs}",
+            "paddingLeft": "{cfg.sp.static.md}",
+            "borderColor": "{static.white.alpha.weakest}",
+            "borderWidth": "{bw.md}"
+          }
+        },
+        "icon": {
+          "$type": "composition",
+          "$value": {
+            "height": "{cfg.sz.static.3xs}",
+            "maxHeight": "{cfg.sz.static.3xs}",
+            "minHeight": "{cfg.sz.static.3xs}",
+            "width": "{cfg.sz.static.3xs}",
+            "maxWidth": "{cfg.sz.static.3xs}",
+            "minWidth": "{cfg.sz.static.3xs}"
+          }
+        },
+        "wrap-content": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{cfg.sp.static.2xs}",
+            "paddingTop": "{sp.none}",
+            "paddingRight": "{cfg.sp.static.2xs}",
+            "paddingBottom": "{sp.none}",
+            "paddingLeft": "{cfg.sp.static.2xs}"
+          }
+        },
+        "curret": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{tp.label.sm.semibold}",
+            "fill": "{static.white.strongest}"
+          }
+        },
+        "wrap-vector": {
+          "icon": {
+            "size": {
+              "$type": "composition",
+              "$value": {
+                "width": "{cfg.sz.static.micro.xs}",
+                "maxWidth": "{cfg.sz.static.micro.xs}",
+                "minWidth": "{cfg.sz.static.micro.xs}",
+                "height": "{cfg.sz.static.micro.lg}",
+                "maxHeight": "{cfg.sz.static.micro.lg}",
+                "minHeight": "{cfg.sz.static.micro.lg}"
+              }
+            },
+            "style": {
+              "$type": "composition",
+              "$value": {
+                "fill": "{static.white.alpha.weaker}"
+              }
+            }
+          }
+        },
+        "total": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{tp.label.sm.semibold}",
+            "fill": "{static.white.alpha.weaker}"
+          }
+        }
+      }
+    }
+  }
+}

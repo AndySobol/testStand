@@ -1,0 +1,92 @@
+{
+  "w-spinner": {
+    "style": {
+      "accent": {
+        "$type": "color",
+        "$value": "{accent.medium}"
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{neutral.medium}"
+      },
+      "static": {
+        "black": {
+          "$type": "color",
+          "$value": "{static.black.strongest}"
+        },
+        "white": {
+          "$type": "color",
+          "$value": "{static.white.strongest}"
+        }
+      }
+    },
+    "size": {
+      "spinner": {
+        "border": {
+          "$type": "borderWidth",
+          "$value": "{bw.xl}"
+        }
+      },
+      "custom": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{sz.big.xs}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{sz.big.xs}"
+        }
+      },
+      "xs": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{sz.2xs}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{sz.2xs}"
+        }
+      },
+      "sm": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{sz.xs}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{sz.xs}"
+        }
+      },
+      "md": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{sz.sm}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{sz.sm}"
+        }
+      },
+      "lg": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{sz.md}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{sz.md}"
+        }
+      },
+      "xl": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{sz.xl}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{sz.xl}"
+        }
+      }
+    }
+  }
+}

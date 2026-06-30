@@ -1,0 +1,30 @@
+{
+  "WSkeleton": {
+    "component": {
+      "wave": {
+        "black": {
+          "$type": "composition",
+          "$value": {
+            "width": "100",
+            "height": "48",
+            "fill": "{w-skeleton.style.wave.black}"
+          }
+        },
+        "white": {
+          "$type": "composition",
+          "$value": {
+            "width": "100",
+            "height": "48",
+            "fill": "{w-skeleton.style.wave.white}"
+          }
+        }
+      },
+      "vector-wrap": {
+        "$type": "composition",
+        "$value": {
+          "fill": "{w-skeleton.style.wrap}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "WBreadcrumbs": {
+    "item": {
+      "component": {
+        "xs": {
+          "default": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.xs.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.xs.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.xs.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.xs.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.xs.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.xs.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.xs.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.xs.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.xs.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.default}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.xs.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.default}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.default}"
+                }
+              }
+            }
+          },
+          "hover": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.xs.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.xs.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.xs.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.xs.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.xs.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.xs.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.xs.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.xs.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.xs.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.hover}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.xs.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.hover}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.hover}"
+                }
+              }
+            }
+          },
+          "focus": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.xs.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.xs.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.xs.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.xs.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.xs.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.xs.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.xs.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.xs.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.xs.sp-left}",
+                "borderWidth": "{w-breadcrumbs.item.size.xs.border}",
+                "borderColor": "{w-breadcrumbs.item.style.stroke.focus}",
+                "fill": "{w-breadcrumbs.item.style.wrap.hover}",
+                "boxShadow": "{w-breadcrumbs.item.style.shadow.focus}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.xs.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.focus}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.focus}"
+                }
+              }
+            }
+          },
+          "active": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.xs.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.xs.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.xs.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.xs.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.xs.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.xs.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.xs.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.xs.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.xs.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.active}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.xs.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.active}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.active}"
+                }
+              }
+            }
+          },
+          "disable": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.xs.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.xs.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.xs.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.xs.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.xs.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.xs.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.xs.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.xs.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.xs.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.disable}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.xs.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.disable}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.xs.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.xs.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.disable}"
+                }
+              }
+            }
+          }
+        },
+        "sm": {
+          "default": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.sm.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.sm.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.sm.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.sm.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.sm.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.sm.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.sm.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.sm.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.sm.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.default}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.sm.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.default}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.default}"
+                }
+              }
+            }
+          },
+          "hover": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.sm.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.sm.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.sm.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.sm.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.sm.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.sm.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.sm.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.sm.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.sm.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.hover}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.sm.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.hover}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.hover}"
+                }
+              }
+            }
+          },
+          "focus": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.sm.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.sm.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.sm.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.sm.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.sm.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.sm.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.sm.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.sm.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.sm.sp-left}",
+                "borderWidth": "{w-breadcrumbs.item.size.sm.border}",
+                "borderColor": "{w-breadcrumbs.item.style.stroke.focus}",
+                "fill": "{w-breadcrumbs.item.style.wrap.hover}",
+                "boxShadow": "{w-breadcrumbs.item.style.shadow.focus}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.sm.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.focus}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.focus}"
+                }
+              }
+            }
+          },
+          "active": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.sm.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.sm.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.sm.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.sm.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.sm.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.sm.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.sm.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.sm.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.sm.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.active}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.sm.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.active}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.active}"
+                }
+              }
+            }
+          },
+          "disable": {
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.item.size.sm.min-height}",
+                "maxHeight": "{w-breadcrumbs.item.size.sm.max-height}",
+                "minWidth": "{w-breadcrumbs.item.size.sm.min-width}",
+                "borderRadius": "{w-breadcrumbs.item.size.sm.radius}",
+                "itemSpacing": "{w-breadcrumbs.item.size.sm.gap}",
+                "paddingTop": "{w-breadcrumbs.item.size.sm.sp-top}",
+                "paddingRight": "{w-breadcrumbs.item.size.sm.sp-right}",
+                "paddingBottom": "{w-breadcrumbs.item.size.sm.sp-bottom}",
+                "paddingLeft": "{w-breadcrumbs.item.size.sm.sp-left}",
+                "fill": "{w-breadcrumbs.item.style.wrap.disable}"
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-breadcrumbs.item.size.sm.typography}",
+                "fill": "{w-breadcrumbs.item.style.label.disable}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxHeight": "{w-breadcrumbs.item.size.sm.icon}",
+                  "minWidth": "{w-breadcrumbs.item.size.sm.icon}",
+                  "maxWidth": "{w-breadcrumbs.item.size.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-breadcrumbs.item.style.icon.disable}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "stack": {
+      "component": {
+        "xs": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{w-breadcrumbs.stack.size.xs.gap}",
+              "paddingTop": "{w-breadcrumbs.stack.size.xs.sp-top}",
+              "paddingRight": "{w-breadcrumbs.stack.size.xs.sp-right}",
+              "paddingBottom": "{w-breadcrumbs.stack.size.xs.sp-bottom}",
+              "paddingLeft": "{w-breadcrumbs.stack.size.xs.sp-left}"
+            }
+          },
+          "icon": {
+            "size": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.stack.size.xs.icon}",
+                "maxHeight": "{w-breadcrumbs.stack.size.xs.icon}",
+                "minWidth": "{w-breadcrumbs.stack.size.xs.icon}",
+                "maxWidth": "{w-breadcrumbs.stack.size.xs.icon}"
+              }
+            },
+            "style": {
+              "$type": "composition",
+              "$value": {
+                "fill": "{w-breadcrumbs.stack.style.icon.default}"
+              }
+            }
+          }
+        },
+        "sm": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{w-breadcrumbs.stack.size.sm.gap}",
+              "paddingTop": "{w-breadcrumbs.stack.size.sm.sp-top}",
+              "paddingRight": "{w-breadcrumbs.stack.size.sm.sp-right}",
+              "paddingBottom": "{w-breadcrumbs.stack.size.sm.sp-bottom}",
+              "paddingLeft": "{w-breadcrumbs.stack.size.sm.sp-left}"
+            }
+          },
+          "icon": {
+            "size": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-breadcrumbs.stack.size.sm.icon}",
+                "maxHeight": "{w-breadcrumbs.stack.size.sm.icon}",
+                "minWidth": "{w-breadcrumbs.stack.size.sm.icon}",
+                "maxWidth": "{w-breadcrumbs.stack.size.sm.icon}"
+              }
+            },
+            "style": {
+              "$type": "composition",
+              "$value": {
+                "fill": "{w-breadcrumbs.stack.style.icon.default}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "slots": {
+      "component": {
+        "xs": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{w-breadcrumbs.slots.size.xs.gap}",
+              "paddingTop": "{w-breadcrumbs.slots.size.xs.sp-top}",
+              "paddingRight": "{w-breadcrumbs.slots.size.xs.sp-right}",
+              "paddingBottom": "{w-breadcrumbs.slots.size.xs.sp-bottom}",
+              "paddingLeft": "{w-breadcrumbs.slots.size.xs.sp-left}"
+            }
+          }
+        },
+        "sm": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{w-breadcrumbs.slots.size.sm.gap}",
+              "paddingTop": "{w-breadcrumbs.slots.size.sm.sp-top}",
+              "paddingRight": "{w-breadcrumbs.slots.size.sm.sp-right}",
+              "paddingBottom": "{w-breadcrumbs.slots.size.sm.sp-bottom}",
+              "paddingLeft": "{w-breadcrumbs.slots.size.sm.sp-left}"
+            }
+          }
+        }
+      }
+    },
+    "group": {
+      "component": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-breadcrumbs.group.size.gap}",
+            "paddingTop": "{w-breadcrumbs.group.size.sp-top}",
+            "paddingRight": "{w-breadcrumbs.group.size.sp-right}",
+            "paddingBottom": "{w-breadcrumbs.group.size.sp-bottom}",
+            "paddingLeft": "{w-breadcrumbs.group.size.sp-left}"
+          }
+        }
+      }
+    }
+  }
+}

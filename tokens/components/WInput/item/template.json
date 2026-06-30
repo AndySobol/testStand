@@ -1,0 +1,77 @@
+{
+  "WInput": {
+    "slot-icon": {
+      "sm": {
+        "icon": {
+          "$type": "composition",
+          "$value": {
+            "height": "{w-input-icon.size.sm}",
+            "width": "{w-input-icon.size.sm}",
+            "minWidth": "{w-input-icon.size.sm}",
+            "maxWidth": "{w-input-icon.size.sm}",
+            "minHeight": "{w-input-icon.size.sm}",
+            "maxHeight": "{w-input-icon.size.sm}"
+          }
+        },
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-input-icon.size.wrap.gap}",
+            "paddingTop": "{w-input-icon.size.wrap.sp-top}",
+            "paddingBottom": "{w-input-icon.size.wrap.sp-bottom}",
+            "paddingRight": "{w-input-icon.size.wrap.sp-right}",
+            "paddingLeft": "{w-input-icon.size.wrap.sp-left}"
+          }
+        }
+      },
+      "lg": {
+        "icon": {
+          "$type": "composition",
+          "$value": {
+            "height": "{w-input-icon.size.lg}",
+            "width": "{w-input-icon.size.lg}",
+            "minWidth": "{w-input-icon.size.lg}",
+            "maxWidth": "{w-input-icon.size.lg}",
+            "minHeight": "{w-input-icon.size.lg}",
+            "maxHeight": "{w-input-icon.size.lg}"
+          }
+        },
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-input-icon.size.wrap.gap}",
+            "paddingTop": "{w-input-icon.size.wrap.sp-top}",
+            "paddingBottom": "{w-input-icon.size.wrap.sp-bottom}",
+            "paddingRight": "{w-input-icon.size.wrap.sp-right}",
+            "paddingLeft": "{w-input-icon.size.wrap.sp-left}"
+          }
+        }
+      },
+      "autoheight": {
+        "icon": {
+          "$type": "composition",
+          "$value": {
+            "minWidth": "{w-input-icon.size.autoheight.min}",
+            "maxWidth": "{w-input-icon.size.autoheight.max}",
+            "minHeight": "{w-input-icon.size.autoheight.min}",
+            "maxHeight": "{w-input-icon.size.autoheight.max}"
+          }
+        },
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "minWidth": "{w-input-icon.size.autoheight.min}",
+            "maxWidth": "{w-input-icon.size.autoheight.max}",
+            "minHeight": "{w-input-icon.size.autoheight.min}",
+            "maxHeight": "{w-input-icon.size.autoheight.max}",
+            "itemSpacing": "{w-input-icon.size.wrap.gap}",
+            "paddingTop": "{w-input-icon.size.wrap.sp-top}",
+            "paddingBottom": "{w-input-icon.size.wrap.sp-bottom}",
+            "paddingRight": "{w-input-icon.size.wrap.sp-right}",
+            "paddingLeft": "{w-input-icon.size.wrap.sp-left}"
+          }
+        }
+      }
+    }
+  }
+}

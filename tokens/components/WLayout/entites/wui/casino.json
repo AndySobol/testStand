@@ -1,0 +1,45 @@
+{
+  "casino": {
+    "style": {
+      "shift-select": {
+        "$type": "boxShadow",
+        "$value": "{sem.entities.casino.layout.style.shift-select}"
+      }
+    },
+    "Filers&Sorting": {
+      "$type": "composition",
+      "$value": {
+        "borderRadius": "{br.none}",
+        "itemSpacing": "{sp.md}",
+        "paddingTop": "{sp.none}",
+        "paddingRight": "{sp.none}",
+        "paddingBottom": "{sp.none}",
+        "paddingLeft": "{sp.none}",
+        "fill": "{transparent}",
+        "boxShadow": "{casino.style.shift-select}"
+      }
+    },
+    "tabs-filter": {
+      "$type": "composition",
+      "$value": {
+        "borderRadius": "{br.none}",
+        "itemSpacing": "{sp.big.2xs}",
+        "paddingTop": "{sp.none}",
+        "paddingRight": "{sp.none}",
+        "paddingBottom": "{sp.none}",
+        "paddingLeft": "{sp.none}"
+      }
+    },
+    "tabs": {
+      "$type": "composition",
+      "$value": {
+        "borderRadius": "{br.none}",
+        "itemSpacing": "{sp.md}",
+        "paddingTop": "{sp.none}",
+        "paddingRight": "{sp.none}",
+        "paddingBottom": "{sp.none}",
+        "paddingLeft": "{sp.none}"
+      }
+    }
+  }
+}

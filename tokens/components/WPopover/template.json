@@ -1,0 +1,161 @@
+{
+  "WPopover": {
+    "component": {
+      "tail": {
+        "hor": {
+          "vector": {
+            "$type": "composition",
+            "$value": {
+              "minHeight": "{w-popover.size.tail.height}",
+              "maxHeight": "{w-popover.size.tail.height}",
+              "minWidth": "{w-popover.size.tail.width}",
+              "maxWidth": "{w-popover.size.tail.width}",
+              "fill": "{w-popover.style.wrap}",
+              "borderWidth": "{w-popover.size.tail.border}",
+              "borderColor": "{w-popover.style.stroke}"
+            }
+          },
+          "safe": {
+            "$type": "composition",
+            "$value": {
+              "minWidth": "{w-popover.size.safe.width}",
+              "maxWidth": "{w-popover.size.safe.width}",
+              "minHeight": "{w-popover.size.safe.height}",
+              "maxHeight": "{w-popover.size.safe.height}",
+              "fill": "{w-popover.style.wrap}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "minHeight": "{w-popover.size.tail.height}",
+              "maxHeight": "{w-popover.size.tail.height}",
+              "minWidth": "{w-popover.size.tail.width}",
+              "maxWidth": "{w-popover.size.tail.width}",
+              "itemSpacing": "{w-popover.size.tail.gap}",
+              "paddingTop": "{w-popover.size.tail.sp-top}",
+              "paddingRight": "{w-popover.size.tail.sp-right}",
+              "paddingBottom": "{w-popover.size.tail.sp-bottom}",
+              "paddingLeft": "{w-popover.size.tail.sp-left}"
+            }
+          },
+          "wrap-tail": {
+            "$type": "composition",
+            "$value": {
+              "minHeight": "{w-popover.size.tail.height}",
+              "maxHeight": "{w-popover.size.tail.height}",
+              "itemSpacing": "{w-popover.size.tail.gap}",
+              "paddingTop": "{w-popover.size.tail.sp-top}",
+              "paddingRight": "{w-popover.size.tail.sp-right}",
+              "paddingBottom": "{w-popover.size.tail.sp-bottom}",
+              "paddingLeft": "{w-popover.size.tail.sp-left}"
+            }
+          }
+        },
+        "ver": {
+          "vector": {
+            "$type": "composition",
+            "$value": {
+              "minHeight": "{w-popover.size.tail.width}",
+              "maxHeight": "{w-popover.size.tail.width}",
+              "minWidth": "{w-popover.size.tail.height}",
+              "maxWidth": "{w-popover.size.tail.height}",
+              "fill": "{w-popover.style.wrap}",
+              "borderWidth": "{w-popover.size.tail.border}",
+              "borderColor": "{w-popover.style.stroke}"
+            }
+          },
+          "safe": {
+            "$type": "composition",
+            "$value": {
+              "minWidth": "{w-popover.size.safe.height}",
+              "maxWidth": "{w-popover.size.safe.height}",
+              "minHeight": "{w-popover.size.safe.width}",
+              "maxHeight": "{w-popover.size.safe.width}",
+              "fill": "{w-popover.style.wrap}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "minHeight": "{w-popover.size.tail.width}",
+              "maxHeight": "{w-popover.size.tail.width}",
+              "minWidth": "{w-popover.size.tail.height}",
+              "maxWidth": "{w-popover.size.tail.height}",
+              "itemSpacing": "{w-popover.size.tail.gap}",
+              "paddingTop": "{w-popover.size.tail.sp-right}",
+              "paddingRight": "{w-popover.size.tail.sp-top}",
+              "paddingBottom": "{w-popover.size.tail.sp-left}",
+              "paddingLeft": "{w-popover.size.tail.sp-bottom}"
+            }
+          },
+          "wrap-tail": {
+            "$type": "composition",
+            "$value": {
+              "minWidth": "{w-popover.size.tail.height}",
+              "maxWidth": "{w-popover.size.tail.height}",
+              "itemSpacing": "{w-popover.size.tail.gap}",
+              "paddingTop": "{w-popover.size.tail.sp-right}",
+              "paddingRight": "{w-popover.size.tail.sp-top}",
+              "paddingBottom": "{w-popover.size.tail.sp-left}",
+              "paddingLeft": "{w-popover.size.tail.sp-bottom}"
+            }
+          }
+        }
+      },
+      "example": {
+        "label": {
+          "$type": "composition",
+          "$value": {
+            "typography": "{w-popover.size.box.typography}",
+            "fill": "{w-popover.style.label}"
+          }
+        },
+        "icon": {
+          "size": {
+            "$type": "composition",
+            "$value": {
+              "minHeight": "{w-popover.size.box.icon}",
+              "maxHeight": "{w-popover.size.box.icon}",
+              "minWidth": "{w-popover.size.box.icon}",
+              "maxWidth": "{w-popover.size.box.icon}"
+            }
+          },
+          "style": {
+            "$type": "composition",
+            "$value": {
+              "fill": "{w-popover.style.icon}"
+            }
+          }
+        }
+      },
+      "box": {
+        "$type": "composition",
+        "$value": {
+          "minHeight": "{w-popover.size.box.min-height}",
+          "minWidth": "{w-popover.size.box.min-width}",
+          "borderRadius": "{w-popover.size.box.radius}",
+          "itemSpacing": "{w-popover.size.box.gap}",
+          "paddingTop": "{w-popover.size.box.sp-top}",
+          "paddingRight": "{w-popover.size.box.sp-right}",
+          "paddingBottom": "{w-popover.size.box.sp-bottom}",
+          "paddingLeft": "{w-popover.size.box.sp-left}",
+          "borderWidth": "{w-popover.size.box.sp-left}",
+          "borderColor": "{w-popover.style.stroke}",
+          "fill": "{w-popover.style.wrap}",
+          "boxShadow": "{w-popover.style.shadow}"
+        }
+      },
+      "wrap": {
+        "$type": "composition",
+        "$value": {
+          "itemSpacing": "{w-popover.size.wrap.gap}",
+          "paddingTop": "{w-popover.size.wrap.sp-top}",
+          "paddingRight": "{w-popover.size.wrap.sp-right}",
+          "paddingBottom": "{w-popover.size.wrap.sp-bottom}",
+          "paddingLeft": "{w-popover.size.wrap.sp-left}"
+        }
+      }
+    }
+  }
+}

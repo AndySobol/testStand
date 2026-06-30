@@ -1,0 +1,273 @@
+{
+  "WTable": {
+    "slots": {
+      "icon": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-table.size.slots.icon.gap}",
+            "paddingTop": "{w-table.size.slots.icon.sp-top}",
+            "paddingRight": "{w-table.size.slots.icon.sp-right}",
+            "paddingBottom": "{w-table.size.slots.icon.sp-bottom}",
+            "paddingLeft": "{w-table.size.slots.icon.sp-left}"
+          }
+        },
+        "xs": {
+          "icon": {
+            "size": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-table.size.slots.icon.vector.xs}",
+                "maxWidth": "{w-table.size.slots.icon.vector.xs}",
+                "minWidth": "{w-table.size.slots.icon.vector.xs}",
+                "height": "{w-table.size.slots.icon.vector.xs}",
+                "maxHeight": "{w-table.size.slots.icon.vector.xs}",
+                "minHeight": "{w-table.size.slots.icon.vector.xs}"
+              }
+            },
+            "style": {
+              "$type": "composition",
+              "$value": {
+                "fill": "{icon.strongest}"
+              }
+            }
+          }
+        },
+        "md": {
+          "icon": {
+            "size": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-table.size.slots.icon.vector.md}",
+                "maxWidth": "{w-table.size.slots.icon.vector.md}",
+                "minWidth": "{w-table.size.slots.icon.vector.md}",
+                "height": "{w-table.size.slots.icon.vector.md}",
+                "maxHeight": "{w-table.size.slots.icon.vector.md}",
+                "minHeight": "{w-table.size.slots.icon.vector.md}"
+              }
+            },
+            "style": {
+              "$type": "composition",
+              "$value": {
+                "fill": "{icon.strongest}"
+              }
+            }
+          }
+        },
+        "lg": {
+          "icon": {
+            "size": {
+              "$type": "composition",
+              "$value": {
+                "width": "{w-table.size.slots.icon.vector.lg}",
+                "maxWidth": "{w-table.size.slots.icon.vector.lg}",
+                "minWidth": "{w-table.size.slots.icon.vector.lg}",
+                "height": "{w-table.size.slots.icon.vector.lg}",
+                "maxHeight": "{w-table.size.slots.icon.vector.lg}",
+                "minHeight": "{w-table.size.slots.icon.vector.lg}"
+              }
+            },
+            "style": {
+              "$type": "composition",
+              "$value": {
+                "fill": "{icon.strongest}"
+              }
+            }
+          }
+        }
+      },
+      "label": {
+        "sm": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{w-table.size.slots.label.sm.gap}",
+              "paddingTop": "{w-table.size.slots.label.sm.sp-top}",
+              "paddingRight": "{w-table.size.slots.label.sm.sp-right}",
+              "paddingBottom": "{w-table.size.slots.label.sm.sp-bottom}",
+              "paddingLeft": "{w-table.size.slots.label.sm.sp-left}"
+            }
+          },
+          "title": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-table.size.slots.label.sm.tp.title}",
+              "fill": "{text.strongest}"
+            }
+          },
+          "description": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-table.size.slots.label.sm.tp.description}",
+              "fill": "{text.strongest}"
+            }
+          }
+        },
+        "md": {
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "itemSpacing": "{w-table.size.slots.label.md.gap}",
+              "paddingTop": "{w-table.size.slots.label.md.sp-top}",
+              "paddingRight": "{w-table.size.slots.label.md.sp-right}",
+              "paddingBottom": "{w-table.size.slots.label.md.sp-bottom}",
+              "paddingLeft": "{w-table.size.slots.label.md.sp-left}"
+            }
+          },
+          "title": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-table.size.slots.label.md.tp.title}",
+              "fill": "{text.strongest}"
+            }
+          },
+          "description": {
+            "$type": "composition",
+            "$value": {
+              "typography": "{w-table.size.slots.label.md.tp.description}",
+              "fill": "{text.strongest}"
+            }
+          }
+        }
+      },
+      "button-group": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-table.size.slots.button-group.gap}",
+            "paddingTop": "{w-table.size.slots.button-group.sp-top}",
+            "paddingRight": "{w-table.size.slots.button-group.sp-right}",
+            "paddingBottom": "{w-table.size.slots.button-group.sp-bottom}",
+            "paddingLeft": "{w-table.size.slots.button-group.sp-left}"
+          }
+        }
+      },
+      "sort-group": {
+        "wrap": {
+          "$type": "composition",
+          "$value": {
+            "itemSpacing": "{w-table.size.slots.sort-group.gap}",
+            "paddingTop": "{w-table.size.slots.sort-group.sp-top}",
+            "paddingRight": "{w-table.size.slots.sort-group.sp-right}",
+            "paddingBottom": "{w-table.size.slots.sort-group.sp-bottom}",
+            "paddingLeft": "{w-table.size.slots.sort-group.sp-left}"
+          }
+        }
+      }
+    },
+    "slot-th": {
+      "$type": "composition",
+      "$value": {
+        "itemSpacing": "{w-table.size.slot-th.gap}",
+        "paddingTop": "{w-table.size.slot-th.sp-top}",
+        "paddingRight": "{w-table.size.slot-th.sp-right}",
+        "paddingBottom": "{w-table.size.slot-th.sp-bottom}",
+        "paddingLeft": "{w-table.size.slot-th.sp-left}"
+      }
+    },
+    "slot-tr": {
+      "$type": "composition",
+      "$value": {
+        "itemSpacing": "{w-table.size.slot-tr.gap}",
+        "paddingTop": "{w-table.size.slot-tr.sp-top}",
+        "paddingRight": "{w-table.size.slot-tr.sp-right}",
+        "paddingBottom": "{w-table.size.slot-tr.sp-bottom}",
+        "paddingLeft": "{w-table.size.slot-tr.sp-left}"
+      }
+    },
+    "th": {
+      "$type": "composition",
+      "$value": {
+        "borderRadius": "{w-table.size.th.radius}",
+        "itemSpacing": "{w-table.size.th.gap}",
+        "paddingTop": "{w-table.size.th.sp-top}",
+        "paddingRight": "{w-table.size.th.sp-right}",
+        "paddingBottom": "{w-table.size.th.sp-bottom}",
+        "paddingLeft": "{w-table.size.th.sp-left}",
+        "fill": "{w-table.style.header.wrap.default}"
+      }
+    },
+    "tr": {
+      "default": {
+        "$type": "composition",
+        "$value": {
+          "borderRadius": "{w-table.size.tr.radius}",
+          "itemSpacing": "{w-table.size.tr.gap}",
+          "paddingTop": "{w-table.size.tr.sp-top}",
+          "paddingRight": "{w-table.size.tr.sp-right}",
+          "paddingBottom": "{w-table.size.tr.sp-bottom}",
+          "paddingLeft": "{w-table.size.tr.sp-left}",
+          "borderWidth": "{w-table.size.tr.border}",
+          "borderWidthBottom": "{w-table.style.row.stroke.default}",
+          "fill": "{w-table.style.row.wrap.default}"
+        }
+      },
+      "hover": {
+        "$type": "composition",
+        "$value": {
+          "borderRadius": "{w-table.size.tr.radius}",
+          "itemSpacing": "{w-table.size.tr.gap}",
+          "paddingTop": "{w-table.size.tr.sp-top}",
+          "paddingRight": "{w-table.size.tr.sp-right}",
+          "paddingBottom": "{w-table.size.tr.sp-bottom}",
+          "paddingLeft": "{w-table.size.tr.sp-left}",
+          "borderWidth": "{w-table.size.tr.border}",
+          "borderWidthBottom": "{w-table.style.row.stroke.default}",
+          "fill": "{w-table.style.row.wrap.hover}"
+        }
+      },
+      "select": {
+        "$type": "composition",
+        "$value": {
+          "borderRadius": "{w-table.size.tr.radius}",
+          "itemSpacing": "{w-table.size.tr.gap}",
+          "paddingTop": "{w-table.size.tr.sp-top}",
+          "paddingRight": "{w-table.size.tr.sp-right}",
+          "paddingBottom": "{w-table.size.tr.sp-bottom}",
+          "paddingLeft": "{w-table.size.tr.sp-left}",
+          "borderWidth": "{w-table.size.tr.border}",
+          "borderWidthBottom": "{w-table.style.row.stroke.default}",
+          "fill": "{w-table.style.row.wrap.select}"
+        }
+      },
+      "disable": {
+        "$type": "composition",
+        "$value": {
+          "borderRadius": "{w-table.size.tr.radius}",
+          "itemSpacing": "{w-table.size.tr.gap}",
+          "paddingTop": "{w-table.size.tr.sp-top}",
+          "paddingRight": "{w-table.size.tr.sp-right}",
+          "paddingBottom": "{w-table.size.tr.sp-bottom}",
+          "paddingLeft": "{w-table.size.tr.sp-left}",
+          "borderWidth": "{w-table.size.tr.border}",
+          "borderWidthBottom": "{w-table.style.row.stroke.default}",
+          "fill": "{w-table.style.row.wrap.disable}"
+        }
+      }
+    },
+    "ly": {
+      "rows": {
+        "$type": "composition",
+        "$value": {
+          "borderRadius": "{br.none}",
+          "itemSpacing": "{sp.none}",
+          "paddingTop": "{sp.none}",
+          "paddingRight": "{sp.none}",
+          "paddingBottom": "{sp.none}",
+          "paddingLeft": "{sp.none}"
+        }
+      },
+      "table": {
+        "$type": "composition",
+        "$value": {
+          "borderRadius": "{br.xl}",
+          "itemSpacing": "{sp.md}",
+          "paddingTop": "{sp.none}",
+          "paddingRight": "{sp.none}",
+          "paddingBottom": "{sp.none}",
+          "paddingLeft": "{sp.none}"
+        }
+      }
+    }
+  }
+}

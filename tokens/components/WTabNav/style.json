@@ -1,0 +1,136 @@
+{
+  "w-tab-nav": {
+    "style": {
+      "label": {
+        "default": {
+          "$type": "color",
+          "$value": "{text.medium}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{accent.medium}"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{accent.medium}"
+        },
+        "select": {
+          "$type": "color",
+          "$value": "{accent.medium}"
+        },
+        "disable": {
+          "$type": "color",
+          "$value": "{state.disable-layer}"
+        }
+      },
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{icon.medium}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{accent.medium}"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{accent.medium}"
+        },
+        "select": {
+          "$type": "color",
+          "$value": "{accent.medium}"
+        },
+        "disable": {
+          "$type": "color",
+          "$value": "{state.disable-layer}"
+        }
+      }
+    },
+    "size": {
+      "mobile": {
+        "min-height": {
+          "$type": "sizing",
+          "$value": "{sz.xl}"
+        },
+        "max-height": {
+          "$type": "sizing",
+          "$value": "{sz.big.xs}"
+        },
+        "min-width": {
+          "$type": "sizing",
+          "$value": "{sz.big.xs}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "icon": {
+          "$type": "sizing",
+          "$value": "{sz.sm}"
+        },
+        "typography": {
+          "$type": "typography",
+          "$value": "{tp.label.xs.medium}"
+        }
+      },
+      "web": {
+        "min-height": {
+          "$type": "sizing",
+          "$value": "{sz.md}"
+        },
+        "max-height": {
+          "$type": "sizing",
+          "$value": "{sz.md}"
+        },
+        "min-width": {
+          "$type": "sizing",
+          "$value": "{sz.md}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{sp.xs}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "icon": {
+          "$type": "sizing",
+          "$value": "{sz.xs}"
+        },
+        "typography": {
+          "$type": "typography",
+          "$value": "{tp.label.md.medium}"
+        }
+      }
+    }
+  }
+}

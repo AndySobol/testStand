@@ -1,0 +1,318 @@
+{
+  "WDrawer": {
+    "component": {
+      "grabber": {
+        "hor": {
+          "item": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-drawer.size.grabber.item.hor.width}",
+              "maxWidth": "{w-drawer.size.grabber.item.hor.width}",
+              "minWidth": "{w-drawer.size.grabber.item.hor.width}",
+              "height": "{w-drawer.size.grabber.item.hor.height}",
+              "maxHeight": "{w-drawer.size.grabber.item.hor.height}",
+              "minHeight": "{w-drawer.size.grabber.item.hor.height}",
+              "borderRadius": "{w-drawer.size.grabber.item.hor.radius}",
+              "fill": "{w-drawer.style.grabber}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "height": "{w-drawer.size.grabber.wrap.hor.height}",
+              "maxHeight": "{w-drawer.size.grabber.wrap.hor.height}",
+              "minHeight": "{w-drawer.size.grabber.wrap.hor.height}",
+              "borderRadius": "{w-drawer.size.grabber.wrap.hor.radius}",
+              "itemSpacing": "{w-drawer.size.grabber.wrap.hor.gap}",
+              "paddingTop": "{w-drawer.size.grabber.wrap.hor.sp-top}",
+              "paddingRight": "{w-drawer.size.grabber.wrap.hor.sp-right}",
+              "paddingBottom": "{w-drawer.size.grabber.wrap.hor.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.grabber.wrap.hor.sp-left}"
+            }
+          }
+        },
+        "ver": {
+          "item": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-drawer.size.grabber.item.ver.width}",
+              "maxWidth": "{w-drawer.size.grabber.item.ver.width}",
+              "minWidth": "{w-drawer.size.grabber.item.ver.width}",
+              "height": "{w-drawer.size.grabber.item.ver.height}",
+              "maxHeight": "{w-drawer.size.grabber.item.ver.height}",
+              "minHeight": "{w-drawer.size.grabber.item.ver.height}",
+              "borderRadius": "{w-drawer.size.grabber.item.ver.radius}",
+              "fill": "{w-drawer.style.grabber}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "width": "{w-drawer.size.grabber.wrap.ver.width}",
+              "maxWidth": "{w-drawer.size.grabber.wrap.ver.width}",
+              "minWidth": "{w-drawer.size.grabber.wrap.ver.width}",
+              "borderRadius": "{w-drawer.size.grabber.wrap.ver.radius}",
+              "itemSpacing": "{w-drawer.size.grabber.wrap.ver.gap}",
+              "paddingTop": "{w-drawer.size.grabber.wrap.ver.sp-top}",
+              "paddingRight": "{w-drawer.size.grabber.wrap.ver.sp-right}",
+              "paddingBottom": "{w-drawer.size.grabber.wrap.ver.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.grabber.wrap.ver.sp-left}"
+            }
+          }
+        }
+      },
+      "float": {
+        "left": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.not-radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.float.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.float.gap}",
+              "paddingTop": "{w-drawer.size.wrap.float.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
+            }
+          }
+        },
+        "right": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.float.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.float.gap}",
+              "paddingTop": "{w-drawer.size.wrap.float.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
+            }
+          }
+        },
+        "middle": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.float.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.float.gap}",
+              "paddingTop": "{w-drawer.size.wrap.float.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
+            }
+          }
+        },
+        "middle-bottom": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.not-radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.float.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.float.gap}",
+              "paddingTop": "{w-drawer.size.wrap.float.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
+            }
+          }
+        }
+      },
+      "full": {
+        "left": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.not-radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.full.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.full.gap}",
+              "paddingTop": "{w-drawer.size.wrap.full.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
+            }
+          }
+        },
+        "right": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.full.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.full.gap}",
+              "paddingTop": "{w-drawer.size.wrap.full.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
+            }
+          }
+        },
+        "middle": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.not-radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.full.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.full.gap}",
+              "paddingTop": "{w-drawer.size.wrap.full.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
+            }
+          }
+        },
+        "middle-bottom": {
+          "main": {
+            "$type": "composition",
+            "$value": {
+              "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
+              "borderRadiusTopRight": "{w-drawer.size.main.radius}",
+              "borderRadiusBottomLeft": "{w-drawer.size.main.not-radius}",
+              "borderRadiusBottomRight": "{w-drawer.size.main.not-radius}",
+              "itemSpacing": "{w-drawer.size.main.gap}",
+              "paddingTop": "{w-drawer.size.main.sp-top}",
+              "paddingRight": "{w-drawer.size.main.sp-right}",
+              "paddingBottom": "{w-drawer.size.main.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.main.sp-left}",
+              "borderWidth": "{w-drawer.size.main.border}",
+              "borderColor": "{w-drawer.style.stroke}",
+              "fill": "{w-drawer.style.main}",
+              "boxShadow": "{w-drawer.style.shadow}"
+            }
+          },
+          "wrap": {
+            "$type": "composition",
+            "$value": {
+              "borderRadius": "{w-drawer.size.wrap.full.radius}",
+              "itemSpacing": "{w-drawer.size.wrap.full.gap}",
+              "paddingTop": "{w-drawer.size.wrap.full.sp-top}",
+              "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
+              "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
+              "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1492 @@
+{
+  "WCell": {
+    "clear": {
+      "none": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.none.clear}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.clear}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.clear}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.none.clear}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.none.clear}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.none.clear}"
+          }
+        }
+      },
+      "two": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.two.clear}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.clear}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.clear}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.two.clear}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.two.clear}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.two.clear}"
+          }
+        }
+      },
+      "three": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.three.clear}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.clear}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.clear}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.three.clear}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.three.clear}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.three.clear}"
+          }
+        }
+      },
+      "four": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.four.clear}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.clear}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.clear}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.four.clear}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.four.clear}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.four.clear}"
+          }
+        }
+      },
+      "five": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.five.clear}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.clear}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.clear}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.five.clear}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.five.clear}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.clear}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.five.clear}"
+          }
+        }
+      }
+    },
+    "min": {
+      "none": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.none.min}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.min}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.min}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.none.min}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.none.min}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.none.min}"
+          }
+        }
+      },
+      "two": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.two.min}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.min}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.min}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.two.min}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.two.min}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.two.min}"
+          }
+        }
+      },
+      "three": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.three.min}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.min}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.min}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.three.min}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.three.min}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.three.min}"
+          }
+        }
+      },
+      "four": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.four.min}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.min}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.min}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.four.min}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.four.min}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.four.min}"
+          }
+        }
+      },
+      "five": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.five.min}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.min}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.min}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.five.min}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.five.min}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.min}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.five.min}"
+          }
+        }
+      }
+    },
+    "normal": {
+      "none": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.none.normal}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.normal}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.normal}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.none.normal}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.none.normal}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.none.normal}"
+          }
+        }
+      },
+      "two": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.two.normal}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.normal}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.normal}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.two.normal}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.two.normal}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.two.normal}"
+          }
+        }
+      },
+      "three": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.three.normal}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.normal}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.normal}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.three.normal}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.three.normal}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.three.normal}"
+          }
+        }
+      },
+      "four": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.four.normal}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.normal}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.normal}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.four.normal}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.four.normal}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.four.normal}"
+          }
+        }
+      },
+      "five": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.five.normal}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.normal}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.normal}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.five.normal}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.five.normal}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.normal}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.five.normal}"
+          }
+        }
+      }
+    },
+    "big": {
+      "none": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.none.big}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.big}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.none.big}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.none.big}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.none.big}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.none.big}"
+          }
+        }
+      },
+      "two": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.two.big}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.big}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.two.big}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.two.big}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.two.big}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.two.big}"
+          }
+        }
+      },
+      "three": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.three.big}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.big}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.three.big}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.three.big}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.three.big}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.three.big}"
+          }
+        }
+      },
+      "four": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.four.big}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.big}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.four.big}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.four.big}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.four.big}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.four.big}"
+          }
+        }
+      },
+      "five": {
+        "inline": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.inline}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.inline}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.inline}",
+            "paddingLeft": "{w-cell.size.sp-left.five.big}"
+          }
+        },
+        "2xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.2xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.2xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.big}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.xs}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.xs}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.xs}",
+            "paddingLeft": "{w-cell.size.sp-left.five.big}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.sm}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.sm}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.sm}",
+            "paddingLeft": "{w-cell.size.sp-left.five.big}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.md}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.md}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.md}",
+            "paddingLeft": "{w-cell.size.sp-left.five.big}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "minHeight": "{w-cell.size.height.lg}",
+            "borderRadius": "{w-cell.size.radius}",
+            "itemSpacing": "{w-cell.size.gap}",
+            "paddingTop": "{w-cell.size.sp-top.lg}",
+            "paddingRight": "{w-cell.size.sp-right.big}",
+            "paddingBottom": "{w-cell.size.sp-bottom.lg}",
+            "paddingLeft": "{w-cell.size.sp-left.five.big}"
+          }
+        }
+      }
+    }
+  }
+}

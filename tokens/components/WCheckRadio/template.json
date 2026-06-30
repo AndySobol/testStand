@@ -1,0 +1,1034 @@
+{
+  "WCheckRadio": {
+    "component": {
+      "xs": {
+        "unselect": {
+          "default": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.default}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.unselect.label.default}"
+              }
+            }
+          },
+          "hover": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.hover}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.unselect.label.hover}"
+              }
+            }
+          },
+          "focus": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}",
+                "borderWidth": "{w-check-radio.size.wrap-box.xs.border}",
+                "borderColor": "{w-check-radio.style.unselect.stroke.focus}",
+                "fill": "{w-check-radio.style.unselect.wrap-box.focus}",
+                "boxShadow": "{w-check-radio.style.unselect.shadow.focus}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.focus}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.unselect.label.focus}"
+              }
+            }
+          },
+          "loader": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.loader}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.unselect.label.loader}"
+              }
+            }
+          },
+          "disable": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.disable}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.unselect.label.disable}"
+              }
+            }
+          }
+        },
+        "select": {
+          "default": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.default}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.select.label.default}"
+              }
+            }
+          },
+          "hover": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.hover}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.select.label.hover}"
+              }
+            }
+          },
+          "focus": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}",
+                "borderWidth": "{w-check-radio.size.wrap-box.xs.border}",
+                "borderColor": "{w-check-radio.style.select.stroke.focus}",
+                "fill": "{w-check-radio.style.select.wrap-box.focus}",
+                "boxShadow": "{w-check-radio.style.select.shadow.focus}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.focus}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.select.label.focus}"
+              }
+            }
+          },
+          "loader": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.loader}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.select.label.loader}"
+              }
+            }
+          },
+          "disable": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.xs.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.xs.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.xs.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.xs.gap}",
+                "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.disable}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.xs.typography}",
+                "fill": "{w-check-radio.style.select.label.disable}"
+              }
+            }
+          }
+        }
+      },
+      "sm": {
+        "unselect": {
+          "default": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.default}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.unselect.label.default}"
+              }
+            }
+          },
+          "hover": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.hover}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.unselect.label.hover}"
+              }
+            }
+          },
+          "focus": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}",
+                "borderWidth": "{w-check-radio.size.wrap-box.sm.border}",
+                "borderColor": "{w-check-radio.style.unselect.stroke.focus}",
+                "fill": "{w-check-radio.style.unselect.wrap-box.focus}",
+                "boxShadow": "{w-check-radio.style.unselect.shadow.focus}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.focus}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.unselect.label.focus}"
+              }
+            }
+          },
+          "loader": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.loader}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.unselect.label.loader}"
+              }
+            }
+          },
+          "disable": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.unselect.icon.disable}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.unselect.label.disable}"
+              }
+            }
+          }
+        },
+        "select": {
+          "default": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.default}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.select.label.default}"
+              }
+            }
+          },
+          "hover": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.hover}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.select.label.hover}"
+              }
+            }
+          },
+          "focus": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}",
+                "borderWidth": "{w-check-radio.size.wrap-box.sm.border}",
+                "borderColor": "{w-check-radio.style.select.stroke.focus}",
+                "fill": "{w-check-radio.style.select.wrap-box.focus}",
+                "boxShadow": "{w-check-radio.style.select.shadow.focus}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.focus}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.select.label.focus}"
+              }
+            }
+          },
+          "loader": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.loader}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.select.label.loader}"
+              }
+            }
+          },
+          "disable": {
+            "wrap-box": {
+              "$type": "composition",
+              "$value": {
+                "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
+                "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
+                "minWidth": "{w-check-radio.size.wrap-box.sm.min-width}",
+                "maxWidth": "{w-check-radio.size.wrap-box.sm.max-width}",
+                "itemSpacing": "{w-check-radio.size.wrap-box.sm.gap}",
+                "paddingTop": "{w-check-radio.size.wrap-box.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
+              }
+            },
+            "wrap": {
+              "$type": "composition",
+              "$value": {
+                "itemSpacing": "{w-check-radio.size.full.sm.gap}",
+                "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
+                "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
+                "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
+                "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
+              }
+            },
+            "icon": {
+              "size": {
+                "$type": "composition",
+                "$value": {
+                  "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
+                  "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
+                }
+              },
+              "style": {
+                "$type": "composition",
+                "$value": {
+                  "fill": "{w-check-radio.style.select.icon.disable}"
+                }
+              }
+            },
+            "label": {
+              "$type": "composition",
+              "$value": {
+                "typography": "{w-check-radio.size.full.sm.typography}",
+                "fill": "{w-check-radio.style.select.label.disable}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

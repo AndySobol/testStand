@@ -1,0 +1,1432 @@
+{
+  "base": {
+    "$type": "color",
+    "white": {
+      "$value": "#FFF"
+    },
+    "black": {
+      "$value": "#000"
+    }
+  },
+  "gray": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#F8F8F8"
+    },
+    "100": {
+      "$value": "#F5F5F5"
+    },
+    "200": {
+      "$value": "#E6E6E6"
+    },
+    "300": {
+      "$value": "#D1D1D1"
+    },
+    "400": {
+      "$value": "#A3A3A3"
+    },
+    "500": {
+      "$value": "#7B7B7B"
+    },
+    "600": {
+      "$value": "#5C5C5C"
+    },
+    "700": {
+      "$value": "#333333"
+    },
+    "800": {
+      "$value": "#292929"
+    },
+    "900": {
+      "$value": "#1F1F1F"
+    },
+    "950": {
+      "$value": "#151515"
+    },
+    "$type": "color"
+  },
+  "mineral": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#F5F7FA"
+    },
+    "100": {
+      "$value": "#F2F5F8"
+    },
+    "200": {
+      "$value": "#E1E4EA"
+    },
+    "300": {
+      "$value": "#CACFD8"
+    },
+    "400": {
+      "$value": "#99A0AE"
+    },
+    "500": {
+      "$value": "#717784"
+    },
+    "600": {
+      "$value": "#525866"
+    },
+    "700": {
+      "$value": "#2B303B"
+    },
+    "800": {
+      "$value": "#222530"
+    },
+    "900": {
+      "$value": "#181B25"
+    },
+    "950": {
+      "$value": "#0E121B"
+    },
+    "$type": "color"
+  },
+  "asphalt": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#FAFAFB"
+    },
+    "100": {
+      "$value": "#F1F2F4"
+    },
+    "200": {
+      "$value": "#DADAE0"
+    },
+    "300": {
+      "$value": "#717184"
+    },
+    "400": {
+      "$value": "#5E5E6E"
+    },
+    "500": {
+      "$value": "#50505E"
+    },
+    "600": {
+      "$value": "#444450"
+    },
+    "700": {
+      "$value": "#393946"
+    },
+    "800": {
+      "$value": "#2D2D39"
+    },
+    "900": {
+      "$value": "#1F1F29"
+    },
+    "950": {
+      "$value": "#111118"
+    },
+    "$type": "color"
+  },
+  "purple": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#f5f7fa"
+    },
+    "100": {
+      "$value": "#f0f5ff"
+    },
+    "200": {
+      "$value": "#dde3f5"
+    },
+    "300": {
+      "$value": "#c9cde6"
+    },
+    "400": {
+      "$value": "#989ebd"
+    },
+    "500": {
+      "$value": "#72789b"
+    },
+    "600": {
+      "$value": "#52557e"
+    },
+    "700": {
+      "$value": "#3b3e6c"
+    },
+    "800": {
+      "$value": "#2b2959"
+    },
+    "900": {
+      "$value": "#14173a"
+    },
+    "950": {
+      "$value": "#0a0526"
+    },
+    "$type": "color"
+  },
+  "red": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#FEF0EF"
+    },
+    "100": {
+      "$value": "#FFE0E0"
+    },
+    "200": {
+      "$value": "#FFC7C6"
+    },
+    "300": {
+      "$value": "#F99E9C"
+    },
+    "400": {
+      "$value": "#F87171"
+    },
+    "500": {
+      "$value": "#FF4247"
+    },
+    "600": {
+      "$value": "#FF272B"
+    },
+    "700": {
+      "$value": "#D60005"
+    },
+    "800": {
+      "$value": "#AA0802"
+    },
+    "900": {
+      "$value": "#870B0B"
+    },
+    "950": {
+      "$value": "#550707"
+    },
+    "$type": "color"
+  },
+  "orange": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#FFF6EC"
+    },
+    "100": {
+      "$value": "#FFEAD5"
+    },
+    "200": {
+      "$value": "#FFD2AA"
+    },
+    "300": {
+      "$value": "#FEB577"
+    },
+    "400": {
+      "$value": "#FB923C"
+    },
+    "500": {
+      "$value": "#FE5E01"
+    },
+    "600": {
+      "$value": "#EA580C"
+    },
+    "700": {
+      "$value": "#C64A01"
+    },
+    "800": {
+      "$value": "#9D3510"
+    },
+    "900": {
+      "$value": "#7E2E12"
+    },
+    "950": {
+      "$value": "#502202"
+    },
+    "$type": "color"
+  },
+  "yellow": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#FFFDEB"
+    },
+    "100": {
+      "$value": "#FFF7D3"
+    },
+    "200": {
+      "$value": "#FFE799"
+    },
+    "300": {
+      "$value": "#FFD87B"
+    },
+    "400": {
+      "$value": "#FFCC69"
+    },
+    "500": {
+      "$value": "#FFD15F"
+    },
+    "600": {
+      "$value": "#F5B400"
+    },
+    "700": {
+      "$value": "#D5901E"
+    },
+    "800": {
+      "$value": "#AD7319"
+    },
+    "900": {
+      "$value": "#8A5812"
+    },
+    "950": {
+      "$value": "#5A3000"
+    },
+    "$type": "color"
+  },
+  "lime": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#F7FEE7"
+    },
+    "100": {
+      "$value": "#ECFCCB"
+    },
+    "200": {
+      "$value": "#D9F99D"
+    },
+    "300": {
+      "$value": "#BEF264"
+    },
+    "400": {
+      "$value": "#A3E635"
+    },
+    "500": {
+      "$value": "#84CC16"
+    },
+    "600": {
+      "$value": "#65A30D"
+    },
+    "700": {
+      "$value": "#4D7C0F"
+    },
+    "800": {
+      "$value": "#3F6212"
+    },
+    "900": {
+      "$value": "#365314"
+    },
+    "950": {
+      "$value": "#2C4507"
+    },
+    "$type": "color"
+  },
+  "green": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#F0FDF4"
+    },
+    "100": {
+      "$value": "#DCFCE7"
+    },
+    "200": {
+      "$value": "#BBF7D0"
+    },
+    "300": {
+      "$value": "#86EFAC"
+    },
+    "400": {
+      "$value": "#4ADE80"
+    },
+    "500": {
+      "$value": "#22C55E"
+    },
+    "600": {
+      "$value": "#16A34A"
+    },
+    "700": {
+      "$value": "#15803D"
+    },
+    "800": {
+      "$value": "#166534"
+    },
+    "900": {
+      "$value": "#14532D"
+    },
+    "950": {
+      "$value": "#0B411F"
+    },
+    "$type": "color"
+  },
+  "cyan": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#ECFEFF"
+    },
+    "100": {
+      "$value": "#CFFAFE"
+    },
+    "200": {
+      "$value": "#A5F3FC"
+    },
+    "300": {
+      "$value": "#67E8F9"
+    },
+    "400": {
+      "$value": "#22D3EE"
+    },
+    "500": {
+      "$value": "#06B6D4"
+    },
+    "600": {
+      "$value": "#0891B2"
+    },
+    "700": {
+      "$value": "#0E7490"
+    },
+    "800": {
+      "$value": "#155E75"
+    },
+    "900": {
+      "$value": "#164E63"
+    },
+    "950": {
+      "$value": "#01404A"
+    },
+    "$type": "color"
+  },
+  "blue": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#EFF6FF"
+    },
+    "100": {
+      "$value": "#DBEAFE"
+    },
+    "200": {
+      "$value": "#BFDBFE"
+    },
+    "300": {
+      "$value": "#93C5FD"
+    },
+    "400": {
+      "$value": "#60A5FA"
+    },
+    "500": {
+      "$value": "#3B82F6"
+    },
+    "600": {
+      "$value": "#2563EB"
+    },
+    "700": {
+      "$value": "#1D4ED8"
+    },
+    "800": {
+      "$value": "#1E40AF"
+    },
+    "900": {
+      "$value": "#1E3A8A"
+    },
+    "950": {
+      "$value": "#062458"
+    },
+    "$type": "color"
+  },
+  "violet": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#F5F3FF"
+    },
+    "100": {
+      "$value": "#EDE9FE"
+    },
+    "200": {
+      "$value": "#DDD6FE"
+    },
+    "300": {
+      "$value": "#C4B5FD"
+    },
+    "400": {
+      "$value": "#A78BFA"
+    },
+    "500": {
+      "$value": "#8B5CF6"
+    },
+    "600": {
+      "$value": "#7C3AED"
+    },
+    "700": {
+      "$value": "#6D28D9"
+    },
+    "800": {
+      "$value": "#5B21B6"
+    },
+    "900": {
+      "$value": "#4C1D95"
+    },
+    "950": {
+      "$value": "#290779"
+    },
+    "$type": "color"
+  },
+  "rose": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#FFF1F2"
+    },
+    "100": {
+      "$value": "#FFE4E6"
+    },
+    "200": {
+      "$value": "#FECDD3"
+    },
+    "300": {
+      "$value": "#FDA4AF"
+    },
+    "400": {
+      "$value": "#FB7185"
+    },
+    "500": {
+      "$value": "#F43F5E"
+    },
+    "600": {
+      "$value": "#E11D48"
+    },
+    "700": {
+      "$value": "#BE123C"
+    },
+    "800": {
+      "$value": "#9F1239"
+    },
+    "900": {
+      "$value": "#881337"
+    },
+    "950": {
+      "$value": "#520512"
+    },
+    "$type": "color"
+  },
+  "pink": {
+    "0": {
+      "$value": "#FFFFFF"
+    },
+    "50": {
+      "$value": "#FFF2F5"
+    },
+    "100": {
+      "$value": "#FFE3ED"
+    },
+    "200": {
+      "$value": "#FF92B9"
+    },
+    "300": {
+      "$value": "#FF7AA0"
+    },
+    "400": {
+      "$value": "#FF5B7E"
+    },
+    "500": {
+      "$value": "#FF3B5F"
+    },
+    "600": {
+      "$value": "#E10931"
+    },
+    "700": {
+      "$value": "#BF0625"
+    },
+    "800": {
+      "$value": "#9C041F"
+    },
+    "900": {
+      "$value": "#7F021A"
+    },
+    "950": {
+      "$value": "#5A0017"
+    },
+    "$type": "color"
+  },
+  "core": {
+    "ff": {
+      "$type": "fontFamilies",
+      "sf-pro": {
+        "$value": "SF Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif"
+      },
+      "sf-pro-display": {
+        "$value": "SF Pro Display, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif"
+      },
+      "sf-mono": {
+        "$value": "SF Mono, -apple-system, BlinkMacSystemFont, Segoe UI Mono, Lucida Console, Menlo, Consolas, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, monospace"
+      },
+      "inter": {
+        "$value": "Inter, sans-serif"
+      },
+      "roboto": {
+        "$value": "Roboto, sans-serif"
+      },
+      "whitney": {
+        "$value": "Whitney, sans-serif"
+      },
+      "pf-din": {
+        "$value": "PF Din Text Comp Pro, Bebas Neue, sans-serif"
+      }
+    },
+    "fw": {
+      "100": {
+        "$value": "100",
+        "$description": "Ultralight"
+      },
+      "200": {
+        "$value": "200",
+        "$description": "Thin"
+      },
+      "300": {
+        "$value": "300",
+        "$description": "Light"
+      },
+      "400": {
+        "$value": "400",
+        "$description": "Regular"
+      },
+      "500": {
+        "$value": "500",
+        "$description": "Medium"
+      },
+      "600": {
+        "$value": "600",
+        "$description": "Semibold"
+      },
+      "700": {
+        "$value": "700",
+        "$description": "Bold"
+      },
+      "800": {
+        "$value": "800",
+        "$description": "Heavy"
+      },
+      "900": {
+        "$value": "900",
+        "$description": "Black"
+      },
+      "$type": "fontWeights"
+    },
+    "fs": {
+      "$type": "number",
+      "static": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round(((0.65 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round(((0.85 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round(((1.15 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.fs.static.base} * {core.fs.static.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.fs.static}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.fs.static}"
+        }
+      },
+      "des": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round(((0.65 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round(((0.85 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round(((1.15 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.fs.des.base} * {core.fs.des.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.fs.des}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.fs.des}"
+        }
+      },
+      "tab": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round(((0.65 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round(((0.85 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round(((1.15 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.fs.tab.base} * {core.fs.tab.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.fs.tab}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.fs.tab}"
+        }
+      },
+      "mob": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round(((0.65 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round(((0.85 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round(((1.15 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.fs.mob.base} * {core.fs.mob.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.fs.mob}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.fs.mob}"
+        }
+      }
+    },
+    "lh": {
+      "$type": "number",
+      "static": {
+        "25": {
+          "$value": "2 * round((({core.fs.static.25} * {core.lh.static.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round((({core.fs.static.50} * {core.lh.static.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round((({core.fs.static.65} * {core.lh.static.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round((({core.fs.static.75} * {core.lh.static.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round((({core.fs.static.85} * {core.lh.static.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round((({core.fs.static.100} * {core.lh.static.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round((({core.fs.static.115} * {core.lh.static.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round((({core.fs.static.125} * {core.lh.static.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round((({core.fs.static.150} * {core.lh.static.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round((({core.fs.static.175} * {core.lh.static.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round((({core.fs.static.200} * {core.lh.static.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round((({core.fs.static.250} * {core.lh.static.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round((({core.fs.static.300} * {core.lh.static.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round((({core.fs.static.350} * {core.lh.static.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round((({core.fs.static.400} * {core.lh.static.scale}) / 2))"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.lh.static}"
+        }
+      },
+      "des": {
+        "25": {
+          "$value": "2 * round((({core.fs.des.25} * {core.lh.des.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round((({core.fs.des.50} * {core.lh.des.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round((({core.fs.des.65} * {core.lh.des.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round((({core.fs.des.75} * {core.lh.des.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round((({core.fs.des.85} * {core.lh.des.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round((({core.fs.des.100} * {core.lh.des.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round((({core.fs.des.115} * {core.lh.des.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round((({core.fs.des.125} * {core.lh.des.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round((({core.fs.des.150} * {core.lh.des.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round((({core.fs.des.175} * {core.lh.des.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round((({core.fs.des.200} * {core.lh.des.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round((({core.fs.des.250} * {core.lh.des.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round((({core.fs.des.300} * {core.lh.des.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round((({core.fs.des.350} * {core.lh.des.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round((({core.fs.des.400} * {core.lh.des.scale}) / 2))"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.lh.des}"
+        }
+      },
+      "tab": {
+        "25": {
+          "$value": "2 * round((({core.fs.tab.25} * {core.lh.tab.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round((({core.fs.tab.50} * {core.lh.tab.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round((({core.fs.tab.65} * {core.lh.tab.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round((({core.fs.tab.75} * {core.lh.tab.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round((({core.fs.tab.85} * {core.lh.tab.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round((({core.fs.tab.100} * {core.lh.tab.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round((({core.fs.tab.115} * {core.lh.tab.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round((({core.fs.tab.125} * {core.lh.tab.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round((({core.fs.tab.150} * {core.lh.tab.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round((({core.fs.tab.175} * {core.lh.tab.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round((({core.fs.tab.200} * {core.lh.tab.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round((({core.fs.tab.250} * {core.lh.tab.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round((({core.fs.tab.300} * {core.lh.tab.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round((({core.fs.tab.350} * {core.lh.tab.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round((({core.fs.tab.400} * {core.lh.tab.scale}) / 2))"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.lh.tab}"
+        }
+      },
+      "mob": {
+        "25": {
+          "$value": "2 * round((({core.fs.mob.25} * {core.lh.mob.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round((({core.fs.mob.50} * {core.lh.mob.scale}) / 2))"
+        },
+        "65": {
+          "$value": "2 * round((({core.fs.mob.65} * {core.lh.mob.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round((({core.fs.mob.75} * {core.lh.mob.scale}) / 2))"
+        },
+        "85": {
+          "$value": "2 * round((({core.fs.mob.85} * {core.lh.mob.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round((({core.fs.mob.100} * {core.lh.mob.scale}) / 2))"
+        },
+        "115": {
+          "$value": "2 * round((({core.fs.mob.115} * {core.lh.mob.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round((({core.fs.mob.125} * {core.lh.mob.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round((({core.fs.mob.150} * {core.lh.mob.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round((({core.fs.mob.175} * {core.lh.mob.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round((({core.fs.mob.200} * {core.lh.mob.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round((({core.fs.mob.250} * {core.lh.mob.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round((({core.fs.mob.300} * {core.lh.mob.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round((({core.fs.mob.350} * {core.lh.mob.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round((({core.fs.mob.400} * {core.lh.mob.scale}) / 2))"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.lh.mob}"
+        }
+      }
+    },
+    "ly": {
+      "$type": "number",
+      "static": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "450": {
+          "$value": "2 * round(((4.5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "500": {
+          "$value": "2 * round(((5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "550": {
+          "$value": "2 * round(((5.5 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "600": {
+          "$value": "2 * round(((6 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "700": {
+          "$value": "2 * round(((7 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "800": {
+          "$value": "2 * round(((8 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "900": {
+          "$value": "2 * round(((9 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "1000": {
+          "$value": "2 * round(((10 * {core.ly.static.base} * {core.ly.static.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.static}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.static}"
+        }
+      },
+      "des": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "450": {
+          "$value": "2 * round(((4.5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "500": {
+          "$value": "2 * round(((5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "550": {
+          "$value": "2 * round(((5.5 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "600": {
+          "$value": "2 * round(((6 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "700": {
+          "$value": "2 * round(((7 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "800": {
+          "$value": "2 * round(((8 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "900": {
+          "$value": "2 * round(((9 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "1000": {
+          "$value": "2 * round(((10 * {core.ly.des.base} * {core.ly.des.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.des}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.des}"
+        }
+      },
+      "tab": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "450": {
+          "$value": "2 * round(((4.5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "500": {
+          "$value": "2 * round(((5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "550": {
+          "$value": "2 * round(((5.5 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "600": {
+          "$value": "2 * round(((6 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "700": {
+          "$value": "2 * round(((7 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "800": {
+          "$value": "2 * round(((8 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "900": {
+          "$value": "2 * round(((9 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "1000": {
+          "$value": "2 * round(((10 * {core.ly.tab.base} * {core.ly.tab.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.tab}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.tab}"
+        }
+      },
+      "mob": {
+        "25": {
+          "$value": "2 * round(((0.25 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "50": {
+          "$value": "2 * round(((0.5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "75": {
+          "$value": "2 * round(((0.75 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "100": {
+          "$value": "2 * round(((1 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "125": {
+          "$value": "2 * round(((1.25 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "150": {
+          "$value": "2 * round(((1.5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "175": {
+          "$value": "2 * round(((1.75 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "200": {
+          "$value": "2 * round(((2 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "250": {
+          "$value": "2 * round(((2.5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "300": {
+          "$value": "2 * round(((3 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "350": {
+          "$value": "2 * round(((3.5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "400": {
+          "$value": "2 * round(((4 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "450": {
+          "$value": "2 * round(((4.5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "500": {
+          "$value": "2 * round(((5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "550": {
+          "$value": "2 * round(((5.5 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "600": {
+          "$value": "2 * round(((6 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "700": {
+          "$value": "2 * round(((7 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "800": {
+          "$value": "2 * round(((8 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "900": {
+          "$value": "2 * round(((9 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "1000": {
+          "$value": "2 * round(((10 * {core.ly.mob.base} * {core.ly.mob.scale}) / 2))"
+        },
+        "base": {
+          "$value": "{cfg.scale.base.mob}"
+        },
+        "scale": {
+          "$value": "{cfg.scale.mult.mob}"
+        }
+      }
+    },
+    "alpha": {
+      "2": {
+        "$value": "0.02"
+      },
+      "4": {
+        "$value": "0.04"
+      },
+      "6": {
+        "$value": "0.06"
+      },
+      "8": {
+        "$value": "0.08"
+      },
+      "10": {
+        "$value": "0.1"
+      },
+      "12": {
+        "$value": "0.12"
+      },
+      "16": {
+        "$value": "0.16"
+      },
+      "20": {
+        "$value": "0.20"
+      },
+      "24": {
+        "$value": "0.24"
+      },
+      "28": {
+        "$value": "0.28"
+      },
+      "32": {
+        "$value": "0.32"
+      },
+      "36": {
+        "$value": "0.36"
+      },
+      "40": {
+        "$value": "0.40"
+      },
+      "48": {
+        "$value": "0.48"
+      },
+      "50": {
+        "$value": "0.50"
+      },
+      "56": {
+        "$value": "0.56"
+      },
+      "64": {
+        "$value": "0.64"
+      },
+      "72": {
+        "$value": "0.72"
+      },
+      "76": {
+        "$value": "0.76"
+      },
+      "80": {
+        "$value": "0.80"
+      },
+      "84": {
+        "$value": "0.84"
+      },
+      "88": {
+        "$value": "0.88"
+      },
+      "90": {
+        "$value": "0.90"
+      },
+      "92": {
+        "$value": "0.92"
+      },
+      "94": {
+        "$value": "0.94"
+      },
+      "96": {
+        "$value": "0.96"
+      },
+      "98": {
+        "$value": "0.98"
+      },
+      "100": {
+        "$value": "1"
+      },
+      "$type": "number",
+      "none": {
+        "$value": "0.01"
+      }
+    }
+  },
+  "tc": {
+    "$type": "textCase",
+    "none": {
+      "$value": "none"
+    },
+    "uppercase": {
+      "$value": "uppercase"
+    },
+    "lowercase": {
+      "$value": "lowercase"
+    },
+    "capitalize": {
+      "$value": "capitalize"
+    }
+  },
+  "td": {
+    "$type": "textDecoration",
+    "none": {
+      "$value": "none"
+    },
+    "underline": {
+      "$value": "underline"
+    },
+    "strike-through": {
+      "$value": "strike-through"
+    }
+  }
+}

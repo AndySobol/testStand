@@ -1,0 +1,106 @@
+{
+  "WSpinner": {
+    "component": {
+      "dots": {
+        "accent": {
+          "$type": "composition",
+          "$value": {
+            "fill": "{w-spinner.style.accent}"
+          }
+        },
+        "neutral": {
+          "$type": "composition",
+          "$value": {
+            "fill": "{w-spinner.style.neutral}"
+          }
+        },
+        "staticBlack": {
+          "$type": "composition",
+          "$value": {
+            "fill": "{w-spinner.style.static.black}"
+          }
+        },
+        "staticWhite": {
+          "$type": "composition",
+          "$value": {
+            "fill": "{w-spinner.style.static.white}"
+          }
+        }
+      },
+      "spinner": {
+        "accent": {
+          "$type": "composition",
+          "$value": {
+            "borderWidth": "{w-spinner.size.spinner.border}",
+            "borderColor": "{w-spinner.style.accent}"
+          }
+        },
+        "neutral": {
+          "$type": "composition",
+          "$value": {
+            "borderWidth": "{w-spinner.size.spinner.border}",
+            "borderColor": "{w-spinner.style.neutral}"
+          }
+        },
+        "staticBlack": {
+          "$type": "composition",
+          "$value": {
+            "borderWidth": "{w-spinner.size.spinner.border}",
+            "borderColor": "{w-spinner.style.static.black}"
+          }
+        },
+        "staticWhite": {
+          "$type": "composition",
+          "$value": {
+            "borderWidth": "{w-spinner.size.spinner.border}",
+            "borderColor": "{w-spinner.style.static.white}"
+          }
+        }
+      },
+      "wrap": {
+        "custom": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-spinner.size.custom.width}",
+            "height": "{w-spinner.size.custom.height}"
+          }
+        },
+        "xs": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-spinner.size.xs.width}",
+            "height": "{w-spinner.size.xs.height}"
+          }
+        },
+        "sm": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-spinner.size.sm.width}",
+            "height": "{w-spinner.size.sm.height}"
+          }
+        },
+        "md": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-spinner.size.md.width}",
+            "height": "{w-spinner.size.md.height}"
+          }
+        },
+        "lg": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-spinner.size.lg.width}",
+            "height": "{w-spinner.size.lg.height}"
+          }
+        },
+        "xl": {
+          "$type": "composition",
+          "$value": {
+            "width": "{w-spinner.size.xl.width}",
+            "height": "{w-spinner.size.xl.height}"
+          }
+        }
+      }
+    }
+  }
+}

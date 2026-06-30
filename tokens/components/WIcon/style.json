@@ -1,0 +1,80 @@
+{
+  "w-icon": {
+    "size": {
+      "wrap": {
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{br.none}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-top": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-bottom": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-left": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        },
+        "sp-right": {
+          "$type": "spacing",
+          "$value": "{sp.none}"
+        }
+      },
+      "icon": {
+        "$type": "sizing",
+        "custom": {
+          "$value": "{sz.md}"
+        },
+        "3xs": {
+          "$value": "{sz.3xs}"
+        },
+        "2xs": {
+          "$value": "{sz.2xs}"
+        },
+        "xs": {
+          "$value": "{sz.xs}"
+        },
+        "sm": {
+          "$value": "{sz.sm}"
+        },
+        "md": {
+          "$value": "{sz.md}"
+        },
+        "lg": {
+          "$value": "{sz.lg}"
+        },
+        "xl": {
+          "$value": "{sz.xl}"
+        },
+        "2xl": {
+          "$value": "{sz.2xl}"
+        },
+        "3xl": {
+          "$value": "{sz.big.2xs}"
+        },
+        "4xl": {
+          "$value": "{sz.big.xs}"
+        },
+        "5xl": {
+          "$value": "{sz.big.sm}"
+        },
+        "6xl": {
+          "$value": "{sz.big.md}"
+        },
+        "7xl": {
+          "$value": "{sz.big.lg}"
+        },
+        "8xl": {
+          "$value": "{sz.big.xl}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "transparent": {
+    "$type": "color",
+    "$value": "{cfg.bg.alpha.white.none}",
+    "$description": "Прозрачный цвет, нужен для теней, заливки и бордера, когда нужен spread"
+  },
+  "overlay": {
+    "$type": "color",
+    "$value": "{cfg.bg.alpha.black.normal}",
+    "$description": "Прозрачный цвет, нужен для теней, заливки и бордера, когда нужен spread"
+  },
+  "bg": {
+    "$type": "color",
+    "body": {
+      "$value": "{cfg.bg.50}"
+    },
+    "weakest": {
+      "$value": "{cfg.bg.0}"
+    },
+    "weaker": {
+      "$value": "{cfg.bg.100}"
+    },
+    "weak": {
+      "$value": "{cfg.bg.200}"
+    },
+    "medium": {
+      "$value": "{cfg.bg.300}"
+    },
+    "strong": {
+      "$value": "{cfg.bg.400}"
+    },
+    "stronger": {
+      "$value": "{cfg.bg.800}"
+    },
+    "strongest": {
+      "$value": "{cfg.bg.950}"
+    },
+    "shadow": {
+      "weakest": {
+        "$value": "{cfg.bg.alpha.shadow.light.weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.bg.alpha.shadow.light.weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.bg.alpha.shadow.light.weak}"
+      },
+      "medium": {
+        "$value": "{cfg.bg.alpha.shadow.light.medium}"
+      },
+      "strong": {
+        "$value": "{cfg.bg.alpha.shadow.light.strong}"
+      },
+      "stronger": {
+        "$value": "{cfg.bg.alpha.shadow.light.stronger}"
+      },
+      "strongest": {
+        "$value": "{cfg.bg.alpha.shadow.light.strongest}"
+      }
+    }
+  },
+  "static": {
+    "$type": "color",
+    "black": {
+      "strong": {
+        "$value": "{cfg.bg.600}"
+      },
+      "stronger": {
+        "$value": "{cfg.bg.800}"
+      },
+      "strongest": {
+        "$value": "{cfg.bg.950}"
+      },
+      "alpha": {
+        "weakest": {
+          "$value": "{cfg.bg.alpha.black.low-weaker}"
+        },
+        "weaker": {
+          "$value": "{cfg.bg.alpha.black.very-weak}"
+        },
+        "weak": {
+          "$value": "{cfg.bg.alpha.black.normal}"
+        },
+        "medium": {
+          "$value": "{cfg.bg.alpha.black.strong}"
+        },
+        "strong": {
+          "$value": "{cfg.bg.alpha.black.stronger}"
+        },
+        "stronger": {
+          "$value": "{cfg.bg.alpha.black.strongest}"
+        },
+        "strongest": {
+          "$value": "{cfg.bg.alpha.black.very-strongest}"
+        }
+      }
+    },
+    "white": {
+      "strong": {
+        "$value": "{cfg.bg.200}"
+      },
+      "stronger": {
+        "$value": "{cfg.bg.100}"
+      },
+      "strongest": {
+        "$value": "{cfg.bg.0}"
+      },
+      "alpha": {
+        "weakest": {
+          "$value": "{cfg.bg.alpha.white.low-weaker}"
+        },
+        "weaker": {
+          "$value": "{cfg.bg.alpha.white.very-weak}"
+        },
+        "weak": {
+          "$value": "{cfg.bg.alpha.white.normal}"
+        },
+        "medium": {
+          "$value": "{cfg.bg.alpha.white.strong}"
+        },
+        "strong": {
+          "$value": "{cfg.bg.alpha.white.stronger}"
+        },
+        "stronger": {
+          "$value": "{cfg.bg.alpha.white.strongest}"
+        },
+        "strongest": {
+          "$value": "{cfg.bg.alpha.white.very-strongest}"
+        }
+      }
+    }
+  },
+  "text": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.layer.0}"
+    },
+    "weaker": {
+      "$value": "{cfg.layer.300}"
+    },
+    "weak": {
+      "$value": "{cfg.layer.400}"
+    },
+    "medium": {
+      "$value": "{cfg.layer.600}"
+    },
+    "strongest": {
+      "$value": "{cfg.layer.950}"
+    }
+  },
+  "icon": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.layer.0}"
+    },
+    "weaker": {
+      "$value": "{cfg.layer.300}"
+    },
+    "weak": {
+      "$value": "{cfg.layer.400}"
+    },
+    "medium": {
+      "$value": "{cfg.layer.600}"
+    },
+    "strongest": {
+      "$value": "{cfg.layer.950}"
+    }
+  },
+  "stroke": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.layer.0}"
+    },
+    "weaker": {
+      "$value": "{cfg.layer.100}"
+    },
+    "weak": {
+      "$value": "{cfg.layer.200}"
+    },
+    "medium": {
+      "$value": "{cfg.layer.300}"
+    },
+    "strongest": {
+      "$value": "{cfg.layer.950}"
+    }
+  },
+  "accent": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.accent.50}"
+    },
+    "weaker": {
+      "$value": "{cfg.accent.100}"
+    },
+    "weak": {
+      "$value": "{cfg.accent.400}"
+    },
+    "medium": {
+      "$value": "{cfg.accent.500}"
+    },
+    "strong": {
+      "$value": "{cfg.accent.600}"
+    },
+    "contrast": {
+      "$value": "{cfg.accent.contrast}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.accent.alpha.low-weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.accent.alpha.low-weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.accent.alpha.very-weak}"
+      },
+      "medium": {
+        "$value": "{cfg.accent.alpha.very-medium}"
+      },
+      "strong": {
+        "$value": "{cfg.accent.alpha.medium}"
+      },
+      "stronger": {
+        "$value": "{cfg.accent.alpha.normal}"
+      },
+      "strongest": {
+        "$value": "{cfg.accent.alpha.strong}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.accent.alpha.stronger}"
+      }
+    }
+  },
+  "secondary": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.secondary.50}"
+    },
+    "weaker": {
+      "$value": "{cfg.secondary.100}"
+    },
+    "weak": {
+      "$value": "{cfg.secondary.400}"
+    },
+    "medium": {
+      "$value": "{cfg.secondary.500}"
+    },
+    "strong": {
+      "$value": "{cfg.secondary.600}"
+    },
+    "contrast": {
+      "$value": "{cfg.secondary.contrast}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.secondary.alpha.low-weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.secondary.alpha.low-weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.secondary.alpha.very-weak}"
+      },
+      "medium": {
+        "$value": "{cfg.secondary.alpha.very-medium}"
+      },
+      "strong": {
+        "$value": "{cfg.secondary.alpha.medium}"
+      },
+      "stronger": {
+        "$value": "{cfg.secondary.alpha.normal}"
+      },
+      "strongest": {
+        "$value": "{cfg.secondary.alpha.strong}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.secondary.alpha.stronger}"
+      }
+    }
+  },
+  "neutral": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.bg.0}"
+    },
+    "weaker": {
+      "$value": "{cfg.bg.100}"
+    },
+    "weakly": {
+      "$value": "{cfg.bg.200}"
+    },
+    "weak": {
+      "$value": "{cfg.bg.600}"
+    },
+    "medium": {
+      "$value": "{cfg.bg.700}"
+    },
+    "strong": {
+      "$value": "{cfg.bg.800}"
+    },
+    "contrast": {
+      "$value": "{cfg.layer.0}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.bg.alpha.neutral.light.weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.bg.alpha.neutral.light.weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.bg.alpha.neutral.light.weak}"
+      },
+      "medium": {
+        "$value": "{cfg.bg.alpha.neutral.light.medium}"
+      },
+      "strong": {
+        "$value": "{cfg.bg.alpha.neutral.light.strong}"
+      },
+      "stronger": {
+        "$value": "{cfg.bg.alpha.neutral.light.stronger}"
+      },
+      "strongest": {
+        "$value": "{cfg.bg.alpha.neutral.light.strongest}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.bg.alpha.neutral.light.very-strongest}"
+      }
+    }
+  },
+  "error": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.error.50}"
+    },
+    "weaker": {
+      "$value": "{cfg.error.100}"
+    },
+    "weak": {
+      "$value": "{cfg.error.400}"
+    },
+    "medium": {
+      "$value": "{cfg.error.500}"
+    },
+    "strong": {
+      "$value": "{cfg.error.600}"
+    },
+    "contrast": {
+      "$value": "{cfg.error.contrast}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.error.alpha.low-weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.error.alpha.low-weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.error.alpha.very-weak}"
+      },
+      "medium": {
+        "$value": "{cfg.error.alpha.very-medium}"
+      },
+      "strong": {
+        "$value": "{cfg.error.alpha.medium}"
+      },
+      "stronger": {
+        "$value": "{cfg.error.alpha.normal}"
+      },
+      "strongest": {
+        "$value": "{cfg.error.alpha.strong}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.error.alpha.stronger}"
+      }
+    }
+  },
+  "warning": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.warning.50}"
+    },
+    "weaker": {
+      "$value": "{cfg.warning.100}"
+    },
+    "weak": {
+      "$value": "{cfg.warning.400}"
+    },
+    "medium": {
+      "$value": "{cfg.warning.500}"
+    },
+    "strong": {
+      "$value": "{cfg.warning.600}"
+    },
+    "contrast": {
+      "$value": "{cfg.warning.contrast}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.warning.alpha.low-weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.warning.alpha.low-weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.warning.alpha.very-weak}"
+      },
+      "medium": {
+        "$value": "{cfg.warning.alpha.very-medium}"
+      },
+      "strong": {
+        "$value": "{cfg.warning.alpha.medium}"
+      },
+      "stronger": {
+        "$value": "{cfg.warning.alpha.normal}"
+      },
+      "strongest": {
+        "$value": "{cfg.warning.alpha.strong}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.warning.alpha.stronger}"
+      }
+    }
+  },
+  "success": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.success.50}"
+    },
+    "weaker": {
+      "$value": "{cfg.success.100}"
+    },
+    "weak": {
+      "$value": "{cfg.success.400}"
+    },
+    "medium": {
+      "$value": "{cfg.success.500}"
+    },
+    "strong": {
+      "$value": "{cfg.success.600}"
+    },
+    "contrast": {
+      "$value": "{cfg.success.contrast}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.success.alpha.low-weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.success.alpha.low-weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.success.alpha.very-weak}"
+      },
+      "medium": {
+        "$value": "{cfg.success.alpha.very-medium}"
+      },
+      "strong": {
+        "$value": "{cfg.success.alpha.medium}"
+      },
+      "stronger": {
+        "$value": "{cfg.success.alpha.normal}"
+      },
+      "strongest": {
+        "$value": "{cfg.success.alpha.strong}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.success.alpha.stronger}"
+      }
+    }
+  },
+  "info": {
+    "$type": "color",
+    "weakest": {
+      "$value": "{cfg.info.50}"
+    },
+    "weaker": {
+      "$value": "{cfg.info.100}"
+    },
+    "weak": {
+      "$value": "{cfg.info.400}"
+    },
+    "medium": {
+      "$value": "{cfg.info.500}"
+    },
+    "strong": {
+      "$value": "{cfg.info.600}"
+    },
+    "contrast": {
+      "$value": "{cfg.info.contrast}"
+    },
+    "alpha": {
+      "weakest": {
+        "$value": "{cfg.info.alpha.low-weakest}"
+      },
+      "weaker": {
+        "$value": "{cfg.info.alpha.low-weaker}"
+      },
+      "weak": {
+        "$value": "{cfg.info.alpha.very-weak}"
+      },
+      "medium": {
+        "$value": "{cfg.info.alpha.very-medium}"
+      },
+      "strong": {
+        "$value": "{cfg.info.alpha.medium}"
+      },
+      "stronger": {
+        "$value": "{cfg.info.alpha.normal}"
+      },
+      "strongest": {
+        "$value": "{cfg.info.alpha.strong}"
+      },
+      "very-strongest": {
+        "$value": "{cfg.info.alpha.stronger}"
+      }
+    }
+  },
+  "other": {
+    "$type": "color",
+    "crypto": {
+      "btc": {
+        "$value": "#FF8126"
+      },
+      "bnb": {
+        "$value": "#F3BA2F"
+      },
+      "eth": {
+        "$value": "#71A0FD"
+      },
+      "usdt": {
+        "$value": "#01AE7B"
+      },
+      "usdc": {
+        "$value": "#0992F2"
+      },
+      "trx": {
+        "$value": "#EF0027"
+      },
+      "ltc": {
+        "$value": "#4855CC"
+      },
+      "matic": {
+        "$value": "#8247E5"
+      },
+      "ton": {
+        "$value": "#37AEE2"
+      }
+    }
+  },
+  "state": {
+    "$type": "color",
+    "disable": {
+      "$value": "{cfg.bg.100}"
+    },
+    "disable-layer": {
+      "$value": "{cfg.layer.300}"
+    },
+    "focus": {
+      "$value": "{cfg.accent.600}"
+    }
+  },
+  "fx": {
+    "alpha": {
+      "$type": "number",
+      "shadow": {
+        "weakest": {
+          "$value": "{core.alpha.4}"
+        },
+        "weaker": {
+          "$value": "{core.alpha.8}"
+        },
+        "weak": {
+          "$value": "{core.alpha.16}"
+        },
+        "medium": {
+          "$value": "{core.alpha.24}"
+        },
+        "strong": {
+          "$value": "{core.alpha.32}"
+        },
+        "stronger": {
+          "$value": "{core.alpha.40}"
+        },
+        "strongest": {
+          "$value": "{core.alpha.48}"
+        }
+      },
+      "neutral": {
+        "weakest": {
+          "$value": "{core.alpha.4}"
+        },
+        "weaker": {
+          "$value": "{core.alpha.16}"
+        },
+        "weak": {
+          "$value": "{core.alpha.24}"
+        },
+        "medium": {
+          "$value": "{core.alpha.32}"
+        },
+        "strong": {
+          "$value": "{core.alpha.48}"
+        },
+        "stronger": {
+          "$value": "{core.alpha.56}"
+        },
+        "strongest": {
+          "$value": "{core.alpha.64}"
+        },
+        "very-strongest": {
+          "$value": "{core.alpha.72}"
+        }
+      },
+      "accent": {
+        "weak": {
+          "$value": "{core.alpha.16}"
+        }
+      }
+    },
+    "opacity": {
+      "$type": "opacity",
+      "none": {
+        "$value": "0"
+      },
+      "weakest": {
+        "$value": "8"
+      },
+      "weaker": {
+        "$value": "16"
+      },
+      "weak": {
+        "$value": "24"
+      },
+      "medium": {
+        "$value": "48"
+      },
+      "strong": {
+        "$value": "64"
+      },
+      "stronger": {
+        "$value": "72"
+      },
+      "strongest": {
+        "$value": "86"
+      },
+      "full": {
+        "$value": "100"
+      }
+    }
+  },
+  "sem": {
+    "w-badge": {
+      "style": {
+        "wrap": {
+          "neutral": {
+            "$type": "color",
+            "$value": "{bg.weak}"
+          }
+        }
+      }
+    },
+    "w-card-provider": {
+      "style": {
+        "wrap": {
+          "$type": "color",
+          "$value": "{bg.body}"
+        }
+      }
+    }
+  }
+}
