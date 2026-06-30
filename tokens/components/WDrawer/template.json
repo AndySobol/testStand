@@ -4,7 +4,6 @@
       "grabber": {
         "hor": {
           "item": {
-            "$type": "composition",
             "$value": {
               "width": "{w-drawer.size.grabber.item.hor.width}",
               "maxWidth": "{w-drawer.size.grabber.item.hor.width}",
@@ -14,10 +13,10 @@
               "minHeight": "{w-drawer.size.grabber.item.hor.height}",
               "borderRadius": "{w-drawer.size.grabber.item.hor.radius}",
               "fill": "{w-drawer.style.grabber}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-drawer.size.grabber.wrap.hor.height}",
               "maxHeight": "{w-drawer.size.grabber.wrap.hor.height}",
@@ -28,12 +27,12 @@
               "paddingRight": "{w-drawer.size.grabber.wrap.hor.sp-right}",
               "paddingBottom": "{w-drawer.size.grabber.wrap.hor.sp-bottom}",
               "paddingLeft": "{w-drawer.size.grabber.wrap.hor.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "ver": {
           "item": {
-            "$type": "composition",
             "$value": {
               "width": "{w-drawer.size.grabber.item.ver.width}",
               "maxWidth": "{w-drawer.size.grabber.item.ver.width}",
@@ -43,10 +42,10 @@
               "minHeight": "{w-drawer.size.grabber.item.ver.height}",
               "borderRadius": "{w-drawer.size.grabber.item.ver.radius}",
               "fill": "{w-drawer.style.grabber}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-drawer.size.grabber.wrap.ver.width}",
               "maxWidth": "{w-drawer.size.grabber.wrap.ver.width}",
@@ -57,14 +56,14 @@
               "paddingRight": "{w-drawer.size.grabber.wrap.ver.sp-right}",
               "paddingBottom": "{w-drawer.size.grabber.wrap.ver.sp-bottom}",
               "paddingLeft": "{w-drawer.size.grabber.wrap.ver.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "float": {
         "left": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.not-radius}",
@@ -79,10 +78,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.float.radius}",
               "itemSpacing": "{w-drawer.size.wrap.float.gap}",
@@ -90,12 +89,12 @@
               "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "right": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.not-radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.radius}",
@@ -110,10 +109,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.float.radius}",
               "itemSpacing": "{w-drawer.size.wrap.float.gap}",
@@ -121,12 +120,12 @@
               "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "middle": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.radius}",
@@ -141,10 +140,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.float.radius}",
               "itemSpacing": "{w-drawer.size.wrap.float.gap}",
@@ -152,12 +151,12 @@
               "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "middle-bottom": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.radius}",
@@ -172,10 +171,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.float.radius}",
               "itemSpacing": "{w-drawer.size.wrap.float.gap}",
@@ -183,14 +182,14 @@
               "paddingRight": "{w-drawer.size.wrap.float.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.float.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.float.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "full": {
         "left": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.not-radius}",
@@ -205,10 +204,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.full.radius}",
               "itemSpacing": "{w-drawer.size.wrap.full.gap}",
@@ -216,12 +215,12 @@
               "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "right": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.not-radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.radius}",
@@ -236,10 +235,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.full.radius}",
               "itemSpacing": "{w-drawer.size.wrap.full.gap}",
@@ -247,12 +246,12 @@
               "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "middle": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.not-radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.not-radius}",
@@ -267,10 +266,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.full.radius}",
               "itemSpacing": "{w-drawer.size.wrap.full.gap}",
@@ -278,12 +277,12 @@
               "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "middle-bottom": {
           "main": {
-            "$type": "composition",
             "$value": {
               "borderRadiusTopLeft": "{w-drawer.size.main.radius}",
               "borderRadiusTopRight": "{w-drawer.size.main.radius}",
@@ -298,10 +297,10 @@
               "borderColor": "{w-drawer.style.stroke}",
               "fill": "{w-drawer.style.main}",
               "boxShadow": "{w-drawer.style.shadow}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-drawer.size.wrap.full.radius}",
               "itemSpacing": "{w-drawer.size.wrap.full.gap}",
@@ -309,7 +308,8 @@
               "paddingRight": "{w-drawer.size.wrap.full.sp-right}",
               "paddingBottom": "{w-drawer.size.wrap.full.sp-bottom}",
               "paddingLeft": "{w-drawer.size.wrap.full.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         }
       }

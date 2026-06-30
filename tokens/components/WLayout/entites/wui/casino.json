@@ -2,12 +2,11 @@
   "casino": {
     "style": {
       "shift-select": {
-        "$type": "boxShadow",
-        "$value": "{sem.entities.casino.layout.style.shift-select}"
+        "$value": "{sem.entities.casino.layout.style.shift-select}",
+        "$type": "shadow"
       }
     },
     "Filers&Sorting": {
-      "$type": "composition",
       "$value": {
         "borderRadius": "{br.none}",
         "itemSpacing": "{sp.md}",
@@ -17,10 +16,10 @@
         "paddingLeft": "{sp.none}",
         "fill": "{transparent}",
         "boxShadow": "{casino.style.shift-select}"
-      }
+      },
+      "$type": "template"
     },
     "tabs-filter": {
-      "$type": "composition",
       "$value": {
         "borderRadius": "{br.none}",
         "itemSpacing": "{sp.big.2xs}",
@@ -28,10 +27,10 @@
         "paddingRight": "{sp.none}",
         "paddingBottom": "{sp.none}",
         "paddingLeft": "{sp.none}"
-      }
+      },
+      "$type": "template"
     },
     "tabs": {
-      "$type": "composition",
       "$value": {
         "borderRadius": "{br.none}",
         "itemSpacing": "{sp.md}",
@@ -39,7 +38,8 @@
         "paddingRight": "{sp.none}",
         "paddingBottom": "{sp.none}",
         "paddingLeft": "{sp.none}"
-      }
+      },
+      "$type": "template"
     }
   }
 }

@@ -5,7 +5,6 @@
         "unselect": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -16,46 +15,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.unselect.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -66,46 +65,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.unselect.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -120,46 +119,46 @@
                 "borderColor": "{w-check-radio.style.unselect.stroke.focus}",
                 "fill": "{w-check-radio.style.unselect.wrap-box.focus}",
                 "boxShadow": "{w-check-radio.style.unselect.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.unselect.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -170,46 +169,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.unselect.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -220,48 +219,48 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.unselect.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "select": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -272,46 +271,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.select.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -322,46 +321,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.select.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -376,46 +375,46 @@
                 "borderColor": "{w-check-radio.style.select.stroke.focus}",
                 "fill": "{w-check-radio.style.select.wrap-box.focus}",
                 "boxShadow": "{w-check-radio.style.select.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.select.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -426,46 +425,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.select.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.xs.max-height}",
@@ -476,41 +475,42 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.xs.gap}",
                 "paddingTop": "{w-check-radio.size.full.xs.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.xs.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.xs.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.xs.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.xs.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.xs.typography}",
                 "fill": "{w-check-radio.style.select.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
@@ -519,7 +519,6 @@
         "unselect": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -530,46 +529,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.unselect.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -580,46 +579,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.unselect.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -634,46 +633,46 @@
                 "borderColor": "{w-check-radio.style.unselect.stroke.focus}",
                 "fill": "{w-check-radio.style.unselect.wrap-box.focus}",
                 "boxShadow": "{w-check-radio.style.unselect.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.unselect.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -684,46 +683,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.unselect.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -734,48 +733,48 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.unselect.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.unselect.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "select": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -786,46 +785,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.select.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -836,46 +835,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.select.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -890,46 +889,46 @@
                 "borderColor": "{w-check-radio.style.select.stroke.focus}",
                 "fill": "{w-check-radio.style.select.wrap-box.focus}",
                 "boxShadow": "{w-check-radio.style.select.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.select.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -940,46 +939,46 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.select.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-check-radio.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-check-radio.size.wrap-box.sm.max-height}",
@@ -990,41 +989,42 @@
                 "paddingRight": "{w-check-radio.size.wrap-box.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.wrap-box.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-check-radio.size.full.sm.gap}",
                 "paddingTop": "{w-check-radio.size.full.sm.sp-top}",
                 "paddingRight": "{w-check-radio.size.full.sm.sp-right}",
                 "paddingBottom": "{w-check-radio.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-check-radio.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxHeight": "{w-check-radio.size.wrap-box.sm.icon}",
                   "minWidth": "{w-check-radio.size.wrap-box.sm.icon}",
                   "maxWidth": "{w-check-radio.size.wrap-box.sm.icon}"
-                }
+                },
+                "$type": "template"
               },
               "style": {
-                "$type": "composition",
                 "$value": {
                   "fill": "{w-check-radio.style.select.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-check-radio.size.full.sm.typography}",
                 "fill": "{w-check-radio.style.select.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         }

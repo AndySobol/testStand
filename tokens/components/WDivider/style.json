@@ -2,161 +2,161 @@
   "w-divider": {
     "style": {
       "wrap": {
-        "$type": "color",
-        "$value": "{bg.weaker}"
+        "$value": "{bg.weaker}",
+        "$type": "color"
       },
       "stroke": {
-        "$type": "color",
-        "$value": "{stroke.weak}"
+        "$value": "{stroke.weak}",
+        "$type": "color"
       },
       "label": {
-        "$type": "color",
-        "$value": "{text.medium}"
+        "$value": "{text.medium}",
+        "$type": "color"
       }
     },
     "size": {
       "clear": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "sizing"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "separator": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "section": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.sm}"
+          "$value": "{br.sm}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.xl}"
+          "$value": "{sp.xl}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.xl}"
+          "$value": "{sp.xl}",
+          "$type": "spacing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         }
       },
       "section-content": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.sm}"
+          "$value": "{br.sm}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         }
       }
     }

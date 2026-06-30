@@ -3,28 +3,28 @@
     "size": {
       "wrap": {
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.none}"
+          "$value": "{br.none}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       }
     }

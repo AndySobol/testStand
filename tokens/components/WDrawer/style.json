@@ -2,19 +2,18 @@
   "w-drawer": {
     "style": {
       "grabber": {
-        "$type": "color",
-        "$value": "{bg.medium}"
+        "$value": "{bg.medium}",
+        "$type": "color"
       },
       "main": {
-        "$type": "color",
-        "$value": "{bg.weakest}"
+        "$value": "{bg.weakest}",
+        "$type": "color"
       },
       "stroke": {
-        "$type": "color",
-        "$value": "{stroke.weaker}"
+        "$value": "{stroke.weaker}",
+        "$type": "color"
       },
       "shadow": {
-        "$type": "boxShadow",
         "$value": {
           "x": "{fx.axis.none}",
           "y": "{fx.axis.100}",
@@ -22,7 +21,8 @@
           "spread": "{fx.spread.n.75}",
           "color": "{bg.shadow.weaker}",
           "type": "dropShadow"
-        }
+        },
+        "$type": "shadow"
       }
     },
     "size": {
@@ -30,181 +30,181 @@
         "item": {
           "hor": {
             "width": {
-              "$type": "sizing",
-              "$value": "36"
+              "$value": "36",
+              "$type": "sizing"
             },
             "height": {
-              "$type": "sizing",
-              "$value": "4"
+              "$value": "4",
+              "$type": "sizing"
             },
             "radius": {
-              "$type": "borderRadius",
-              "$value": "{br.full}"
+              "$value": "{br.full}",
+              "$type": "borderRadius"
             }
           },
           "ver": {
             "width": {
-              "$type": "sizing",
-              "$value": "4"
+              "$value": "4",
+              "$type": "sizing"
             },
             "height": {
-              "$type": "sizing",
-              "$value": "36"
+              "$value": "36",
+              "$type": "sizing"
             },
             "radius": {
-              "$type": "borderRadius",
-              "$value": "{br.full}"
+              "$value": "{br.full}",
+              "$type": "borderRadius"
             }
           }
         },
         "wrap": {
           "hor": {
             "height": {
-              "$type": "sizing",
-              "$value": "{sz.2xs}"
+              "$value": "{sz.2xs}",
+              "$type": "sizing"
             },
             "radius": {
-              "$type": "borderRadius",
-              "$value": "{br.none}"
+              "$value": "{br.none}",
+              "$type": "borderRadius"
             },
             "gap": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           },
           "ver": {
             "width": {
-              "$type": "sizing",
-              "$value": "{sz.2xs}"
+              "$value": "{sz.2xs}",
+              "$type": "sizing"
             },
             "radius": {
-              "$type": "borderRadius",
-              "$value": "{br.none}"
+              "$value": "{br.none}",
+              "$type": "borderRadius"
             },
             "gap": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           }
         }
       },
       "main": {
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         },
         "not-radius": {
-          "$type": "borderRadius",
-          "$value": "{br.none}"
+          "$value": "{br.none}",
+          "$type": "borderRadius"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "wrap": {
         "float": {
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.none}"
+            "$value": "{br.none}",
+            "$type": "borderRadius"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           }
         },
         "full": {
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.none}"
+            "$value": "{br.none}",
+            "$type": "borderRadius"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         }
       }

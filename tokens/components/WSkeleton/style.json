@@ -2,44 +2,44 @@
   "w-skeleton": {
     "style": {
       "wrap": {
-        "$type": "color",
-        "$value": "{bg.weak}"
+        "$value": "{bg.weak}",
+        "$type": "color"
       },
       "wave": {
         "black": {
-          "$type": "color",
-          "$value": "linear-gradient(90deg, {transparent} 0%, {neutral.alpha.medium} 48%, {transparent} 100%)"
+          "$value": "linear-gradient(90deg, {transparent} 0%, {neutral.alpha.medium} 48%, {transparent} 100%)",
+          "$type": "color"
         },
         "white": {
-          "$type": "color",
-          "$value": "linear-gradient(90deg, {transparent} 0%, {static.white.alpha.strong} 48%, {transparent} 100%)"
+          "$value": "linear-gradient(90deg, {transparent} 0%, {static.white.alpha.strong} 48%, {transparent} 100%)",
+          "$type": "color"
         }
       }
     },
     "component": {
       "wave": {
         "black": {
-          "$type": "composition",
           "$value": {
             "width": "100",
             "height": "48",
             "fill": "{w-skeleton.style.wave.black}"
-          }
+          },
+          "$type": "template"
         },
         "white": {
-          "$type": "composition",
           "$value": {
             "width": "100",
             "height": "48",
             "fill": "{w-skeleton.style.wave.white}"
-          }
+          },
+          "$type": "template"
         }
       },
       "vector-wrap": {
-        "$type": "composition",
         "$value": {
           "fill": "{w-skeleton.style.wrap}"
-        }
+        },
+        "$type": "template"
       }
     }
   }

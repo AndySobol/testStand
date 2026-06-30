@@ -1,12 +1,12 @@
 {
   "transparent": {
-    "$type": "color",
     "$value": "{cfg.bg.alpha.white.none}",
+    "$type": "color",
     "$description": "Прозрачный цвет, нужен для теней, заливки и бордера, когда нужен spread"
   },
   "overlay": {
-    "$type": "color",
     "$value": "{cfg.bg.alpha.black.normal}",
+    "$type": "color",
     "$description": "Прозрачный цвет, нужен для теней, заливки и бордера, когда нужен spread"
   },
   "bg": {
@@ -654,8 +654,8 @@
       "style": {
         "wrap": {
           "neutral": {
-            "$type": "color",
-            "$value": "{bg.weak}"
+            "$value": "{bg.weak}",
+            "$type": "color"
           }
         }
       }
@@ -663,8 +663,8 @@
     "w-card-provider": {
       "style": {
         "wrap": {
-          "$type": "color",
-          "$value": "{bg.body}"
+          "$value": "{bg.body}",
+          "$type": "color"
         }
       }
     }

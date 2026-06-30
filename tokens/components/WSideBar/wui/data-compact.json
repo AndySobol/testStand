@@ -149,7 +149,7 @@
     }
   },
   "size": {
-    "$type": "text",
-    "$value": "Compact"
+    "$value": "Compact",
+    "$type": "text"
   }
 }

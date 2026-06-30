@@ -1,7 +1,7 @@
 {
   "mode-size": {
-    "$type": "text",
     "$value": "Tablet",
+    "$type": "text",
     "$description": "Логическая переменная, необходима для переключения внутри figma компонентов"
   },
   "viewport": {
@@ -190,7 +190,7 @@
     }
   },
   "fs": {
-    "$type": "fontSizes",
+    "$type": "fontSize",
     "heading": {
       "2xs": {
         "$value": "{cfg.fs.tab.heading.2xs}"
@@ -290,7 +290,7 @@
     }
   },
   "lh": {
-    "$type": "lineHeights",
+    "$type": "lineHeight",
     "heading": {
       "2xs": {
         "$value": "{cfg.lh.tab.heading.2xs}"
@@ -1738,25 +1738,25 @@
       "slot": {
         "gap": {
           "left": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.none}"
+            "$value": "{cfg.sp.none}",
+            "$type": "spacing"
           },
           "right": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.none}"
+            "$value": "{cfg.sp.none}",
+            "$type": "spacing"
           }
         }
       },
       "img": {
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.xl}"
+          "$value": "{br.xl}",
+          "$type": "borderRadius"
         }
       },
       "state": {
         "description": {
-          "$type": "typography",
-          "$value": "{tp.body.sm.regular}"
+          "$value": "{tp.body.sm.regular}",
+          "$type": "typography"
         }
       }
     },
@@ -1775,8 +1775,8 @@
       },
       "slot": {
         "sp": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.sm}"
+          "$value": "{cfg.sp.static.sm}",
+          "$type": "spacing"
         }
       }
     },
@@ -1947,7 +1947,6 @@
         "layout": {
           "style": {
             "shift-select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "-16",
                 "y": "0",
@@ -1955,7 +1954,8 @@
                 "spread": "16",
                 "color": "#0E121B",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         }
@@ -1964,16 +1964,15 @@
     "w-tab": {
       "size": {
         "fs": {
-          "$type": "fontSizes",
-          "$value": "{cfg.fs.static.title.sm}"
+          "$value": "{cfg.fs.static.title.sm}",
+          "$type": "fontSize"
         },
         "lh": {
-          "$type": "lineHeights",
-          "$value": "{cfg.lh.static.title.sm}"
+          "$value": "{cfg.lh.static.title.sm}",
+          "$type": "lineHeight"
         },
         "hor": {
           "text": {
-            "$type": "typography",
             "$value": {
               "fontFamily": "{ff.title}",
               "fontWeight": "{fw.semibold}",
@@ -1981,30 +1980,31 @@
               "lineHeight": "{sem.w-tab.size.lh}",
               "textDecoration": "{td.none}",
               "textCase": "{tc.none}"
-            }
+            },
+            "$type": "typography"
           }
         },
         "sm": {
           "hor": {
             "height": {
-              "$type": "sizing",
-              "$value": "{cfg.sz.static.md}"
+              "$value": "{cfg.sz.static.md}",
+              "$type": "sizing"
             }
           }
         }
       },
       "group": {
         "first": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.2xl}"
+          "$value": "{cfg.sp.static.2xl}",
+          "$type": "spacing"
         },
         "second": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.2xl}"
+          "$value": "{cfg.sp.static.2xl}",
+          "$type": "spacing"
         },
         "general": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         }
       },
       "logics": {
@@ -2067,22 +2067,22 @@
       "size": {
         "input": {
           "min-height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.mobile.min-height}"
+            "$value": "{sem.w-input.size.mobile.min-height}",
+            "$type": "sizing"
           },
           "max-height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.mobile.max-height}"
+            "$value": "{sem.w-input.size.mobile.max-height}",
+            "$type": "sizing"
           }
         },
         "input-headlabel": {
           "min-height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.input.min-height} + {lh.label.xs}"
+            "$value": "{sem.w-input.size.input.min-height} + {lh.label.xs}",
+            "$type": "sizing"
           },
           "max-height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.input.max-height} + {lh.label.xs}"
+            "$value": "{sem.w-input.size.input.max-height} + {lh.label.xs}",
+            "$type": "sizing"
           }
         }
       }

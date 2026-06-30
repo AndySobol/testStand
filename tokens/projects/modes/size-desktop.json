@@ -1,7 +1,7 @@
 {
   "mode-size": {
-    "$type": "text",
     "$value": "Desktop",
+    "$type": "text",
     "$description": "Логическая переменная, необходима для переключения внутри figma компонентов"
   },
   "viewport": {
@@ -190,7 +190,7 @@
     }
   },
   "fs": {
-    "$type": "fontSizes",
+    "$type": "fontSize",
     "heading": {
       "2xs": {
         "$value": "{cfg.fs.des.heading.2xs}"
@@ -290,7 +290,7 @@
     }
   },
   "lh": {
-    "$type": "lineHeights",
+    "$type": "lineHeight",
     "heading": {
       "2xs": {
         "$value": "{cfg.lh.des.heading.2xs}"
@@ -1738,25 +1738,25 @@
       "slot": {
         "gap": {
           "left": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.none}"
+            "$value": "{cfg.sp.none}",
+            "$type": "spacing"
           },
           "right": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.none}"
+            "$value": "{cfg.sp.none}",
+            "$type": "spacing"
           }
         }
       },
       "img": {
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         }
       },
       "state": {
         "description": {
-          "$type": "typography",
-          "$value": "{tp.body.md.regular}"
+          "$value": "{tp.body.md.regular}",
+          "$type": "typography"
         }
       }
     },
@@ -1775,8 +1775,8 @@
       },
       "slot": {
         "sp": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         }
       }
     },
@@ -1947,7 +1947,6 @@
         "layout": {
           "style": {
             "shift-select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "-16",
                 "y": "0",
@@ -1955,7 +1954,8 @@
                 "spread": "16",
                 "color": "#0E121B",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         }
@@ -1964,16 +1964,15 @@
     "w-tab": {
       "size": {
         "fs": {
-          "$type": "fontSizes",
-          "$value": "{cfg.fs.static.title.lg}"
+          "$value": "{cfg.fs.static.title.lg}",
+          "$type": "fontSize"
         },
         "lh": {
-          "$type": "lineHeights",
-          "$value": "{cfg.lh.static.title.lg}"
+          "$value": "{cfg.lh.static.title.lg}",
+          "$type": "lineHeight"
         },
         "hor": {
           "text": {
-            "$type": "typography",
             "$value": {
               "fontFamily": "{ff.title}",
               "fontWeight": "{fw.semibold}",
@@ -1981,30 +1980,31 @@
               "lineHeight": "{sem.w-tab.size.lh}",
               "textDecoration": "{td.none}",
               "textCase": "{tc.none}"
-            }
+            },
+            "$type": "typography"
           }
         },
         "sm": {
           "hor": {
             "height": {
-              "$type": "sizing",
-              "$value": "{cfg.sz.static.lg}"
+              "$value": "{cfg.sz.static.lg}",
+              "$type": "sizing"
             }
           }
         }
       },
       "group": {
         "first": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.big.3xs}"
+          "$value": "{cfg.sp.static.big.3xs}",
+          "$type": "spacing"
         },
         "second": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         },
         "general": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         }
       },
       "logics": {
@@ -2067,22 +2067,22 @@
       "size": {
         "input": {
           "min-height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.desktop.min-height}"
+            "$value": "{sem.w-input.size.desktop.min-height}",
+            "$type": "sizing"
           },
           "max-height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.desktop.max-height}"
+            "$value": "{sem.w-input.size.desktop.max-height}",
+            "$type": "sizing"
           }
         },
         "input-headlabel": {
           "min-height": {
-            "$type": "number",
-            "$value": "{sem.w-input.size.input.min-height} + 14"
+            "$value": "{sem.w-input.size.input.min-height} + 14",
+            "$type": "number"
           },
           "max-height": {
-            "$type": "number",
-            "$value": "{sem.w-input.size.input.max-height} + 14"
+            "$value": "{sem.w-input.size.input.max-height} + 14",
+            "$type": "number"
           }
         }
       }

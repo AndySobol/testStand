@@ -1,7 +1,6 @@
 {
   "WSectionHeader": {
     "line": {
-      "$type": "composition",
       "$value": {
         "itemSpacing": "{w-section-header.size.wrap.gap}",
         "paddingTop": "{w-section-header.size.wrap.sp-top}",
@@ -10,17 +9,18 @@
         "paddingLeft": "{w-section-header.size.wrap.sp-left}",
         "borderWidthBottom": "{w-section-header.size.wrap.border}",
         "borderColor": "{w-section-header.style.border}"
-      }
+      },
+      "$type": "template"
     },
     "not-line": {
-      "$type": "composition",
       "$value": {
         "itemSpacing": "{w-section-header.size.wrap.gap}",
         "paddingTop": "{w-section-header.size.wrap.sp-top}",
         "paddingRight": "{w-section-header.size.wrap.sp-right}",
         "paddingBottom": "{w-section-header.size.wrap.sp-bottom}",
         "paddingLeft": "{w-section-header.size.wrap.sp-left}"
-      }
+      },
+      "$type": "template"
     }
   }
 }

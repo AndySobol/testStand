@@ -3,7 +3,6 @@
     "style": {
       "shadow": {
         "none": {
-          "$type": "boxShadow",
           "$value": {
             "x": "{fx.axis.none}",
             "y": "{fx.axis.none}",
@@ -11,10 +10,10 @@
             "spread": "{fx.blur.none}",
             "color": "{transparent}",
             "type": "dropShadow"
-          }
+          },
+          "$type": "shadow"
         },
         "window": {
-          "$type": "boxShadow",
           "$value": {
             "x": "{fx.axis.none}",
             "y": "{fx.axis.50}",
@@ -22,10 +21,10 @@
             "spread": "{fx.blur.none}",
             "color": "{bg.shadow.medium}",
             "type": "dropShadow"
-          }
+          },
+          "$type": "shadow"
         },
         "side": {
-          "$type": "boxShadow",
           "$value": {
             "x": "{fx.axis.none}",
             "y": "{fx.axis.50}",
@@ -33,54 +32,55 @@
             "spread": "{fx.blur.none}",
             "color": "{bg.shadow.medium}",
             "type": "dropShadow"
-          }
+          },
+          "$type": "shadow"
         }
       }
     },
     "size": {
       "none": {
-        "$type": "spacing",
-        "$value": "{sp.none}"
+        "$value": "{sp.none}",
+        "$type": "spacing"
       },
       "2xs": {
-        "$type": "spacing",
-        "$value": "{sp.2xs}"
+        "$value": "{sp.2xs}",
+        "$type": "spacing"
       },
       "xs": {
-        "$type": "spacing",
-        "$value": "{sp.xs}"
+        "$value": "{sp.xs}",
+        "$type": "spacing"
       },
       "sm": {
-        "$type": "spacing",
-        "$value": "{sp.sm}"
+        "$value": "{sp.sm}",
+        "$type": "spacing"
       },
       "md": {
-        "$type": "spacing",
-        "$value": "{sp.md}"
+        "$value": "{sp.md}",
+        "$type": "spacing"
       },
       "lg": {
-        "$type": "spacing",
-        "$value": "{sp.lg}"
+        "$value": "{sp.lg}",
+        "$type": "spacing"
       },
       "xl": {
-        "$type": "spacing",
-        "$value": "{sp.xl}"
+        "$value": "{sp.xl}",
+        "$type": "spacing"
       },
       "2xl": {
-        "$type": "spacing",
-        "$value": "{sp.2xl}"
+        "$value": "{sp.2xl}",
+        "$type": "spacing"
       },
       "3xl": {
-        "$type": "spacing",
-        "$value": "{sp.big.xs}"
+        "$value": "{sp.big.xs}",
+        "$type": "spacing"
       },
       "4xl": {
-        "$type": "spacing",
-        "$value": "{sp.big.sm}"
+        "$value": "{sp.big.sm}",
+        "$type": "spacing"
       },
       "5xl": {
-        "$type": "spacing",
-        "$value": "{sp.big.md}"
+        "$value": "{sp.big.md}",
+        "$type": "spacing"
       }
     }
   }

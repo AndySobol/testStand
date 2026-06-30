@@ -3,7 +3,6 @@
     "component": {
       "wrapper": {
         "default": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-event.size.wrap.radius}",
             "itemSpacing": "{w-card-event.size.wrap.gap}",
@@ -11,10 +10,10 @@
             "paddingRight": "{w-card-event.size.wrap.sp-right}",
             "paddingBottom": "{w-card-event.size.wrap.sp-bottom.default}",
             "paddingLeft": "{w-card-event.size.wrap.sp-left}"
-          }
+          },
+          "$type": "template"
         },
         "hover": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-event.size.wrap.radius}",
             "itemSpacing": "{w-card-event.size.wrap.gap}",
@@ -22,12 +21,12 @@
             "paddingRight": "{w-card-event.size.wrap.sp-right}",
             "paddingBottom": "{w-card-event.size.wrap.sp-bottom.hover}",
             "paddingLeft": "{w-card-event.size.wrap.sp-left}"
-          }
+          },
+          "$type": "template"
         }
       },
       "card": {
         "soccer": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-event.size.card.radius}",
             "itemSpacing": "{w-card-event.size.card.gap}",
@@ -39,10 +38,10 @@
             "borderWidth": "{w-card-event.size.card.border}",
             "fill": "{w-card-event.style.card.soccer.wrap}",
             "boxShadow": "{w-card-event.style.card.soccer.shadow}"
-          }
+          },
+          "$type": "template"
         },
         "tennis": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-event.size.card.radius}",
             "itemSpacing": "{w-card-event.size.card.gap}",
@@ -54,10 +53,10 @@
             "borderWidth": "{w-card-event.size.card.border}",
             "fill": "{w-card-event.style.card.tennis.wrap}",
             "boxShadow": "{w-card-event.style.card.tennis.shadow}"
-          }
+          },
+          "$type": "template"
         },
         "hockey": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-event.size.card.radius}",
             "itemSpacing": "{w-card-event.size.card.gap}",
@@ -69,10 +68,10 @@
             "borderWidth": "{w-card-event.size.card.border}",
             "fill": "{w-card-event.style.card.hockey.wrap}",
             "boxShadow": "{w-card-event.style.card.hockey.shadow}"
-          }
+          },
+          "$type": "template"
         },
         "basketball": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-event.size.card.radius}",
             "itemSpacing": "{w-card-event.size.card.gap}",
@@ -84,12 +83,12 @@
             "borderWidth": "{w-card-event.size.card.border}",
             "fill": "{w-card-event.style.card.basketball.wrap}",
             "boxShadow": "{w-card-event.style.card.basketball.shadow}"
-          }
+          },
+          "$type": "template"
         }
       },
       "imageTeam": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "width": "{w-card-event.size.image-team.width}",
             "maxWidth": "{w-card-event.size.image-team.width}",
@@ -105,10 +104,10 @@
             "paddingLeft": "{w-card-event.size.image-team.sp-left}",
             "fill": "{w-card-event.style.image-team.wrap}",
             "boxShadow": "{w-card-event.style.image-team.shadow}"
-          }
+          },
+          "$type": "template"
         },
         "image": {
-          "$type": "composition",
           "$value": {
             "width": "{w-card-event.size.image-team.image}",
             "maxWidth": "{w-card-event.size.image-team.image}",
@@ -116,10 +115,10 @@
             "height": "{w-card-event.size.image-team.image}",
             "maxHeight": "{w-card-event.size.image-team.image}",
             "minHeight": "{w-card-event.size.image-team.image}"
-          }
+          },
+          "$type": "template"
         },
         "image-large": {
-          "$type": "composition",
           "$value": {
             "width": "{w-card-event.size.image-team.image-large}",
             "maxWidth": "{w-card-event.size.image-team.image-large}",
@@ -127,73 +126,74 @@
             "height": "{w-card-event.size.image-team.image-large}",
             "maxHeight": "{w-card-event.size.image-team.image-large}",
             "minHeight": "{w-card-event.size.image-team.image-large}"
-          }
+          },
+          "$type": "template"
         }
       },
       "slots-layout": {
         "header": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.none}",
             "paddingTop": "{sp.md}",
             "paddingRight": "{sp.md}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.md}"
-          }
+          },
+          "$type": "template"
         },
         "header-button": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.xs}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "name": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.none}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "caution": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.body.xs.regular}",
             "fill": "{static.white.strong}"
-          }
+          },
+          "$type": "template"
         },
         "title": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.title.sm.semibold}",
             "fill": "{static.white.strongest}"
-          }
+          },
+          "$type": "template"
         },
         "score": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.xl}",
             "paddingTop": "{sp.xs}",
             "paddingRight": "{sp.xl}",
             "paddingBottom": "{sp.xs}",
             "paddingLeft": "{sp.xl}"
-          }
+          },
+          "$type": "template"
         },
         "footer": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.md}",
             "paddingTop": "{sp.md}",
             "paddingRight": "{sp.md}",
             "paddingBottom": "{sp.md}",
             "paddingLeft": "{sp.md}"
-          }
+          },
+          "$type": "template"
         }
       }
     }
@@ -202,7 +202,6 @@
     "state": {
       "wrap": {
         "default": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-casino.size.state.radius}",
             "itemSpacing": "{w-card-casino.size.state.gap}",
@@ -210,10 +209,10 @@
             "paddingRight": "{w-card-casino.size.state.sp-right}",
             "paddingBottom": "{w-card-casino.size.state.sp-bottom}",
             "paddingLeft": "{w-card-casino.size.state.sp-left}"
-          }
+          },
+          "$type": "template"
         },
         "play": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-casino.size.state.radius}",
             "itemSpacing": "{w-card-casino.size.state.gap}",
@@ -222,10 +221,10 @@
             "paddingBottom": "{w-card-casino.size.state.sp-bottom}",
             "paddingLeft": "{w-card-casino.size.state.sp-left}",
             "fill": "{overlay}"
-          }
+          },
+          "$type": "template"
         },
         "select": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-casino.size.state.radius}",
             "itemSpacing": "{w-card-casino.size.state.gap}",
@@ -234,10 +233,10 @@
             "paddingBottom": "{w-card-casino.size.state.sp-bottom}",
             "paddingLeft": "{w-card-casino.size.state.sp-left}",
             "fill": "{overlay}"
-          }
+          },
+          "$type": "template"
         },
         "not-avalible": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-card-casino.size.state.radius}",
             "itemSpacing": "{w-card-casino.size.state.gap}",
@@ -246,14 +245,14 @@
             "paddingBottom": "{w-card-casino.size.state.sp-bottom}",
             "paddingLeft": "{w-card-casino.size.state.sp-left}",
             "fill": "{overlay}"
-          }
+          },
+          "$type": "template"
         }
       },
       "play": {
         "default": {
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-card-casino.size.state.icon}",
                 "maxWidth": "{w-card-casino.size.state.icon}",
@@ -261,13 +260,14 @@
                 "height": "{w-card-casino.size.state.icon}",
                 "maxHeight": "{w-card-casino.size.state.icon}",
                 "minHeight": "{w-card-casino.size.state.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-button.style.accent.primary.wrap.default}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
@@ -276,7 +276,6 @@
         "default": {
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-card-casino.size.state.icon}",
                 "maxWidth": "{w-card-casino.size.state.icon}",
@@ -284,27 +283,27 @@
                 "height": "{w-card-casino.size.state.icon}",
                 "maxHeight": "{w-card-casino.size.state.icon}",
                 "minHeight": "{w-card-casino.size.state.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-button.style.accent.primary.wrap.default}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
       },
       "not-avalible": {
-        "$type": "composition",
         "$value": {
           "typography": "{w-card-casino.size.state.description}",
           "fill": "{static.white.strongest}"
-        }
+        },
+        "$type": "template"
       }
     },
     "img": {
-      "$type": "composition",
       "$value": {
         "minWidth": "{w-card-casino.size.img.min-width}",
         "maxHeight": "{w-card-casino.size.img.max-height}",
@@ -314,10 +313,10 @@
         "paddingRight": "{w-card-casino.size.img.sp-right}",
         "paddingBottom": "{w-card-casino.size.img.sp-bottom}",
         "paddingLeft": "{w-card-casino.size.img.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "slot-image": {
-      "$type": "composition",
       "$value": {
         "minWidth": "{w-card-casino.size.img.min-width}",
         "minHeight": "{w-card-casino.size.img.min-height}",
@@ -327,83 +326,83 @@
         "paddingRight": "{w-card-casino.size.img.sp-right}",
         "paddingBottom": "{w-card-casino.size.img.sp-bottom}",
         "paddingLeft": "{w-card-casino.size.img.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "content": {
       "left": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-card-casino.size.content.left.gap}",
           "paddingTop": "{w-card-casino.size.content.left.sp-top}",
           "paddingRight": "{w-card-casino.size.content.left.sp-right}",
           "paddingBottom": "{w-card-casino.size.content.left.sp-bottom}",
           "paddingLeft": "{w-card-casino.size.content.left.sp-left}"
-        }
+        },
+        "$type": "template"
       },
       "right": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-card-casino.size.content.right.gap}",
           "paddingTop": "{w-card-casino.size.content.right.sp-top}",
           "paddingRight": "{w-card-casino.size.content.right.sp-right}",
           "paddingBottom": "{w-card-casino.size.content.right.sp-bottom}",
           "paddingLeft": "{w-card-casino.size.content.right.sp-left}"
-        }
+        },
+        "$type": "template"
       },
       "wrap": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-card-casino.size.content.wrap.gap}",
           "paddingTop": "{w-card-casino.size.content.wrap.sp-top}",
           "paddingRight": "{w-card-casino.size.content.wrap.sp-right}",
           "paddingBottom": "{w-card-casino.size.content.wrap.sp-bottom}",
           "paddingLeft": "{w-card-casino.size.content.wrap.sp-left}"
-        }
+        },
+        "$type": "template"
       },
       "skeleton": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-card-casino.size.content.skeleton.gap}",
           "paddingTop": "{w-card-casino.size.content.skeleton.sp-top}",
           "paddingRight": "{w-card-casino.size.content.skeleton.sp-right}",
           "paddingBottom": "{w-card-casino.size.content.skeleton.sp-bottom}",
           "paddingLeft": "{w-card-casino.size.content.skeleton.sp-left}"
-        }
+        },
+        "$type": "template"
       },
       "game-name": {
-        "$type": "composition",
         "$value": {
           "typography": "{w-card-casino.size.content.game-name}",
           "fill": "{text.strongest}"
-        }
+        },
+        "$type": "template"
       },
       "description-name": {
-        "$type": "composition",
         "$value": {
           "typography": "{w-card-casino.size.content.description-name}",
           "fill": "{sem.w-card-casino.content.description-name}"
-        }
+        },
+        "$type": "template"
       },
       "live-value": {
-        "$type": "composition",
         "$value": {
           "typography": "{w-card-casino.size.content.live-value}",
           "fill": "{text.strongest}"
-        }
+        },
+        "$type": "template"
       }
     },
     "slot": {
-      "$type": "composition",
       "$value": {
         "itemSpacing": "{w-card-casino.size.slot.gap}",
         "paddingTop": "{w-card-casino.size.slot.sp-top}",
         "paddingRight": "{w-card-casino.size.slot.sp-right}",
         "paddingBottom": "{w-card-casino.size.slot.sp-bottom}",
         "paddingLeft": "{w-card-casino.size.slot.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "badges": {
-      "$type": "composition",
       "$value": {
         "maxWidth": "{w-card-casino.size.slot.badges.width}",
         "itemSpacing": "{w-card-casino.size.slot.badges.gap}",
@@ -411,21 +410,21 @@
         "paddingRight": "{w-card-casino.size.slot.badges.sp-bottom}",
         "paddingBottom": "{w-card-casino.size.slot.badges.sp-left}",
         "paddingLeft": "{w-card-casino.size.slot.badges.sp-right}"
-      }
+      },
+      "$type": "template"
     },
     "slot-group": {
-      "$type": "composition",
       "$value": {
         "itemSpacing": "{w-card-casino.size.slot-group.gap}",
         "paddingTop": "{w-card-casino.size.slot-group.sp-top}",
         "paddingRight": "{w-card-casino.size.slot-group.sp-right}",
         "paddingBottom": "{w-card-casino.size.slot-group.sp-bottom}",
         "paddingLeft": "{w-card-casino.size.slot-group.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "wrap": {
       "default": {
-        "$type": "composition",
         "$value": {
           "maxWidth": "{w-card-casino.size.wrap.max-width}",
           "minWidth": "{w-card-casino.size.wrap.min-width}",
@@ -434,10 +433,10 @@
           "paddingRight": "{w-card-casino.size.wrap.sp-right}",
           "paddingBottom": "{w-card-casino.size.wrap.sp-bottom}",
           "paddingLeft": "{w-card-casino.size.wrap.sp-left}"
-        }
+        },
+        "$type": "template"
       },
       "hover": {
-        "$type": "composition",
         "$value": {
           "maxWidth": "{w-card-casino.size.wrap.max-width}",
           "minWidth": "{w-card-casino.size.wrap.min-width}",
@@ -446,14 +445,14 @@
           "paddingRight": "{w-card-casino.size.wrap.sp-right}",
           "paddingBottom": "{w-card-casino.size.wrap.sp-bottom}",
           "paddingLeft": "{w-card-casino.size.wrap.sp-left}"
-        }
+        },
+        "$type": "template"
       }
     }
   },
   "WCardProvider": {
     "wrap": {
       "default": {
-        "$type": "composition",
         "$value": {
           "maxWidth": "{w-card-provider.size.wrap.max-width}",
           "minWidth": "{w-card-provider.size.wrap.min-width}",
@@ -466,10 +465,10 @@
           "paddingBottom": "{w-card-provider.size.wrap.sp-bottom}",
           "paddingLeft": "{w-card-provider.size.wrap.sp-left}",
           "fill": "{w-card-provider.style.wrap.default}"
-        }
+        },
+        "$type": "template"
       },
       "hover": {
-        "$type": "composition",
         "$value": {
           "maxWidth": "{w-card-provider.size.wrap.max-width}",
           "minWidth": "{w-card-provider.size.wrap.min-width}",
@@ -482,33 +481,34 @@
           "paddingBottom": "{w-card-provider.size.wrap.sp-bottom}",
           "paddingLeft": "{w-card-provider.size.wrap.sp-left}",
           "fill": "{w-card-provider.style.wrap.hover}"
-        }
+        },
+        "$type": "template"
       }
     },
     "slot": {
-      "$type": "composition",
       "$value": {
         "itemSpacing": "{w-card-provider.size.slot.gap}",
         "paddingTop": "{w-card-provider.size.slot.sp-top}",
         "paddingRight": "{w-card-provider.size.slot.sp-right}",
         "paddingBottom": "{w-card-provider.size.slot.sp-bottom}",
         "paddingLeft": "{w-card-provider.size.slot.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "label": {
       "default": {
-        "$type": "composition",
         "$value": {
           "typography": "{w-card-provider.size.label}",
           "fill": "{w-card-provider.style.label.default}"
-        }
+        },
+        "$type": "template"
       },
       "hover": {
-        "$type": "composition",
         "$value": {
           "typography": "{w-card-provider.size.label}",
           "fill": "{w-card-provider.style.label.hover}"
-        }
+        },
+        "$type": "template"
       }
     }
   }

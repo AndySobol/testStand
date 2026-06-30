@@ -2,85 +2,85 @@
   "w-input-item": {
     "style": {
       "placeholder": {
-        "$type": "color",
-        "$value": "{icon.medium}"
+        "$value": "{icon.medium}",
+        "$type": "color"
       },
       "default": {
-        "$type": "color",
-        "$value": "{icon.medium}"
+        "$value": "{icon.medium}",
+        "$type": "color"
       },
       "hover": {
-        "$type": "color",
-        "$value": "{icon.strongest}"
+        "$value": "{icon.strongest}",
+        "$type": "color"
       },
       "focus": {
-        "$type": "color",
-        "$value": "{icon.medium}"
+        "$value": "{icon.medium}",
+        "$type": "color"
       },
       "select": {
-        "$type": "color",
-        "$value": "{icon.strongest}"
+        "$value": "{icon.strongest}",
+        "$type": "color"
       },
       "typing": {
-        "$type": "color",
-        "$value": "{icon.strongest}"
+        "$value": "{icon.strongest}",
+        "$type": "color"
       },
       "filled": {
-        "$type": "color",
-        "$value": "{icon.strongest}"
+        "$value": "{icon.strongest}",
+        "$type": "color"
       },
       "success": {
-        "$type": "color",
-        "$value": "{icon.strongest}"
+        "$value": "{icon.strongest}",
+        "$type": "color"
       },
       "error": {
-        "$type": "color",
-        "$value": "{icon.strongest}"
+        "$value": "{icon.strongest}",
+        "$type": "color"
       },
       "disable": {
-        "$type": "color",
-        "$value": "{state.disable-layer}"
+        "$value": "{state.disable-layer}",
+        "$type": "color"
       }
     },
     "size": {
       "sm": {
-        "$type": "sizing",
-        "$value": "{cfg.sz.static.2xs}"
+        "$value": "{cfg.sz.static.2xs}",
+        "$type": "sizing"
       },
       "lg": {
-        "$type": "sizing",
-        "$value": "{cfg.sz.static.xs}"
+        "$value": "{cfg.sz.static.xs}",
+        "$type": "sizing"
       },
       "autoheight": {
         "min": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.2xs}"
+          "$value": "{cfg.sz.static.2xs}",
+          "$type": "sizing"
         },
         "max": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.xs}"
+          "$value": "{cfg.sz.static.xs}",
+          "$type": "sizing"
         }
       },
       "wrap": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       }
     }

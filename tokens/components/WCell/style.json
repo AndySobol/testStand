@@ -23,12 +23,12 @@
         }
       },
       "radius": {
-        "$type": "borderRadius",
-        "$value": "{br.none}"
+        "$value": "{br.none}",
+        "$type": "borderRadius"
       },
       "gap": {
-        "$type": "spacing",
-        "$value": "{sp.none}"
+        "$value": "{sp.none}",
+        "$type": "spacing"
       },
       "sp-top": {
         "$type": "spacing",

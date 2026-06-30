@@ -3,87 +3,87 @@
     "style": {
       "header": {
         "title": {
-          "$type": "color",
-          "$value": "{text.medium}"
+          "$value": "{text.medium}",
+          "$type": "color"
         },
         "icon": {
-          "$type": "color",
-          "$value": "{icon.medium}"
+          "$value": "{icon.medium}",
+          "$type": "color"
         },
         "sorting-icon": {
           "all": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           },
           "up": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           },
           "down": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           }
         },
         "wrap": {
           "default": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           }
         }
       },
       "row": {
         "text": {
           "default": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "disable": {
-            "$type": "color",
-            "$value": "{state.disable-layer}"
+            "$value": "{state.disable-layer}",
+            "$type": "color"
           }
         },
         "description": {
           "default": {
-            "$type": "color",
-            "$value": "{text.medium}"
+            "$value": "{text.medium}",
+            "$type": "color"
           },
           "disable": {
-            "$type": "color",
-            "$value": "{state.disable-layer}"
+            "$value": "{state.disable-layer}",
+            "$type": "color"
           }
         },
         "icon": {
           "default": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           },
           "disable": {
-            "$type": "color",
-            "$value": "{state.disable-layer}"
+            "$value": "{state.disable-layer}",
+            "$type": "color"
           }
         },
         "wrap": {
           "default": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "hover": {
-            "$type": "color",
-            "$value": "{neutral.weaker}"
+            "$value": "{neutral.weaker}",
+            "$type": "color"
           },
           "select": {
-            "$type": "color",
-            "$value": "{neutral.weaker}"
+            "$value": "{neutral.weaker}",
+            "$type": "color"
           },
           "disable": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           }
         },
         "stroke": {
           "default": {
-            "$type": "color",
-            "$value": "{stroke.weak}"
+            "$value": "{stroke.weak}",
+            "$type": "color"
           }
         }
       }
@@ -91,85 +91,85 @@
     "size": {
       "sorting-icon": {
         "height": {
-          "$type": "sizing",
-          "$value": "{sz.2xs}"
+          "$value": "{sz.2xs}",
+          "$type": "sizing"
         },
         "width": {
-          "$type": "sizing",
-          "$value": "{sz.2xs}"
+          "$value": "{sz.2xs}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.none}"
+          "$value": "{br.none}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{sz.2xs}"
+          "$value": "{sz.2xs}",
+          "$type": "sizing"
         }
       },
       "slot": {
         "xs": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "sm": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         }
       },
@@ -188,24 +188,24 @@
             }
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "label": {
@@ -220,24 +220,24 @@
               }
             },
             "gap": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           },
           "md": {
@@ -251,231 +251,231 @@
               }
             },
             "gap": {
-              "$type": "spacing",
-              "$value": "{sp.2xs}"
+              "$value": "{sp.2xs}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           }
         },
         "button-group": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.sm}"
+            "$value": "{sp.sm}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "sort-group": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         }
       },
       "slot-th": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "slot-tr": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "th": {
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.none}"
+          "$value": "{br.none}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "tr": {
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.sm}"
+          "$value": "{bw.sm}",
+          "$type": "borderWidth"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.none}"
+          "$value": "{br.none}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "row": {
         "xs": {
           "border": {
-            "$type": "borderWidth",
-            "$value": "{bw.sm}"
+            "$value": "{bw.sm}",
+            "$type": "borderWidth"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.xl}"
+            "$value": "{br.xl}",
+            "$type": "borderRadius"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "sm": {
           "border": {
-            "$type": "borderWidth",
-            "$value": "{bw.sm}"
+            "$value": "{bw.sm}",
+            "$type": "borderWidth"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.none}"
+            "$value": "{br.none}",
+            "$type": "borderRadius"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         }
       }

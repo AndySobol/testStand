@@ -273,7 +273,7 @@
     }
   },
   "size": {
-    "$type": "text",
-    "$value": "Full"
+    "$value": "Full",
+    "$type": "text"
   }
 }

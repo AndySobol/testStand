@@ -1,46 +1,46 @@
 {
   "component": {
-    "$type": "text",
-    "$value": "KZ"
+    "$value": "KZ",
+    "$type": "text"
   },
   "general": {
     "valute": {
-      "$type": "text",
-      "$value": "₸"
+      "$value": "₸",
+      "$type": "text"
     },
     "web-adress": {
-      "$type": "text",
-      "$value": "winline.kz"
+      "$value": "winline.kz",
+      "$type": "text"
     },
     "support": {
-      "$type": "text",
-      "$value": "support@winline.kz"
+      "$value": "support@winline.kz",
+      "$type": "text"
     },
     "phone": {
-      "$type": "text",
-      "$value": "37-37"
+      "$value": "37-37",
+      "$type": "text"
     },
     "code-phone": {
-      "$type": "text",
-      "$value": "＋77"
+      "$value": "＋77",
+      "$type": "text"
     }
   },
   "footer": {
     "caution": {
       "title": {
-        "$type": "text",
-        "$value": "Участие в азартных играх запрещено лицам, не достигшим 21 года."
+        "$value": "Участие в азартных играх запрещено лицам, не достигшим 21 года.",
+        "$type": "text"
       },
       "description": {
-        "$type": "text",
-        "$value": "ТОО \"Sport Plus (Спорт Плюс)\", БИН: 211140018646, 040801, Республика Казахстан, Алматинская область, Қонаев Г.А., г. Қонаев, Микрорайон 1, здание No 34, Нежилое помещение 5"
+        "$value": "ТОО \"Sport Plus (Спорт Плюс)\", БИН: 211140018646, 040801, Республика Казахстан, Алматинская область, Қонаев Г.А., г. Қонаев, Микрорайон 1, здание No 34, Нежилое помещение 5",
+        "$type": "text"
       }
     }
   },
   "header": {
     "warning": {
-      "$type": "boolean",
-      "$value": "true"
+      "$value": "true",
+      "$type": "boolean"
     }
   },
   "side": {

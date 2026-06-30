@@ -1,7 +1,6 @@
 {
   "WIcon": {
     "wrap": {
-      "$type": "composition",
       "$value": {
         "borderRadius": "{w-icon.size.wrap.radius}",
         "itemSpacing": "{w-icon.size.wrap.gap}",
@@ -9,17 +8,17 @@
         "paddingRight": "{w-icon.size.wrap.sp-right}",
         "paddingBottom": "{w-icon.size.wrap.sp-bottom}",
         "paddingLeft": "{w-icon.size.wrap.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "custom": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.custom}",
         "height": "{w-icon.size.icon.custom}"
-      }
+      },
+      "$type": "template"
     },
     "3xs": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.3xs}",
         "maxWidth": "{w-icon.size.icon.3xs}",
@@ -27,10 +26,10 @@
         "height": "{w-icon.size.icon.3xs}",
         "maxHeight": "{w-icon.size.icon.3xs}",
         "minHeight": "{w-icon.size.icon.3xs}"
-      }
+      },
+      "$type": "template"
     },
     "2xs": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.2xs}",
         "maxWidth": "{w-icon.size.icon.2xs}",
@@ -38,10 +37,10 @@
         "height": "{w-icon.size.icon.2xs}",
         "maxHeight": "{w-icon.size.icon.2xs}",
         "minHeight": "{w-icon.size.icon.2xs}"
-      }
+      },
+      "$type": "template"
     },
     "xs": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.xs}",
         "maxWidth": "{w-icon.size.icon.xs}",
@@ -49,10 +48,10 @@
         "height": "{w-icon.size.icon.xs}",
         "maxHeight": "{w-icon.size.icon.xs}",
         "minHeight": "{w-icon.size.icon.xs}"
-      }
+      },
+      "$type": "template"
     },
     "sm": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.sm}",
         "maxWidth": "{w-icon.size.icon.sm}",
@@ -60,10 +59,10 @@
         "height": "{w-icon.size.icon.sm}",
         "maxHeight": "{w-icon.size.icon.sm}",
         "minHeight": "{w-icon.size.icon.sm}"
-      }
+      },
+      "$type": "template"
     },
     "md": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.md}",
         "maxWidth": "{w-icon.size.icon.md}",
@@ -71,10 +70,10 @@
         "height": "{w-icon.size.icon.md}",
         "maxHeight": "{w-icon.size.icon.md}",
         "minHeight": "{w-icon.size.icon.md}"
-      }
+      },
+      "$type": "template"
     },
     "lg": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.lg}",
         "maxWidth": "{w-icon.size.icon.lg}",
@@ -82,10 +81,10 @@
         "height": "{w-icon.size.icon.lg}",
         "maxHeight": "{w-icon.size.icon.lg}",
         "minHeight": "{w-icon.size.icon.lg}"
-      }
+      },
+      "$type": "template"
     },
     "xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.xl}",
         "maxWidth": "{w-icon.size.icon.xl}",
@@ -93,10 +92,10 @@
         "height": "{w-icon.size.icon.xl}",
         "maxHeight": "{w-icon.size.icon.xl}",
         "minHeight": "{w-icon.size.icon.xl}"
-      }
+      },
+      "$type": "template"
     },
     "2xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.2xl}",
         "maxWidth": "{w-icon.size.icon.2xl}",
@@ -104,10 +103,10 @@
         "height": "{w-icon.size.icon.2xl}",
         "maxHeight": "{w-icon.size.icon.2xl}",
         "minHeight": "{w-icon.size.icon.2xl}"
-      }
+      },
+      "$type": "template"
     },
     "3xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.3xl}",
         "maxWidth": "{w-icon.size.icon.3xl}",
@@ -115,10 +114,10 @@
         "height": "{w-icon.size.icon.3xl}",
         "maxHeight": "{w-icon.size.icon.3xl}",
         "minHeight": "{w-icon.size.icon.3xl}"
-      }
+      },
+      "$type": "template"
     },
     "4xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.4xl}",
         "maxWidth": "{w-icon.size.icon.4xl}",
@@ -126,10 +125,10 @@
         "height": "{w-icon.size.icon.4xl}",
         "maxHeight": "{w-icon.size.icon.4xl}",
         "minHeight": "{w-icon.size.icon.4xl}"
-      }
+      },
+      "$type": "template"
     },
     "5xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.5xl}",
         "maxWidth": "{w-icon.size.icon.5xl}",
@@ -137,10 +136,10 @@
         "height": "{w-icon.size.icon.5xl}",
         "maxHeight": "{w-icon.size.icon.5xl}",
         "minHeight": "{w-icon.size.icon.5xl}"
-      }
+      },
+      "$type": "template"
     },
     "6xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.6xl}",
         "maxWidth": "{w-icon.size.icon.6xl}",
@@ -148,10 +147,10 @@
         "height": "{w-icon.size.icon.6xl}",
         "maxHeight": "{w-icon.size.icon.6xl}",
         "minHeight": "{w-icon.size.icon.6xl}"
-      }
+      },
+      "$type": "template"
     },
     "7xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.7xl}",
         "maxWidth": "{w-icon.size.icon.7xl}",
@@ -159,10 +158,10 @@
         "height": "{w-icon.size.icon.7xl}",
         "maxHeight": "{w-icon.size.icon.7xl}",
         "minHeight": "{w-icon.size.icon.7xl}"
-      }
+      },
+      "$type": "template"
     },
     "8xl": {
-      "$type": "composition",
       "$value": {
         "width": "{w-icon.size.icon.8xl}",
         "maxWidth": "{w-icon.size.icon.8xl}",
@@ -170,7 +169,8 @@
         "height": "{w-icon.size.icon.8xl}",
         "maxHeight": "{w-icon.size.icon.8xl}",
         "minHeight": "{w-icon.size.icon.8xl}"
-      }
+      },
+      "$type": "template"
     }
   }
 }

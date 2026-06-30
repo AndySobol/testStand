@@ -3,7 +3,6 @@
     "clear": {
       "none": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -12,10 +11,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.none.clear}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -24,10 +23,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.clear}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -36,10 +35,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.clear}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -48,10 +47,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.none.clear}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -60,10 +59,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.none.clear}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -72,12 +71,12 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.none.clear}"
-          }
+          },
+          "$type": "template"
         }
       },
       "two": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -86,10 +85,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.two.clear}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -98,10 +97,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.clear}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -110,10 +109,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.clear}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -122,10 +121,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.two.clear}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -134,10 +133,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.two.clear}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -146,12 +145,12 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.two.clear}"
-          }
+          },
+          "$type": "template"
         }
       },
       "three": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -160,10 +159,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.three.clear}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -172,10 +171,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.clear}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -184,10 +183,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.clear}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -196,10 +195,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.three.clear}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -208,10 +207,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.three.clear}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -220,12 +219,12 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.three.clear}"
-          }
+          },
+          "$type": "template"
         }
       },
       "four": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -234,10 +233,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.four.clear}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -246,10 +245,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.clear}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -258,10 +257,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.clear}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -270,10 +269,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.four.clear}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -282,10 +281,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.four.clear}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -294,12 +293,12 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.four.clear}"
-          }
+          },
+          "$type": "template"
         }
       },
       "five": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -308,10 +307,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.five.clear}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -320,10 +319,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.clear}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -332,10 +331,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.clear}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -344,10 +343,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.five.clear}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -356,10 +355,10 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.five.clear}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -368,14 +367,14 @@
             "paddingRight": "{w-cell.size.sp-right.clear}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.five.clear}"
-          }
+          },
+          "$type": "template"
         }
       }
     },
     "min": {
       "none": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -384,10 +383,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.none.min}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -396,10 +395,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.min}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -408,10 +407,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.min}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -420,10 +419,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.none.min}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -432,10 +431,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.none.min}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -444,12 +443,12 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.none.min}"
-          }
+          },
+          "$type": "template"
         }
       },
       "two": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -458,10 +457,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.two.min}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -470,10 +469,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.min}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -482,10 +481,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.min}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -494,10 +493,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.two.min}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -506,10 +505,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.two.min}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -518,12 +517,12 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.two.min}"
-          }
+          },
+          "$type": "template"
         }
       },
       "three": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -532,10 +531,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.three.min}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -544,10 +543,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.min}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -556,10 +555,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.min}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -568,10 +567,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.three.min}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -580,10 +579,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.three.min}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -592,12 +591,12 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.three.min}"
-          }
+          },
+          "$type": "template"
         }
       },
       "four": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -606,10 +605,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.four.min}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -618,10 +617,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.min}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -630,10 +629,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.min}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -642,10 +641,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.four.min}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -654,10 +653,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.four.min}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -666,12 +665,12 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.four.min}"
-          }
+          },
+          "$type": "template"
         }
       },
       "five": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -680,10 +679,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.five.min}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -692,10 +691,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.min}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -704,10 +703,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.min}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -716,10 +715,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.five.min}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -728,10 +727,10 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.five.min}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -740,14 +739,14 @@
             "paddingRight": "{w-cell.size.sp-right.min}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.five.min}"
-          }
+          },
+          "$type": "template"
         }
       }
     },
     "normal": {
       "none": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -756,10 +755,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.none.normal}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -768,10 +767,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.normal}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -780,10 +779,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.normal}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -792,10 +791,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.none.normal}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -804,10 +803,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.none.normal}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -816,12 +815,12 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.none.normal}"
-          }
+          },
+          "$type": "template"
         }
       },
       "two": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -830,10 +829,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.two.normal}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -842,10 +841,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.normal}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -854,10 +853,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.normal}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -866,10 +865,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.two.normal}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -878,10 +877,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.two.normal}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -890,12 +889,12 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.two.normal}"
-          }
+          },
+          "$type": "template"
         }
       },
       "three": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -904,10 +903,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.three.normal}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -916,10 +915,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.normal}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -928,10 +927,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.normal}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -940,10 +939,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.three.normal}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -952,10 +951,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.three.normal}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -964,12 +963,12 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.three.normal}"
-          }
+          },
+          "$type": "template"
         }
       },
       "four": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -978,10 +977,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.four.normal}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -990,10 +989,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.normal}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1002,10 +1001,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.normal}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1014,10 +1013,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.four.normal}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1026,10 +1025,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.four.normal}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1038,12 +1037,12 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.four.normal}"
-          }
+          },
+          "$type": "template"
         }
       },
       "five": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1052,10 +1051,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.five.normal}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1064,10 +1063,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.normal}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1076,10 +1075,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.normal}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1088,10 +1087,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.five.normal}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1100,10 +1099,10 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.five.normal}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1112,14 +1111,14 @@
             "paddingRight": "{w-cell.size.sp-right.normal}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.five.normal}"
-          }
+          },
+          "$type": "template"
         }
       }
     },
     "big": {
       "none": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1128,10 +1127,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.none.big}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1140,10 +1139,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.big}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1152,10 +1151,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.none.big}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1164,10 +1163,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.none.big}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1176,10 +1175,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.none.big}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1188,12 +1187,12 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.none.big}"
-          }
+          },
+          "$type": "template"
         }
       },
       "two": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1202,10 +1201,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.two.big}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1214,10 +1213,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.big}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1226,10 +1225,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.two.big}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1238,10 +1237,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.two.big}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1250,10 +1249,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.two.big}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1262,12 +1261,12 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.two.big}"
-          }
+          },
+          "$type": "template"
         }
       },
       "three": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1276,10 +1275,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.three.big}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1288,10 +1287,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.big}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1300,10 +1299,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.three.big}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1312,10 +1311,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.three.big}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1324,10 +1323,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.three.big}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1336,12 +1335,12 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.three.big}"
-          }
+          },
+          "$type": "template"
         }
       },
       "four": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1350,10 +1349,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.four.big}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1362,10 +1361,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.big}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1374,10 +1373,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.four.big}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1386,10 +1385,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.four.big}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1398,10 +1397,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.four.big}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1410,12 +1409,12 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.four.big}"
-          }
+          },
+          "$type": "template"
         }
       },
       "five": {
         "inline": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.inline}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1424,10 +1423,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.inline}",
             "paddingLeft": "{w-cell.size.sp-left.five.big}"
-          }
+          },
+          "$type": "template"
         },
         "2xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.2xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1436,10 +1435,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.2xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.big}"
-          }
+          },
+          "$type": "template"
         },
         "xs": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.xs}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1448,10 +1447,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.xs}",
             "paddingLeft": "{w-cell.size.sp-left.five.big}"
-          }
+          },
+          "$type": "template"
         },
         "sm": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.sm}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1460,10 +1459,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.sm}",
             "paddingLeft": "{w-cell.size.sp-left.five.big}"
-          }
+          },
+          "$type": "template"
         },
         "md": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.md}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1472,10 +1471,10 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.md}",
             "paddingLeft": "{w-cell.size.sp-left.five.big}"
-          }
+          },
+          "$type": "template"
         },
         "lg": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{w-cell.size.height.lg}",
             "borderRadius": "{w-cell.size.radius}",
@@ -1484,7 +1483,8 @@
             "paddingRight": "{w-cell.size.sp-right.big}",
             "paddingBottom": "{w-cell.size.sp-bottom.lg}",
             "paddingLeft": "{w-cell.size.sp-left.five.big}"
-          }
+          },
+          "$type": "template"
         }
       }
     }

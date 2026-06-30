@@ -4,88 +4,88 @@
       "contrast": {
         "wrap": {
           "placeholder": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "default": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "hover": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "focus": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "select": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "typing": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "filled": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "error": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "disable": {
-            "$type": "color",
-            "$value": "{state.disable}"
+            "$value": "{state.disable}",
+            "$type": "color"
           }
         }
       },
       "soft": {
         "wrap": {
           "placeholder": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "default": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "hover": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "focus": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "select": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "typing": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "filled": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "error": {
-            "$type": "color",
-            "$value": "{bg.weaker}"
+            "$value": "{bg.weaker}",
+            "$type": "color"
           },
           "disable": {
-            "$type": "color",
-            "$value": "{state.disable}"
+            "$value": "{state.disable}",
+            "$type": "color"
           }
         }
       }
@@ -93,117 +93,117 @@
     "size": {
       "sm": {
         "height": {
-          "$type": "sizing",
-          "$value": "{sem.w-input.size.input.min-height}"
+          "$value": "{sem.w-input.size.input.min-height}",
+          "$type": "sizing"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.sm}"
+          "$value": "{sp.sm}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.sm}"
+          "$value": "{sp.sm}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "with-headlabel": {
           "height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.input-headlabel.min-height}"
+            "$value": "{sem.w-input.size.input-headlabel.min-height}",
+            "$type": "sizing"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.2xl}"
+            "$value": "{br.2xl}",
+            "$type": "borderRadius"
           }
         }
       },
       "lg": {
         "height": {
-          "$type": "sizing",
-          "$value": "{sem.w-input.size.input.max-height}"
+          "$value": "{sem.w-input.size.input.max-height}",
+          "$type": "sizing"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "with-headlabel": {
           "height": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.input-headlabel.max-height}"
+            "$value": "{sem.w-input.size.input-headlabel.max-height}",
+            "$type": "sizing"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.big.3xs}"
+            "$value": "{br.big.3xs}",
+            "$type": "borderRadius"
           }
         }
       },
       "autoheight": {
         "height-min": {
-          "$type": "sizing",
-          "$value": "{sem.w-input.size.input.min-height}"
+          "$value": "{sem.w-input.size.input.min-height}",
+          "$type": "sizing"
         },
         "height-max": {
-          "$type": "sizing",
-          "$value": "{sem.w-input.size.input.max-height}"
+          "$value": "{sem.w-input.size.input.max-height}",
+          "$type": "sizing"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.lg}"
+          "$value": "{sp.lg}",
+          "$type": "spacing"
         },
         "with-headlabel": {
           "height-min": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.input-headlabel.min-height}"
+            "$value": "{sem.w-input.size.input-headlabel.min-height}",
+            "$type": "sizing"
           },
           "height-max": {
-            "$type": "sizing",
-            "$value": "{sem.w-input.size.input-headlabel.max-height}"
+            "$value": "{sem.w-input.size.input-headlabel.max-height}",
+            "$type": "sizing"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.big.3xs}"
+            "$value": "{br.big.3xs}",
+            "$type": "borderRadius"
           }
         }
       }

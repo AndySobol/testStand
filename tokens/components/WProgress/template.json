@@ -5,7 +5,6 @@
         "item": {
           "clear": {
             "start": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -15,10 +14,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.clear}"
-              }
+              },
+              "$type": "template"
             },
             "middle": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -28,10 +27,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.clear}"
-              }
+              },
+              "$type": "template"
             },
             "end": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -41,12 +40,12 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
                 "fill": "{w-progress.style.clear}"
-              }
+              },
+              "$type": "template"
             }
           },
           "progress": {
             "start": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -56,10 +55,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.progress}"
-              }
+              },
+              "$type": "template"
             },
             "middle": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -69,10 +68,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.progress}"
-              }
+              },
+              "$type": "template"
             },
             "end": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -82,12 +81,12 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
                 "fill": "{w-progress.style.progress}"
-              }
+              },
+              "$type": "template"
             }
           },
           "success": {
             "start": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -97,10 +96,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.success}"
-              }
+              },
+              "$type": "template"
             },
             "middle": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -110,10 +109,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.success}"
-              }
+              },
+              "$type": "template"
             },
             "end": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -123,12 +122,12 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
                 "fill": "{w-progress.style.success}"
-              }
+              },
+              "$type": "template"
             }
           },
           "error": {
             "start": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -138,10 +137,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.error}"
-              }
+              },
+              "$type": "template"
             },
             "middle": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -151,10 +150,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.error}"
-              }
+              },
+              "$type": "template"
             },
             "end": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -164,12 +163,12 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
                 "fill": "{w-progress.style.error}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "start": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -179,10 +178,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.disable}"
-              }
+              },
+              "$type": "template"
             },
             "middle": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -192,10 +191,10 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.not-radius}",
                 "fill": "{w-progress.style.disable}"
-              }
+              },
+              "$type": "template"
             },
             "end": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-progress.size.bar.item.height}",
                 "maxHeight": "{w-progress.size.bar.item.max-height}",
@@ -205,12 +204,12 @@
                 "borderRadiusBottomLeft": "{w-progress.size.bar.item.not-radius}",
                 "borderRadiusBottomRight": "{w-progress.size.bar.item.radius}",
                 "fill": "{w-progress.style.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "wrap": {
-          "$type": "composition",
           "$value": {
             "height": "{w-progress.size.bar.wrap.height}",
             "maxHeight": "{w-progress.size.bar.wrap.max-height}",
@@ -222,10 +221,10 @@
             "paddingBottom": "{w-progress.size.bar.wrap.sp-bottom}",
             "paddingLeft": "{w-progress.size.bar.wrap.sp-left}",
             "fill": "{w-progress.style.wrap}"
-          }
+          },
+          "$type": "template"
         },
         "wrap-static": {
-          "$type": "composition",
           "$value": {
             "height": "{w-progress.size.bar.wrap.height}",
             "maxHeight": "{w-progress.size.bar.wrap.max-height}",
@@ -237,14 +236,14 @@
             "paddingBottom": "{w-progress.size.bar.wrap.sp-bottom}",
             "paddingLeft": "{w-progress.size.bar.wrap.sp-left}",
             "fill": "{w-progress.style.wrap-static}"
-          }
+          },
+          "$type": "template"
         }
       },
       "circle": {
         "xs": {
           "progress": {
             "base": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
@@ -252,10 +251,10 @@
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}",
                 "fill": "{w-progress.style.wrap}"
-              }
+              },
+              "$type": "template"
             },
             "vector": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
@@ -263,22 +262,22 @@
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}",
                 "fill": "{w-progress.style.progress}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
                 "height": "{w-progress.size.circle.xs.height}",
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}"
-              }
+              },
+              "$type": "template"
             }
           },
           "success": {
             "base": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
@@ -286,10 +285,10 @@
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}",
                 "fill": "{w-progress.style.wrap}"
-              }
+              },
+              "$type": "template"
             },
             "vector": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
@@ -297,22 +296,22 @@
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}",
                 "fill": "{w-progress.style.success}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
                 "height": "{w-progress.size.circle.xs.height}",
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}"
-              }
+              },
+              "$type": "template"
             }
           },
           "error": {
             "base": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
@@ -320,10 +319,10 @@
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}",
                 "fill": "{w-progress.style.wrap}"
-              }
+              },
+              "$type": "template"
             },
             "vector": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
@@ -331,24 +330,24 @@
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}",
                 "fill": "{w-progress.style.error}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.xs.width}",
                 "minWidth": "{w-progress.size.circle.xs.width}",
                 "height": "{w-progress.size.circle.xs.height}",
                 "minHeight": "{w-progress.size.circle.xs.height}",
                 "borderRadius": "{w-progress.size.circle.xs.radius}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "sm": {
           "progress": {
             "base": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
@@ -356,10 +355,10 @@
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}",
                 "fill": "{w-progress.style.wrap}"
-              }
+              },
+              "$type": "template"
             },
             "vector": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
@@ -367,22 +366,22 @@
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}",
                 "fill": "{w-progress.style.progress}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
                 "height": "{w-progress.size.circle.sm.height}",
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}"
-              }
+              },
+              "$type": "template"
             }
           },
           "success": {
             "base": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
@@ -390,10 +389,10 @@
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}",
                 "fill": "{w-progress.style.wrap}"
-              }
+              },
+              "$type": "template"
             },
             "vector": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
@@ -401,22 +400,22 @@
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}",
                 "fill": "{w-progress.style.success}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
                 "height": "{w-progress.size.circle.sm.height}",
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}"
-              }
+              },
+              "$type": "template"
             }
           },
           "error": {
             "base": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
@@ -424,10 +423,10 @@
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}",
                 "fill": "{w-progress.style.wrap}"
-              }
+              },
+              "$type": "template"
             },
             "vector": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
@@ -435,17 +434,18 @@
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}",
                 "fill": "{w-progress.style.error}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "width": "{w-progress.size.circle.sm.width}",
                 "minWidth": "{w-progress.size.circle.sm.width}",
                 "height": "{w-progress.size.circle.sm.height}",
                 "minHeight": "{w-progress.size.circle.sm.height}",
                 "borderRadius": "{w-progress.size.circle.sm.radius}"
-              }
+              },
+              "$type": "template"
             }
           }
         }

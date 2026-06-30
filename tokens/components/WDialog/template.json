@@ -2,7 +2,6 @@
   "WDialog": {
     "component": {
       "wrap": {
-        "$type": "composition",
         "$value": {
           "minWidth": "{w-dialog.size.wrap.min-width}",
           "borderRadius": "{w-dialog.size.wrap.radius}",
@@ -15,26 +14,26 @@
           "borderColor": "{w-dialog.style.stroke}",
           "fill": "{w-dialog.style.wrap}",
           "boxShadow": "{w-dialog.style.shadow}"
-        }
+        },
+        "$type": "template"
       },
       "slot": {
         "header": {
           "title": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-dialog.size.slot.header.title}",
               "fill": "{w-dialog.style.header.title}"
-            }
+            },
+            "$type": "template"
           },
           "description": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-dialog.size.slot.header.description}",
               "fill": "{w-dialog.style.header.description}"
-            }
+            },
+            "$type": "template"
           },
           "title-wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-dialog.size.slot.header.title-wrap.radius}",
               "itemSpacing": "{w-dialog.size.slot.header.title-wrap.gap}",
@@ -42,10 +41,10 @@
               "paddingRight": "{w-dialog.size.slot.header.title-wrap.sp-right}",
               "paddingBottom": "{w-dialog.size.slot.header.title-wrap.sp-bottom}",
               "paddingLeft": "{w-dialog.size.slot.header.title-wrap.sp-left}"
-            }
+            },
+            "$type": "template"
           },
           "button-wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-dialog.size.slot.header.button-wrap.radius}",
               "itemSpacing": "{w-dialog.size.slot.header.button-wrap.gap}",
@@ -53,10 +52,10 @@
               "paddingRight": "{w-dialog.size.slot.header.button-wrap.sp-right}",
               "paddingBottom": "{w-dialog.size.slot.header.button-wrap.sp-bottom}",
               "paddingLeft": "{w-dialog.size.slot.header.button-wrap.sp-left}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-dialog.size.slot.header.wrap.radius}",
               "itemSpacing": "{w-dialog.size.slot.header.wrap.gap}",
@@ -66,26 +65,26 @@
               "paddingLeft": "{w-dialog.size.slot.header.wrap.sp-left}",
               "borderWidthBottom": "{w-dialog.size.wrap.border}",
               "borderColor": "{w-dialog.style.stroke}"
-            }
+            },
+            "$type": "template"
           }
         },
         "content": {
           "title": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-dialog.size.slot.content.title}",
               "fill": "{w-dialog.style.content.title}"
-            }
+            },
+            "$type": "template"
           },
           "description": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-dialog.size.slot.content.description}",
               "fill": "{w-dialog.style.content.text}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "maxWidth": "{w-dialog.size.slot.content.max-width}",
               "borderRadius": "{w-dialog.size.slot.content.wrap.radius}",
@@ -94,12 +93,12 @@
               "paddingRight": "{w-dialog.size.slot.content.wrap.sp-right}",
               "paddingBottom": "{w-dialog.size.slot.content.wrap.sp-bottom}",
               "paddingLeft": "{w-dialog.size.slot.content.wrap.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "footer": {
           "button-wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-dialog.size.slot.footer.button-wrap.radius}",
               "itemSpacing": "{w-dialog.size.slot.footer.button-wrap.gap}",
@@ -107,10 +106,10 @@
               "paddingRight": "{w-dialog.size.slot.footer.button-wrap.sp-right}",
               "paddingBottom": "{w-dialog.size.slot.footer.button-wrap.sp-bottom}",
               "paddingLeft": "{w-dialog.size.slot.footer.button-wrap.sp-left}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{w-dialog.size.slot.footer.wrap.radius}",
               "itemSpacing": "{w-dialog.size.slot.footer.wrap.gap}",
@@ -120,7 +119,8 @@
               "paddingLeft": "{w-dialog.size.slot.footer.wrap.sp-left}",
               "borderWidthTop": "{w-dialog.size.wrap.border}",
               "borderColor": "{w-dialog.style.stroke}"
-            }
+            },
+            "$type": "template"
           }
         }
       }

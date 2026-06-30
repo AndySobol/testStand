@@ -2,35 +2,35 @@
   "w-section-header": {
     "style": {
       "border": {
-        "$type": "color",
-        "$value": "{stroke.medium}"
+        "$value": "{stroke.medium}",
+        "$type": "color"
       }
     },
     "size": {
       "wrap": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sz.none}"
+          "$value": "{sz.none}",
+          "$type": "spacing"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         }
       }
     }

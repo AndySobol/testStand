@@ -3,7 +3,6 @@
     "component": {
       "full": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "width": "{w-banner.size.full.wrap.width}",
             "height": "{w-banner.size.full.wrap.height}",
@@ -16,10 +15,10 @@
             "paddingBottom": "{w-banner.size.full.wrap.sp-bottom}",
             "paddingLeft": "{w-banner.size.full.wrap.sp-left}",
             "fill": "{w-banner.style.wrap.default}"
-          }
+          },
+          "$type": "template"
         },
         "content": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-banner.size.full.content.radius}",
             "itemSpacing": "{w-banner.size.full.content.gap}",
@@ -27,22 +26,22 @@
             "paddingRight": "{w-banner.size.full.content.sp-right}",
             "paddingBottom": "{w-banner.size.full.content.sp-bottom}",
             "paddingLeft": "{w-banner.size.full.content.sp-left}"
-          }
+          },
+          "$type": "template"
         },
         "title": {
-          "$type": "composition",
           "$value": {
             "fontFamilies": "PF Din Text Comp Pro",
             "fontWeights": "Bold Italic",
             "fontSizes": "32px",
             "lineHeights": "44px",
             "fill": "{text.strongest}"
-          }
+          },
+          "$type": "template"
         }
       },
       "compact": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "width": "{w-banner.size.compact.wrap.width}",
             "height": "{w-banner.size.compact.wrap.height}",
@@ -55,10 +54,10 @@
             "paddingBottom": "{w-banner.size.compact.wrap.sp-bottom}",
             "paddingLeft": "{w-banner.size.compact.wrap.sp-left}",
             "fill": "{w-banner.style.wrap.default}"
-          }
+          },
+          "$type": "template"
         },
         "content": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-banner.size.compact.content.radius}",
             "itemSpacing": "{w-banner.size.compact.content.gap}",
@@ -66,17 +65,18 @@
             "paddingRight": "{w-banner.size.compact.content.sp-right}",
             "paddingBottom": "{w-banner.size.compact.content.sp-bottom}",
             "paddingLeft": "{w-banner.size.compact.content.sp-left}"
-          }
+          },
+          "$type": "template"
         },
         "title": {
-          "$type": "composition",
           "$value": {
             "fontFamilies": "PF Din Text Comp Pro",
             "fontWeights": "Bold Italic",
             "fontSizes": "32px",
             "lineHeights": "44px",
             "fill": "{text.strongest}"
-          }
+          },
+          "$type": "template"
         }
       }
     }

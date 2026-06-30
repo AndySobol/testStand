@@ -3,7 +3,6 @@
     "component": {
       "header": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "width": "{w-date.size.header.width}",
             "minWidth": "{w-date.size.header.width}",
@@ -17,20 +16,20 @@
             "paddingBottom": "{w-date.size.header.sp-bottom}",
             "paddingLeft": "{w-date.size.header.sp-left}",
             "fill": "{w-date.style.header.wrap.default}"
-          }
+          },
+          "$type": "template"
         },
         "label": {
-          "$type": "composition",
           "$value": {
             "typography": "{w-date.size.header.label}",
             "fill": "{w-date.style.header.label.default}"
-          }
+          },
+          "$type": "template"
         }
       },
       "item": {
         "default": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.item.width}",
               "maxWidth": "{w-date.size.item.width}",
@@ -45,19 +44,19 @@
               "paddingBottom": "{w-date.size.item.sp-bottom}",
               "paddingLeft": "{w-date.size.item.sp-left}",
               "fill": "{w-date.style.item.wrap.default}"
-            }
+            },
+            "$type": "template"
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-date.size.item.label}",
               "fill": "{w-date.style.item.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "hover": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.item.width}",
               "maxWidth": "{w-date.size.item.width}",
@@ -72,19 +71,19 @@
               "paddingBottom": "{w-date.size.item.sp-bottom}",
               "paddingLeft": "{w-date.size.item.sp-left}",
               "fill": "{w-date.style.item.wrap.hover}"
-            }
+            },
+            "$type": "template"
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-date.size.item.label}",
               "fill": "{w-date.style.item.label.hover}"
-            }
+            },
+            "$type": "template"
           }
         },
         "active": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.item.width}",
               "maxWidth": "{w-date.size.item.width}",
@@ -99,19 +98,19 @@
               "paddingBottom": "{w-date.size.item.sp-bottom}",
               "paddingLeft": "{w-date.size.item.sp-left}",
               "fill": "{w-date.style.item.wrap.active}"
-            }
+            },
+            "$type": "template"
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-date.size.item.label}",
               "fill": "{w-date.style.item.label.active}"
-            }
+            },
+            "$type": "template"
           }
         },
         "range": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.item.width}",
               "maxWidth": "{w-date.size.item.width}",
@@ -126,19 +125,19 @@
               "paddingBottom": "{w-date.size.item.sp-bottom}",
               "paddingLeft": "{w-date.size.item.sp-left}",
               "fill": "{w-date.style.item.wrap.range}"
-            }
+            },
+            "$type": "template"
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-date.size.item.label}",
               "fill": "{w-date.style.item.label.range}"
-            }
+            },
+            "$type": "template"
           }
         },
         "dayoff": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.item.width}",
               "maxWidth": "{w-date.size.item.width}",
@@ -153,19 +152,19 @@
               "paddingBottom": "{w-date.size.item.sp-bottom}",
               "paddingLeft": "{w-date.size.item.sp-left}",
               "fill": "{w-date.style.item.wrap.dayoff}"
-            }
+            },
+            "$type": "template"
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-date.size.item.label}",
               "fill": "{w-date.style.item.label.dayoff}"
-            }
+            },
+            "$type": "template"
           }
         },
         "disable": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.item.width}",
               "maxWidth": "{w-date.size.item.width}",
@@ -180,21 +179,21 @@
               "paddingBottom": "{w-date.size.item.sp-bottom}",
               "paddingLeft": "{w-date.size.item.sp-left}",
               "fill": "{w-date.style.item.wrap.disable}"
-            }
+            },
+            "$type": "template"
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-date.size.item.label}",
               "fill": "{w-date.style.item.label.disable}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "cell": {
         "default": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.cell.width}",
               "minWidth": "{w-date.size.cell.width}",
@@ -211,12 +210,12 @@
               "paddingBottom": "{w-date.size.cell.sp-bottom}",
               "paddingLeft": "{w-date.size.cell.sp-left}",
               "fill": "{w-date.style.cell.wrap.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "range-start": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.cell.width}",
               "minWidth": "{w-date.size.cell.width}",
@@ -233,12 +232,12 @@
               "paddingBottom": "{w-date.size.cell.sp-bottom}",
               "paddingLeft": "{w-date.size.cell.sp-left}",
               "fill": "{w-date.style.cell.wrap.range}"
-            }
+            },
+            "$type": "template"
           }
         },
         "range-middle": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.cell.width}",
               "minWidth": "{w-date.size.cell.width}",
@@ -255,12 +254,12 @@
               "paddingBottom": "{w-date.size.cell.sp-bottom}",
               "paddingLeft": "{w-date.size.cell.sp-left}",
               "fill": "{w-date.style.cell.wrap.range}"
-            }
+            },
+            "$type": "template"
           }
         },
         "range-end": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.cell.width}",
               "minWidth": "{w-date.size.cell.width}",
@@ -277,12 +276,12 @@
               "paddingBottom": "{w-date.size.cell.sp-bottom}",
               "paddingLeft": "{w-date.size.cell.sp-left}",
               "fill": "{w-date.style.cell.wrap.range}"
-            }
+            },
+            "$type": "template"
           }
         },
         "day-off": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.cell.width}",
               "minWidth": "{w-date.size.cell.width}",
@@ -299,12 +298,12 @@
               "paddingBottom": "{w-date.size.cell.sp-bottom}",
               "paddingLeft": "{w-date.size.cell.sp-left}",
               "fill": "{w-date.style.cell.wrap.dayoff}"
-            }
+            },
+            "$type": "template"
           }
         },
         "disable": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "width": "{w-date.size.cell.width}",
               "minWidth": "{w-date.size.cell.width}",
@@ -321,13 +320,13 @@
               "paddingBottom": "{w-date.size.cell.sp-bottom}",
               "paddingLeft": "{w-date.size.cell.sp-left}",
               "fill": "{w-date.style.cell.wrap.disable}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "row": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-date.size.row.radius}",
             "itemSpacing": "{w-date.size.row.gap}",
@@ -335,12 +334,12 @@
             "paddingRight": "{w-date.size.row.sp-right}",
             "paddingBottom": "{w-date.size.row.sp-bottom}",
             "paddingLeft": "{w-date.size.row.sp-left}"
-          }
+          },
+          "$type": "template"
         }
       },
       "selector": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-date.size.selector.wrap.radius}",
             "itemSpacing": "{w-date.size.selector.wrap.gap}",
@@ -349,10 +348,10 @@
             "paddingBottom": "{w-date.size.selector.wrap.sp-bottom}",
             "paddingLeft": "{w-date.size.selector.wrap.sp-left}",
             "fill": "{w-date.style.selector.wrap}"
-          }
+          },
+          "$type": "template"
         },
         "label-wrap": {
-          "$type": "composition",
           "$value": {
             "height": "{w-date.size.selector.label-wrap.height}",
             "minHeight": "{w-date.size.selector.label-wrap.height}",
@@ -362,36 +361,36 @@
             "paddingRight": "{w-date.size.selector.label-wrap.sp-right}",
             "paddingBottom": "{w-date.size.selector.label-wrap.sp-bottom}",
             "paddingLeft": "{w-date.size.selector.label-wrap.sp-left}"
-          }
+          },
+          "$type": "template"
         },
         "button-wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{w-date.size.selector.button-wrap.gap}",
             "paddingTop": "{w-date.size.selector.button-wrap.sp-top}",
             "paddingRight": "{w-date.size.selector.button-wrap.sp-right}",
             "paddingBottom": "{w-date.size.selector.button-wrap.sp-bottom}",
             "paddingLeft": "{w-date.size.selector.button-wrap.sp-left}"
-          }
+          },
+          "$type": "template"
         },
         "month": {
-          "$type": "composition",
           "$value": {
             "typography": "{w-date.size.selector.label-wrap.month}",
             "fill": "{w-date.style.selector.label.month}"
-          }
+          },
+          "$type": "template"
         },
         "year": {
-          "$type": "composition",
           "$value": {
             "typography": "{w-date.size.selector.label-wrap.year}",
             "fill": "{w-date.style.selector.label.year}"
-          }
+          },
+          "$type": "template"
         }
       },
       "calendar": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{w-date.size.calendar.radius}",
             "itemSpacing": "{w-date.size.calendar.gap}",
@@ -399,11 +398,11 @@
             "paddingRight": "{w-date.size.calendar.sp-right}",
             "paddingBottom": "{w-date.size.calendar.sp-bottom}",
             "paddingLeft": "{w-date.size.calendar.sp-left}"
-          }
+          },
+          "$type": "template"
         }
       },
       "wrap": {
-        "$type": "composition",
         "$value": {
           "minWidth": "{w-date.size.wrap.width}",
           "borderRadius": "{w-date.size.wrap.radius}",
@@ -413,7 +412,8 @@
           "paddingBottom": "{w-date.size.wrap.sp-bottom}",
           "paddingLeft": "{w-date.size.wrap.sp-left}",
           "fill": "{w-date.style.wrap}"
-        }
+        },
+        "$type": "template"
       }
     }
   }

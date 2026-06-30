@@ -5,7 +5,6 @@
         "unselect": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -19,50 +18,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.default}",
                 "boxShadow": "{w-switch.style.unselect.shadow.default}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.unselect.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.unselect.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -76,50 +75,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.xs.unselect.hover.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.hover}",
                 "boxShadow": "{w-switch.style.unselect.shadow.hover}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.unselect.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.unselect.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -135,50 +134,50 @@
                 "borderColor": "{w-switch.style.unselect.stroke.focus}",
                 "fill": "{w-switch.style.unselect.wrap-box.focus}",
                 "boxShadow": "{w-switch.style.unselect.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.unselect.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.unselect.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -192,50 +191,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.loader}",
                 "boxShadow": "{w-switch.style.unselect.shadow.loader}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.unselect.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.unselect.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -248,52 +247,52 @@
                 "paddingBottom": "{w-switch.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.disable}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.unselect.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.unselect.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "select": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -307,50 +306,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.default}",
                 "boxShadow": "{w-switch.style.select.shadow.default}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.select.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.select.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -364,50 +363,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.hover}",
                 "boxShadow": "{w-switch.style.select.shadow.hover}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.select.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.select.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -423,50 +422,50 @@
                 "borderColor": "{w-switch.style.select.stroke.focus}",
                 "fill": "{w-switch.style.select.wrap-box.focus}",
                 "boxShadow": "{w-switch.style.select.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.select.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.select.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -480,50 +479,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.loader}",
                 "boxShadow": "{w-switch.style.select.shadow.loader}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.select.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.select.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.xs.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.xs.max-height}",
@@ -536,45 +535,46 @@
                 "paddingBottom": "{w-switch.size.wrap-box.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.wrap-box.xs.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.disable}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.xs.gap}",
                 "paddingTop": "{w-switch.size.full.xs.sp-top}",
                 "paddingRight": "{w-switch.size.full.xs.sp-right}",
                 "paddingBottom": "{w-switch.size.full.xs.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.xs.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.xs.vector}",
                   "minWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.xs.vector}",
                   "fill": "{w-switch.style.select.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.xs.typography}",
                 "fill": "{w-switch.style.select.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
@@ -583,7 +583,6 @@
         "unselect": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -597,50 +596,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.default}",
                 "boxShadow": "{w-switch.style.unselect.shadow.default}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.unselect.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.unselect.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -654,50 +653,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.sm.unselect.hover.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.hover}",
                 "boxShadow": "{w-switch.style.unselect.shadow.hover}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.unselect.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.unselect.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -713,50 +712,50 @@
                 "borderColor": "{w-switch.style.unselect.stroke.focus}",
                 "fill": "{w-switch.style.unselect.wrap-box.focus}",
                 "boxShadow": "{w-switch.style.unselect.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.unselect.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.unselect.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -770,50 +769,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.loader}",
                 "boxShadow": "{w-switch.style.unselect.shadow.loader}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.unselect.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.unselect.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -826,52 +825,52 @@
                 "paddingBottom": "{w-switch.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.unselect.wrap-box.disable}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.unselect.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.unselect.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "select": {
           "default": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -885,50 +884,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.default}",
                 "boxShadow": "{w-switch.style.select.shadow.default}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.select.icon.default}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.select.label.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -942,50 +941,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.hover}",
                 "boxShadow": "{w-switch.style.select.shadow.hover}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.select.icon.hover}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.select.label.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -1001,50 +1000,50 @@
                 "borderColor": "{w-switch.style.select.stroke.focus}",
                 "fill": "{w-switch.style.select.wrap-box.focus}",
                 "boxShadow": "{w-switch.style.select.shadow.focus}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.select.icon.focus}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.select.label.focus}"
-              }
+              },
+              "$type": "template"
             }
           },
           "loader": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -1058,50 +1057,50 @@
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.loader}",
                 "boxShadow": "{w-switch.style.select.shadow.loader}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.select.icon.loader}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.select.label.loader}"
-              }
+              },
+              "$type": "template"
             }
           },
           "disable": {
             "wrap-box": {
-              "$type": "composition",
               "$value": {
                 "minHeight": "{w-switch.size.wrap-box.sm.min-height}",
                 "maxHeight": "{w-switch.size.wrap-box.sm.max-height}",
@@ -1114,45 +1113,46 @@
                 "paddingBottom": "{w-switch.size.wrap-box.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.wrap-box.sm.sp-left}",
                 "fill": "{w-switch.style.select.wrap-box.disable}"
-              }
+              },
+              "$type": "template"
             },
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "itemSpacing": "{w-switch.size.full.sm.gap}",
                 "paddingTop": "{w-switch.size.full.sm.sp-top}",
                 "paddingRight": "{w-switch.size.full.sm.sp-right}",
                 "paddingBottom": "{w-switch.size.full.sm.sp-bottom}",
                 "paddingLeft": "{w-switch.size.full.sm.sp-left}"
-              }
+              },
+              "$type": "template"
             },
             "icon": {
               "size": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.wrap-vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.wrap-vector}"
-                }
+                },
+                "$type": "template"
               },
               "vector": {
-                "$type": "composition",
                 "$value": {
                   "minHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "maxHeight": "{w-switch.size.wrap-box.sm.vector}",
                   "minWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "maxWidth": "{w-switch.size.wrap-box.sm.vector}",
                   "fill": "{w-switch.style.select.icon.disable}"
-                }
+                },
+                "$type": "template"
               }
             },
             "label": {
-              "$type": "composition",
               "$value": {
                 "typography": "{w-switch.size.full.sm.typography}",
                 "fill": "{w-switch.style.select.label.disable}"
-              }
+              },
+              "$type": "template"
             }
           }
         }

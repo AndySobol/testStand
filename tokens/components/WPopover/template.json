@@ -4,7 +4,6 @@
       "tail": {
         "hor": {
           "vector": {
-            "$type": "composition",
             "$value": {
               "minHeight": "{w-popover.size.tail.height}",
               "maxHeight": "{w-popover.size.tail.height}",
@@ -13,20 +12,20 @@
               "fill": "{w-popover.style.wrap}",
               "borderWidth": "{w-popover.size.tail.border}",
               "borderColor": "{w-popover.style.stroke}"
-            }
+            },
+            "$type": "template"
           },
           "safe": {
-            "$type": "composition",
             "$value": {
               "minWidth": "{w-popover.size.safe.width}",
               "maxWidth": "{w-popover.size.safe.width}",
               "minHeight": "{w-popover.size.safe.height}",
               "maxHeight": "{w-popover.size.safe.height}",
               "fill": "{w-popover.style.wrap}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "minHeight": "{w-popover.size.tail.height}",
               "maxHeight": "{w-popover.size.tail.height}",
@@ -37,10 +36,10 @@
               "paddingRight": "{w-popover.size.tail.sp-right}",
               "paddingBottom": "{w-popover.size.tail.sp-bottom}",
               "paddingLeft": "{w-popover.size.tail.sp-left}"
-            }
+            },
+            "$type": "template"
           },
           "wrap-tail": {
-            "$type": "composition",
             "$value": {
               "minHeight": "{w-popover.size.tail.height}",
               "maxHeight": "{w-popover.size.tail.height}",
@@ -49,12 +48,12 @@
               "paddingRight": "{w-popover.size.tail.sp-right}",
               "paddingBottom": "{w-popover.size.tail.sp-bottom}",
               "paddingLeft": "{w-popover.size.tail.sp-left}"
-            }
+            },
+            "$type": "template"
           }
         },
         "ver": {
           "vector": {
-            "$type": "composition",
             "$value": {
               "minHeight": "{w-popover.size.tail.width}",
               "maxHeight": "{w-popover.size.tail.width}",
@@ -63,20 +62,20 @@
               "fill": "{w-popover.style.wrap}",
               "borderWidth": "{w-popover.size.tail.border}",
               "borderColor": "{w-popover.style.stroke}"
-            }
+            },
+            "$type": "template"
           },
           "safe": {
-            "$type": "composition",
             "$value": {
               "minWidth": "{w-popover.size.safe.height}",
               "maxWidth": "{w-popover.size.safe.height}",
               "minHeight": "{w-popover.size.safe.width}",
               "maxHeight": "{w-popover.size.safe.width}",
               "fill": "{w-popover.style.wrap}"
-            }
+            },
+            "$type": "template"
           },
           "wrap": {
-            "$type": "composition",
             "$value": {
               "minHeight": "{w-popover.size.tail.width}",
               "maxHeight": "{w-popover.size.tail.width}",
@@ -87,10 +86,10 @@
               "paddingRight": "{w-popover.size.tail.sp-top}",
               "paddingBottom": "{w-popover.size.tail.sp-left}",
               "paddingLeft": "{w-popover.size.tail.sp-bottom}"
-            }
+            },
+            "$type": "template"
           },
           "wrap-tail": {
-            "$type": "composition",
             "$value": {
               "minWidth": "{w-popover.size.tail.height}",
               "maxWidth": "{w-popover.size.tail.height}",
@@ -99,38 +98,38 @@
               "paddingRight": "{w-popover.size.tail.sp-top}",
               "paddingBottom": "{w-popover.size.tail.sp-left}",
               "paddingLeft": "{w-popover.size.tail.sp-bottom}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "example": {
         "label": {
-          "$type": "composition",
           "$value": {
             "typography": "{w-popover.size.box.typography}",
             "fill": "{w-popover.style.label}"
-          }
+          },
+          "$type": "template"
         },
         "icon": {
           "size": {
-            "$type": "composition",
             "$value": {
               "minHeight": "{w-popover.size.box.icon}",
               "maxHeight": "{w-popover.size.box.icon}",
               "minWidth": "{w-popover.size.box.icon}",
               "maxWidth": "{w-popover.size.box.icon}"
-            }
+            },
+            "$type": "template"
           },
           "style": {
-            "$type": "composition",
             "$value": {
               "fill": "{w-popover.style.icon}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "box": {
-        "$type": "composition",
         "$value": {
           "minHeight": "{w-popover.size.box.min-height}",
           "minWidth": "{w-popover.size.box.min-width}",
@@ -144,17 +143,18 @@
           "borderColor": "{w-popover.style.stroke}",
           "fill": "{w-popover.style.wrap}",
           "boxShadow": "{w-popover.style.shadow}"
-        }
+        },
+        "$type": "template"
       },
       "wrap": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-popover.size.wrap.gap}",
           "paddingTop": "{w-popover.size.wrap.sp-top}",
           "paddingRight": "{w-popover.size.wrap.sp-right}",
           "paddingBottom": "{w-popover.size.wrap.sp-bottom}",
           "paddingLeft": "{w-popover.size.wrap.sp-left}"
-        }
+        },
+        "$type": "template"
       }
     }
   }

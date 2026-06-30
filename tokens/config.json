@@ -1,0 +1,1313 @@
+{
+  "$schema": "sxl-studio/config",
+  "$version": "1.0",
+  "settings": {
+    "remBase": 16
+  },
+  "collections": [
+    {
+      "name": "(ungrouped)",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "CORE",
+          "enabled": true,
+          "files": {
+            "core.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "📁 Projects",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "Admin-UI",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/aui.json": "enabled"
+          }
+        },
+        {
+          "name": "Winline-UI",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/wui.json": "enabled"
+          }
+        },
+        {
+          "name": "ST-UI",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/modes/theme-dark.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "projects/stui.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "🔦 Themes",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "Light",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "enabled"
+          }
+        },
+        {
+          "name": "Dark",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/aui.json": "source",
+            "projects/modes/theme-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "Cybersport",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/wui.json": "source",
+            "projects/modes/theme-cyber.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "📏 Breakpoints",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "Desktop",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/aui.json": "source",
+            "projects/modes/size-desktop.json": "enabled"
+          }
+        },
+        {
+          "name": "Tablet",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/aui.json": "source",
+            "projects/modes/size-tablet.json": "enabled"
+          }
+        },
+        {
+          "name": "Mobile",
+          "enabled": true,
+          "files": {
+            "core.json": "source",
+            "projects/aui.json": "source",
+            "projects/modes/size-mobile.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "⛳ Localization",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "KZ",
+          "enabled": true,
+          "files": {
+            "system/localization/kz.json": "enabled"
+          }
+        },
+        {
+          "name": "BY",
+          "enabled": true,
+          "files": {
+            "system/localization/by.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WAccordion",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WAccordion/style.json": "enabled",
+            "components/WAccordion/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WAvatar",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WAvatar/style.json": "enabled",
+            "components/WAvatar/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WBadge",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WBadge/style.json": "enabled",
+            "components/WBadge/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WBadgeStatus",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WBadgeStatus/style.json": "enabled",
+            "components/WBadgeStatus/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WBanner",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WBanner/style.json": "enabled",
+            "components/WBanner/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WBreadcrumbs",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WBreadcrumbs/style.json": "enabled",
+            "components/WBreadcrumbs/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WButton",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WButton/style.json": "enabled",
+            "components/WButton/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WButtonGroup",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WButtonGroup/style.json": "enabled",
+            "components/WButtonGroup/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WButtonToggle",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WButtonToggle/style.json": "enabled",
+            "components/WButtonToggle/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WCard",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WCard/style.json": "enabled",
+            "components/WCard/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WCell",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WCell/style.json": "enabled",
+            "components/WCell/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WCheckBox",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WCheckBox/style.json": "enabled",
+            "components/WCheckBox/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WCheckRadio",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WCheckRadio/style.json": "enabled",
+            "components/WCheckRadio/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WCurtain",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WCurtain/style.json": "enabled",
+            "components/WCurtain/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WDate",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WDate/style.json": "enabled",
+            "components/WDate/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WDialog",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WDialog/style.json": "enabled",
+            "components/WDialog/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WDivider",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WDivider/style.json": "enabled",
+            "components/WDivider/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WDrawer",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WDrawer/style.json": "enabled",
+            "components/WDrawer/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WIcon",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WIcon/style.json": "enabled",
+            "components/WIcon/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WInput",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WInput/field/style.json": "enabled",
+            "components/WInput/headlabel/style.json": "enabled",
+            "components/WInput/input/style.json": "enabled",
+            "components/WInput/item/style.json": "enabled",
+            "components/WInput/item/template.json": "enabled",
+            "components/WInput/label/style.json": "enabled",
+            "components/WInput/template/WInput.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WLayout",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WLayout/style.json": "enabled",
+            "components/WLayout/template.json": "enabled"
+          }
+        },
+        {
+          "name": "Winline-UI",
+          "enabled": true,
+          "files": {
+            "projects/wui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WLayout/entites/wui/casino.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WLink",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WLink/style.json": "enabled",
+            "components/WLink/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WList",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WList/style.json": "enabled",
+            "components/WList/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WPagination",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WPagination/style.json": "enabled",
+            "components/WPagination/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WPopover",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WPopover/style.json": "enabled",
+            "components/WPopover/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WProgress",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WProgress/style.json": "enabled",
+            "components/WProgress/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WRadio",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WRadio/style.json": "enabled",
+            "components/WRadio/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WScore",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WScore/style.json": "enabled",
+            "components/WScore/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WSectionHeader",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WSectionHeader/WSectionHeader.json": "enabled",
+            "components/WSectionHeader/style.json": "enabled",
+            "components/WSectionHeader/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WSegmentControl",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WSegmentControl/style.json": "enabled",
+            "components/WSegmentControl/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WNavBar",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "Admin-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "Winline-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WWidjet/template.json": "enabled"
+          }
+        },
+        {
+          "name": "Admin-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "Winline-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "Admin-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "Winline-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "Admin-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "Winline-UI",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        },
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WSkeleton",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WSkeleton/style.json": "enabled",
+            "components/WSkeleton/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WSpinner",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WSpinner/style.json": "enabled",
+            "components/WSpinner/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WStepper",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WStepper/style.json": "enabled",
+            "components/WStepper/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WSwitch",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WSwitch/style.json": "enabled",
+            "components/WSwitch/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WTab",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WTab/WTab.json": "enabled",
+            "components/WTab/style.json": "enabled",
+            "components/WTab/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WTabNav",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WTabNav/style.json": "enabled",
+            "components/WTabNav/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WTable",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WTable/style.json": "enabled",
+            "components/WTable/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WTag",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WTag/style.json": "enabled",
+            "components/WTag/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WTextOverflow",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WTextOverflow/style.json": "enabled",
+            "components/WTextOverflow/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WToast",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WToast/style.json": "enabled",
+            "components/WToast/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WTooltip",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WTooltip/style.json": "enabled",
+            "components/WTooltip/template.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WUploader",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "General",
+          "enabled": true,
+          "files": {
+            "projects/aui.json": "source",
+            "projects/modes/theme-light.json": "source",
+            "projects/modes/size-desktop.json": "source",
+            "components/WUploader/style.json": "enabled",
+            "components/WUploader/template.json": "enabled"
+          }
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "(ungrouped)",
+      "collections": [
+        "(ungrouped)"
+      ]
+    },
+    {
+      "name": "📁 Projects",
+      "collections": [
+        "📁 Projects"
+      ]
+    },
+    {
+      "name": "🔦 Themes",
+      "collections": [
+        "🔦 Themes"
+      ]
+    },
+    {
+      "name": "📏 Breakpoints",
+      "collections": [
+        "📏 Breakpoints"
+      ]
+    },
+    {
+      "name": "⛳ Localization",
+      "collections": [
+        "⛳ Localization"
+      ]
+    },
+    {
+      "name": "WAccordion",
+      "collections": [
+        "WAccordion"
+      ]
+    },
+    {
+      "name": "WAvatar",
+      "collections": [
+        "WAvatar"
+      ]
+    },
+    {
+      "name": "WBadge",
+      "collections": [
+        "WBadge"
+      ]
+    },
+    {
+      "name": "WBadgeStatus",
+      "collections": [
+        "WBadgeStatus"
+      ]
+    },
+    {
+      "name": "WBanner",
+      "collections": [
+        "WBanner"
+      ]
+    },
+    {
+      "name": "WBreadcrumbs",
+      "collections": [
+        "WBreadcrumbs"
+      ]
+    },
+    {
+      "name": "WButton",
+      "collections": [
+        "WButton"
+      ]
+    },
+    {
+      "name": "WButtonGroup",
+      "collections": [
+        "WButtonGroup"
+      ]
+    },
+    {
+      "name": "WButtonToggle",
+      "collections": [
+        "WButtonToggle"
+      ]
+    },
+    {
+      "name": "WCard",
+      "collections": [
+        "WCard"
+      ]
+    },
+    {
+      "name": "WCell",
+      "collections": [
+        "WCell"
+      ]
+    },
+    {
+      "name": "WCheckBox",
+      "collections": [
+        "WCheckBox"
+      ]
+    },
+    {
+      "name": "WCheckRadio",
+      "collections": [
+        "WCheckRadio"
+      ]
+    },
+    {
+      "name": "WCurtain",
+      "collections": [
+        "WCurtain"
+      ]
+    },
+    {
+      "name": "WDate",
+      "collections": [
+        "WDate"
+      ]
+    },
+    {
+      "name": "WDialog",
+      "collections": [
+        "WDialog"
+      ]
+    },
+    {
+      "name": "WDivider",
+      "collections": [
+        "WDivider"
+      ]
+    },
+    {
+      "name": "WDrawer",
+      "collections": [
+        "WDrawer"
+      ]
+    },
+    {
+      "name": "WIcon",
+      "collections": [
+        "WIcon"
+      ]
+    },
+    {
+      "name": "WInput",
+      "collections": [
+        "WInput"
+      ]
+    },
+    {
+      "name": "WLayout",
+      "collections": [
+        "WLayout"
+      ]
+    },
+    {
+      "name": "WLink",
+      "collections": [
+        "WLink"
+      ]
+    },
+    {
+      "name": "WList",
+      "collections": [
+        "WList"
+      ]
+    },
+    {
+      "name": "WPagination",
+      "collections": [
+        "WPagination"
+      ]
+    },
+    {
+      "name": "WPopover",
+      "collections": [
+        "WPopover"
+      ]
+    },
+    {
+      "name": "WProgress",
+      "collections": [
+        "WProgress"
+      ]
+    },
+    {
+      "name": "WRadio",
+      "collections": [
+        "WRadio"
+      ]
+    },
+    {
+      "name": "WScore",
+      "collections": [
+        "WScore"
+      ]
+    },
+    {
+      "name": "WSectionHeader",
+      "collections": [
+        "WSectionHeader"
+      ]
+    },
+    {
+      "name": "WSegmentControl",
+      "collections": [
+        "WSegmentControl"
+      ]
+    },
+    {
+      "name": "WSideBar",
+      "collections": [
+        "WNavBar"
+      ]
+    },
+    {
+      "name": "WSkeleton",
+      "collections": [
+        "WSkeleton"
+      ]
+    },
+    {
+      "name": "WSpinner",
+      "collections": [
+        "WSpinner"
+      ]
+    },
+    {
+      "name": "WStepper",
+      "collections": [
+        "WStepper"
+      ]
+    },
+    {
+      "name": "WSwitch",
+      "collections": [
+        "WSwitch"
+      ]
+    },
+    {
+      "name": "WTab",
+      "collections": [
+        "WTab"
+      ]
+    },
+    {
+      "name": "WTabNav",
+      "collections": [
+        "WTabNav"
+      ]
+    },
+    {
+      "name": "WTable",
+      "collections": [
+        "WTable"
+      ]
+    },
+    {
+      "name": "WTag",
+      "collections": [
+        "WTag"
+      ]
+    },
+    {
+      "name": "WTextOverflow",
+      "collections": [
+        "WTextOverflow"
+      ]
+    },
+    {
+      "name": "WToast",
+      "collections": [
+        "WToast"
+      ]
+    },
+    {
+      "name": "WTooltip",
+      "collections": [
+        "WTooltip"
+      ]
+    },
+    {
+      "name": "WUploader",
+      "collections": [
+        "WUploader"
+      ]
+    },
+    {
+      "name": "WWidjet",
+      "collections": [
+        "WNavBar"
+      ]
+    },
+    {
+      "name": "WFooter",
+      "collections": [
+        "WNavBar"
+      ]
+    },
+    {
+      "name": "WHeader",
+      "collections": [
+        "WNavBar"
+      ]
+    },
+    {
+      "name": "WNavBar",
+      "collections": [
+        "WNavBar"
+      ]
+    }
+  ]
+}

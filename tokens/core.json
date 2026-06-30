@@ -556,7 +556,7 @@
   },
   "core": {
     "ff": {
-      "$type": "fontFamilies",
+      "$type": "fontFamily",
       "sf-pro": {
         "$value": "SF Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif"
       },
@@ -616,7 +616,7 @@
         "$value": "900",
         "$description": "Black"
       },
-      "$type": "fontWeights"
+      "$type": "fontWeight"
     },
     "fs": {
       "$type": "number",

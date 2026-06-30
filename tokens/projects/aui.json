@@ -1,7 +1,7 @@
 {
   "project": {
-    "$type": "text",
     "$value": "Admin-UI",
+    "$type": "text",
     "$description": "Логическая переменная, необходима для переключения внутри figma компонентов"
   },
   "cfg": {
@@ -551,7 +551,7 @@
       }
     },
     "fs": {
-      "$type": "fontSizes",
+      "$type": "fontSize",
       "static": {
         "heading": {
           "2xs": {
@@ -950,7 +950,7 @@
       }
     },
     "lh": {
-      "$type": "lineHeights",
+      "$type": "lineHeight",
       "static": {
         "heading": {
           "2xs": {
@@ -1499,689 +1499,577 @@
       "alpha": {
         "white": {
           "none": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.none}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.none}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "very-weakest": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.4}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.4}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "low-weakest": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.8}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.8}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "very-weaker": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.12}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.12}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "low-weaker": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.16}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.16}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "very-weak": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.24}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.24}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "very-medium": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.32}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.32}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "medium": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.48}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.48}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "normal": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.56}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.56}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "strong": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.64}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.64}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "stronger": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.72}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.72}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "strongest": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.84}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.84}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           },
           "very-strongest": {
+            "$value": "{cfg.bg.0}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.96}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.96}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.0}"
+            }
           }
         },
         "black": {
           "none": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.none}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.none}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "very-weakest": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.4}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.4}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "low-weakest": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.8}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.8}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "very-weaker": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.12}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.12}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "low-weaker": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.16}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.16}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "very-weak": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.24}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.24}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "very-medium": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.32}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.32}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "medium": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.48}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.48}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "normal": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.56}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.56}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "strong": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.64}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.64}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "stronger": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.72}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.72}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "strongest": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.84}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.84}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           },
           "very-strongest": {
+            "$value": "{cfg.bg.950}",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.96}",
-                  "space": "srgb"
-                }
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.96}",
+                "space": "srgb"
               }
-            },
-            "$value": "{cfg.bg.950}"
+            }
           }
         },
         "neutral": {
           "light": {
             "weakest": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.weakest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.weakest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "weaker": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.weaker}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.weaker}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "weak": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.weak}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.weak}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "medium": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.medium}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.medium}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "strong": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.strong}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.strong}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "stronger": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.stronger}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.stronger}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "strongest": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.strongest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.strongest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             },
             "very-strongest": {
+              "$value": "{cfg.bg.600}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.very-strongest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.very-strongest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.600}"
+              }
             }
           },
           "dark": {
             "weakest": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.weakest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.weakest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "weaker": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.weaker}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.weaker}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "weak": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.weak}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.weak}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "medium": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.medium}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.medium}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "strong": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.strong}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.strong}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "stronger": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.stronger}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.stronger}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "strongest": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.strongest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.strongest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             },
             "very-strongest": {
+              "$value": "{cfg.bg.400}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.neutral.very-strongest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.neutral.very-strongest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.400}"
+              }
             }
           }
         },
         "shadow": {
           "light": {
             "weakest": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.weakest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.weakest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             },
             "weaker": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.weaker}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.weaker}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             },
             "weak": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.weak}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.weak}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             },
             "medium": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.medium}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.medium}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             },
             "strong": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.strong}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.strong}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             },
             "stronger": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.stronger}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.stronger}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             },
             "strongest": {
+              "$value": "{cfg.bg.800}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.strongest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.strongest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{cfg.bg.800}"
+              }
             }
           },
           "dark": {
             "weakest": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.weakest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.weakest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             },
             "weaker": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.weaker}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.weaker}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             },
             "weak": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.weak}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.weak}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             },
             "medium": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.medium}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.medium}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             },
             "strong": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.strong}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.strong}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             },
             "stronger": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.stronger}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.stronger}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             },
             "strongest": {
+              "$value": "{base.black}",
               "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{fx.alpha.shadow.strongest}",
-                    "space": "srgb"
-                  }
+                "figma.modify": {
+                  "type": "alpha",
+                  "value": "{fx.alpha.shadow.strongest}",
+                  "space": "srgb"
                 }
-              },
-              "$value": "{base.black}"
+              }
             }
           }
         }
@@ -2269,148 +2157,124 @@
       },
       "alpha": {
         "very-weakest": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.4}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.4}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "low-weakest": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.8}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.8}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "very-weaker": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.12}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.12}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "low-weaker": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.16}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.16}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "very-weak": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.24}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.24}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "very-medium": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.32}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.32}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "medium": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.48}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.48}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "normal": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.56}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.56}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "strong": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.64}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.64}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "stronger": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.72}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.72}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "strongest": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.84}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.84}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         },
         "very-strongest": {
+          "$value": "{cfg.accent.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.96}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.96}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.accent.500}"
+          }
         }
       }
     },
@@ -2457,148 +2321,124 @@
       },
       "alpha": {
         "very-weakest": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.4}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.4}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "low-weakest": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.8}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.8}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "very-weaker": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.12}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.12}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "low-weaker": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.16}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.16}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "very-weak": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.24}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.24}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "very-medium": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.32}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.32}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "medium": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.48}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.48}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "normal": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.56}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.56}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "strong": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.64}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.64}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "stronger": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.72}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.72}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "strongest": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.84}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.84}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         },
         "very-strongest": {
+          "$value": "{cfg.secondary.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.96}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.96}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.secondary.500}"
+          }
         }
       }
     },
@@ -2645,148 +2485,124 @@
       },
       "alpha": {
         "very-weakest": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.4}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.4}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "low-weakest": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.8}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.8}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "very-weaker": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.12}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.12}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "low-weaker": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.16}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.16}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "very-weak": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.24}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.24}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "very-medium": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.32}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.32}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "medium": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.48}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.48}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "normal": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.56}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.56}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "strong": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.64}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.64}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "stronger": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.72}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.72}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "strongest": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.84}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.84}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         },
         "very-strongest": {
+          "$value": "{cfg.error.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.96}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.96}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.error.500}"
+          }
         }
       }
     },
@@ -2833,148 +2649,124 @@
       },
       "alpha": {
         "very-weakest": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.4}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.4}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "low-weakest": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.8}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.8}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "very-weaker": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.12}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.12}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "low-weaker": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.16}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.16}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "very-weak": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.24}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.24}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "very-medium": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.32}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.32}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "medium": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.48}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.48}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "normal": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.56}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.56}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "strong": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.64}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.64}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "stronger": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.72}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.72}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "strongest": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.84}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.84}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         },
         "very-strongest": {
+          "$value": "{cfg.warning.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.96}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.96}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.warning.500}"
+          }
         }
       }
     },
@@ -3021,148 +2813,124 @@
       },
       "alpha": {
         "very-weakest": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.4}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.4}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "low-weakest": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.8}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.8}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "very-weaker": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.12}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.12}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "low-weaker": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.16}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.16}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "very-weak": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.24}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.24}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "very-medium": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.32}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.32}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "medium": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.48}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.48}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "normal": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.56}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.56}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "strong": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.64}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.64}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "stronger": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.72}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.72}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "strongest": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.84}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.84}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         },
         "very-strongest": {
+          "$value": "{cfg.success.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.96}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.96}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.success.500}"
+          }
         }
       }
     },
@@ -3209,154 +2977,130 @@
       },
       "alpha": {
         "very-weakest": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.4}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.4}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "low-weakest": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.8}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.8}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "very-weaker": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.12}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.12}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "low-weaker": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.16}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.16}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "very-weak": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.24}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.24}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "very-medium": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.32}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.32}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "medium": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.48}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.48}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "normal": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.56}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.56}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "strong": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.64}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.64}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "stronger": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.72}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.72}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "strongest": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.84}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.84}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         },
         "very-strongest": {
+          "$value": "{cfg.info.500}",
           "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{core.alpha.96}",
-                "space": "srgb"
-              }
+            "figma.modify": {
+              "type": "alpha",
+              "value": "{core.alpha.96}",
+              "space": "srgb"
             }
-          },
-          "$value": "{cfg.info.500}"
+          }
         }
       }
     }
   },
   "ff": {
-    "$type": "fontFamilies",
+    "$type": "fontFamily",
     "heading": {
       "$value": "{core.ff.sf-pro-display}"
     },
@@ -3377,7 +3121,7 @@
     }
   },
   "fw": {
-    "$type": "fontWeights",
+    "$type": "fontWeight",
     "regular": {
       "$value": "{core.fw.400}"
     },
@@ -3959,8 +3703,8 @@
       },
       "content": {
         "description-name": {
-          "$type": "color",
-          "$value": "{text.weak}"
+          "$value": "{text.weak}",
+          "$type": "color"
         }
       }
     },
@@ -4001,35 +3745,35 @@
         }
       },
       "radius": {
-        "$type": "borderRadius",
-        "$value": "{br.big.3xs}"
+        "$value": "{br.big.3xs}",
+        "$type": "borderRadius"
       }
     },
     "w-input": {
       "size": {
         "desktop": {
           "min-height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.md}"
+            "$value": "{cfg.sz.static.md}",
+            "$type": "sizing"
           },
           "max-height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.2xl}"
+            "$value": "{cfg.sz.static.2xl}",
+            "$type": "sizing"
           }
         },
         "mobile": {
           "min-height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.lg}"
+            "$value": "{cfg.sz.static.lg}",
+            "$type": "sizing"
           },
           "max-height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.2xl}"
+            "$value": "{cfg.sz.static.2xl}",
+            "$type": "sizing"
           }
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.md}"
+          "$value": "{bw.md}",
+          "$type": "borderWidth"
         }
       }
     }

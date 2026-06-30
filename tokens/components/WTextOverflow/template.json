@@ -1,7 +1,6 @@
 {
   "WTextOverflow": {
     "wrap": {
-      "$type": "composition",
       "$value": {
         "borderRadius": "{w-text-overflow.size.wrap.radius}",
         "itemSpacing": "{w-text-overflow.size.wrap.gap}",
@@ -9,14 +8,15 @@
         "paddingRight": "{w-text-overflow.size.wrap.sp-right}",
         "paddingBottom": "{w-text-overflow.size.wrap.sp-bottom}",
         "paddingLeft": "{w-text-overflow.size.wrap.sp-left}"
-      }
+      },
+      "$type": "template"
     },
     "text": {
-      "$type": "composition",
       "$value": {
         "typography": "{tp.label.xs.regular}",
         "fill": "{text.strongest}"
-      }
+      },
+      "$type": "template"
     }
   }
 }

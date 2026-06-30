@@ -5,111 +5,110 @@
         "primary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.weak}"
+              "$value": "{accent.weak}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.weak}"
+              "$value": "{accent.weak}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.contrast}"
+              "$value": "{accent.contrast}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -127,10 +126,10 @@
                   "color": "{sem.w-button.shadow.color.accent.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -148,10 +147,10 @@
                   "color": "{sem.w-button.shadow.color.accent.three.hover}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -169,10 +168,10 @@
                   "color": "{sem.w-button.shadow.color.accent.three.select}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -190,10 +189,10 @@
                   "color": "{sem.w-button.shadow.color.accent.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -211,10 +210,10 @@
                   "color": "{sem.w-button.shadow.color.accent.three.focus}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -232,118 +231,118 @@
                   "color": "{transparent}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             }
           }
         },
         "secondary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.weakest}"
+              "$value": "{accent.weakest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.weaker}"
+              "$value": "{accent.weaker}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.weakest}"
+              "$value": "{accent.weakest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.weaker}"
+              "$value": "{accent.weaker}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.weakest}"
+              "$value": "{accent.weakest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -351,10 +350,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -362,10 +361,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -373,10 +372,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -384,10 +383,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -395,10 +394,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{accent.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -406,118 +405,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "tertiary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.weakest}"
+              "$value": "{accent.weakest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.weakest}"
+              "$value": "{accent.weakest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -525,10 +524,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -536,10 +535,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -547,10 +546,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -558,10 +557,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -569,10 +568,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{accent.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -580,118 +579,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "inline": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.strong}"
+              "$value": "{accent.strong}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.strong}"
+              "$value": "{accent.strong}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{accent.strong}"
+              "$value": "{accent.strong}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{accent.strong}"
+              "$value": "{accent.strong}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{accent.medium}"
+              "$value": "{accent.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -699,10 +698,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -710,10 +709,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -721,10 +720,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -732,10 +731,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -743,10 +742,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{accent.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -754,7 +753,8 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         }
@@ -763,111 +763,110 @@
         "primary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.weak}"
+              "$value": "{secondary.weak}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.weak}"
+              "$value": "{secondary.weak}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.contrast}"
+              "$value": "{secondary.contrast}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -885,10 +884,10 @@
                   "color": "{sem.w-button.shadow.color.alternate.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -906,10 +905,10 @@
                   "color": "{sem.w-button.shadow.color.alternate.three.hover}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -927,10 +926,10 @@
                   "color": "{sem.w-button.shadow.color.alternate.three.select}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -948,10 +947,10 @@
                   "color": "{sem.w-button.shadow.color.alternate.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -969,10 +968,10 @@
                   "color": "{sem.w-button.shadow.color.alternate.three.focus}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -990,118 +989,118 @@
                   "color": "{transparent}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             }
           }
         },
         "secondary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.weakest}"
+              "$value": "{secondary.weakest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.weaker}"
+              "$value": "{secondary.weaker}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.weakest}"
+              "$value": "{secondary.weakest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.weaker}"
+              "$value": "{secondary.weaker}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.weakest}"
+              "$value": "{secondary.weakest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1109,10 +1108,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1120,10 +1119,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1131,10 +1130,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1142,10 +1141,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1153,10 +1152,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{secondary.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1164,118 +1163,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "tertiary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.weakest}"
+              "$value": "{secondary.weakest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.weakest}"
+              "$value": "{secondary.weakest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1283,10 +1282,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1294,10 +1293,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1305,10 +1304,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1316,10 +1315,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1327,10 +1326,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{secondary.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1338,118 +1337,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "inline": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.strong}"
+              "$value": "{secondary.strong}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.strong}"
+              "$value": "{secondary.strong}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{secondary.strong}"
+              "$value": "{secondary.strong}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{secondary.strong}"
+              "$value": "{secondary.strong}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{secondary.medium}"
+              "$value": "{secondary.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1457,10 +1456,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1468,10 +1467,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1479,10 +1478,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1490,10 +1489,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1501,10 +1500,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{secondary.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1512,7 +1511,8 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         }
@@ -1521,111 +1521,110 @@
         "primary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.weak}"
+              "$value": "{error.weak}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.weak}"
+              "$value": "{error.weak}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.contrast}"
+              "$value": "{error.contrast}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -1643,10 +1642,10 @@
                   "color": "{sem.w-button.shadow.color.error.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -1664,10 +1663,10 @@
                   "color": "{sem.w-button.shadow.color.error.three.hover}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -1685,10 +1684,10 @@
                   "color": "{sem.w-button.shadow.color.error.three.select}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -1706,10 +1705,10 @@
                   "color": "{sem.w-button.shadow.color.error.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -1727,10 +1726,10 @@
                   "color": "{sem.w-button.shadow.color.error.three.focus}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -1748,118 +1747,118 @@
                   "color": "{transparent}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             }
           }
         },
         "secondary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{error.weakest}"
+              "$value": "{error.weakest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.weaker}"
+              "$value": "{error.weaker}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.weakest}"
+              "$value": "{error.weakest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.weaker}"
+              "$value": "{error.weaker}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.weakest}"
+              "$value": "{error.weakest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1867,10 +1866,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1878,10 +1877,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1889,10 +1888,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1900,10 +1899,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1911,10 +1910,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{error.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -1922,118 +1921,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "tertiary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.weaker}"
+              "$value": "{error.weaker}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.weaker}"
+              "$value": "{error.weaker}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2041,10 +2040,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2052,10 +2051,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2063,10 +2062,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2074,10 +2073,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2085,10 +2084,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{error.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2096,118 +2095,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "inline": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.strong}"
+              "$value": "{error.strong}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.strong}"
+              "$value": "{error.strong}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{error.strong}"
+              "$value": "{error.strong}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{error.strong}"
+              "$value": "{error.strong}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{error.medium}"
+              "$value": "{error.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2215,10 +2214,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2226,10 +2225,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2237,10 +2236,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2248,10 +2247,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2259,10 +2258,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{error.medium}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2270,7 +2269,8 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         }
@@ -2279,111 +2279,110 @@
         "primary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{neutral.medium}"
+              "$value": "{neutral.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{neutral.weak}"
+              "$value": "{neutral.weak}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{neutral.medium}"
+              "$value": "{neutral.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{neutral.weak}"
+              "$value": "{neutral.weak}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{neutral.medium}"
+              "$value": "{neutral.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{text.weakest}"
+              "$value": "{text.weakest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{text.weakest}"
+              "$value": "{text.weakest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{text.weakest}"
+              "$value": "{text.weakest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{text.weakest}"
+              "$value": "{text.weakest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{text.weakest}"
+              "$value": "{text.weakest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{icon.weakest}"
+              "$value": "{icon.weakest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{icon.weakest}"
+              "$value": "{icon.weakest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{icon.weakest}"
+              "$value": "{icon.weakest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{icon.weakest}"
+              "$value": "{icon.weakest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{icon.weakest}"
+              "$value": "{icon.weakest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -2401,10 +2400,10 @@
                   "color": "{sem.w-button.shadow.color.neutral.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -2422,10 +2421,10 @@
                   "color": "{sem.w-button.shadow.color.neutral.three.hover}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -2443,10 +2442,10 @@
                   "color": "{sem.w-button.shadow.color.neutral.three.select}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -2464,10 +2463,10 @@
                   "color": "{sem.w-button.shadow.color.neutral.three.default}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -2485,10 +2484,10 @@
                   "color": "{sem.w-button.shadow.color.neutral.three.focus}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": [
                 {
                   "x": "{fx.axis.none}",
@@ -2506,118 +2505,118 @@
                   "color": "{transparent}",
                   "type": "dropShadow"
                 }
-              ]
+              ],
+              "$type": "shadow"
             }
           }
         },
         "secondary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{neutral.weaker}"
+              "$value": "{neutral.weaker}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{neutral.weakly}"
+              "$value": "{neutral.weakly}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{neutral.weaker}"
+              "$value": "{neutral.weaker}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{neutral.weakly}"
+              "$value": "{neutral.weakly}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{neutral.weaker}"
+              "$value": "{neutral.weaker}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable}"
+              "$value": "{state.disable}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2625,10 +2624,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2636,10 +2635,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2647,10 +2646,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2658,10 +2657,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2669,10 +2668,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{neutral.strong}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2680,118 +2679,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "tertiary": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{neutral.weaker}"
+              "$value": "{neutral.weaker}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{neutral.weaker}"
+              "$value": "{neutral.weaker}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{text.medium}"
+              "$value": "{text.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{text.medium}"
+              "$value": "{text.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{text.medium}"
+              "$value": "{text.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{icon.medium}"
+              "$value": "{icon.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{icon.medium}"
+              "$value": "{icon.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{icon.medium}"
+              "$value": "{icon.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2799,10 +2798,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2810,10 +2809,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2821,10 +2820,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2832,10 +2831,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2843,10 +2842,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{neutral.strong}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2854,118 +2853,118 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         },
         "inline": {
           "wrap": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "label": {
             "default": {
-              "$type": "color",
-              "$value": "{text.medium}"
+              "$value": "{text.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{text.medium}"
+              "$value": "{text.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{text.strongest}"
+              "$value": "{text.strongest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{text.medium}"
+              "$value": "{text.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "icon": {
             "default": {
-              "$type": "color",
-              "$value": "{icon.medium}"
+              "$value": "{icon.medium}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{icon.medium}"
+              "$value": "{icon.medium}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{icon.strongest}"
+              "$value": "{icon.strongest}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{icon.medium}"
+              "$value": "{icon.medium}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{state.disable-layer}"
+              "$value": "{state.disable-layer}",
+              "$type": "color"
             }
           },
           "stroke": {
             "default": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "hover": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "focus": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "select": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "loader": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             },
             "disable": {
-              "$type": "color",
-              "$value": "{transparent}"
+              "$value": "{transparent}",
+              "$type": "color"
             }
           },
           "shadow": {
             "default": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2973,10 +2972,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "hover": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2984,10 +2983,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "select": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -2995,10 +2994,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "loader": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -3006,10 +3005,10 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "focus": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -3017,10 +3016,10 @@
                 "spread": "{fx.spread.25}",
                 "color": "{neutral.strong}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             },
             "disable": {
-              "$type": "boxShadow",
               "$value": {
                 "x": "{fx.axis.none}",
                 "y": "{fx.axis.none}",
@@ -3028,7 +3027,8 @@
                 "spread": "{fx.blur.none}",
                 "color": "{transparent}",
                 "type": "dropShadow"
-              }
+              },
+              "$type": "shadow"
             }
           }
         }
@@ -3038,111 +3038,110 @@
           "primary": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strong}"
+                "$value": "{static.white.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strong}"
+                "$value": "{static.white.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable}"
+                "$value": "{state.disable}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3160,10 +3159,10 @@
                     "color": "{sem.w-button.shadow.color.static-white.three.default}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3181,10 +3180,10 @@
                     "color": "{sem.w-button.shadow.color.static-white.three.hover}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3202,10 +3201,10 @@
                     "color": "{sem.w-button.shadow.color.static-white.three.select}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3223,10 +3222,10 @@
                     "color": "{sem.w-button.shadow.color.static-white.three.default}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3244,10 +3243,10 @@
                     "color": "{sem.w-button.shadow.color.static-white.three.focus}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3265,118 +3264,118 @@
                     "color": "{transparent}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               }
             }
           },
           "secondary": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.alpha.weaker}"
+                "$value": "{static.white.alpha.weaker}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strong}"
+                "$value": "{static.white.alpha.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.alpha.weaker}"
+                "$value": "{static.white.alpha.weaker}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strong}"
+                "$value": "{static.white.alpha.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.alpha.weaker}"
+                "$value": "{static.white.alpha.weaker}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable}"
+                "$value": "{state.disable}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3384,10 +3383,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3395,10 +3394,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3406,10 +3405,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3417,10 +3416,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3428,10 +3427,10 @@
                   "spread": "{fx.spread.25}",
                   "color": "{static.white.stronger}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3439,118 +3438,118 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               }
             }
           },
           "tertiary": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strong}"
+                "$value": "{static.white.alpha.strong}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strongest}"
+                "$value": "{static.white.alpha.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strong}"
+                "$value": "{static.white.alpha.strong}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strongest}"
+                "$value": "{static.white.alpha.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.alpha.strong}"
+                "$value": "{static.white.alpha.strong}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable}"
+                "$value": "{state.disable}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3558,10 +3557,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3569,10 +3568,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3580,10 +3579,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3591,10 +3590,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3602,10 +3601,10 @@
                   "spread": "{fx.spread.25}",
                   "color": "{static.white.stronger}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3613,118 +3612,118 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               }
             }
           },
           "inline": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strong}"
+                "$value": "{static.white.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strong}"
+                "$value": "{static.white.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strong}"
+                "$value": "{static.white.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strong}"
+                "$value": "{static.white.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3732,10 +3731,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3743,10 +3742,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3754,10 +3753,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3765,10 +3764,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3776,10 +3775,10 @@
                   "spread": "{fx.spread.25}",
                   "color": "{static.white.stronger}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -3787,7 +3786,8 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               }
             }
           }
@@ -3796,111 +3796,110 @@
           "primary": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strong}"
+                "$value": "{static.black.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strong}"
+                "$value": "{static.black.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable}"
+                "$value": "{state.disable}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3918,10 +3917,10 @@
                     "color": "{sem.w-button.shadow.color.static-black.three.default}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3939,10 +3938,10 @@
                     "color": "{sem.w-button.shadow.color.static-black.three.hover}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3960,10 +3959,10 @@
                     "color": "{sem.w-button.shadow.color.static-black.three.select}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -3981,10 +3980,10 @@
                     "color": "{sem.w-button.shadow.color.static-black.three.default}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -4002,10 +4001,10 @@
                     "color": "{sem.w-button.shadow.color.static-black.three.focus}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": [
                   {
                     "x": "{fx.axis.none}",
@@ -4023,118 +4022,118 @@
                     "color": "{transparent}",
                     "type": "dropShadow"
                   }
-                ]
+                ],
+                "$type": "shadow"
               }
             }
           },
           "secondary": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.alpha.weaker}"
+                "$value": "{static.black.alpha.weaker}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strong}"
+                "$value": "{static.black.alpha.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.alpha.weaker}"
+                "$value": "{static.black.alpha.weaker}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strong}"
+                "$value": "{static.black.alpha.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.alpha.weaker}"
+                "$value": "{static.black.alpha.weaker}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable}"
+                "$value": "{state.disable}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4142,10 +4141,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4153,10 +4152,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4164,10 +4163,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4175,10 +4174,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4186,10 +4185,10 @@
                   "spread": "{fx.spread.25}",
                   "color": "{static.black.stronger}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4197,118 +4196,118 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               }
             }
           },
           "tertiary": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strong}"
+                "$value": "{static.black.alpha.strong}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strongest}"
+                "$value": "{static.black.alpha.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strong}"
+                "$value": "{static.black.alpha.strong}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strongest}"
+                "$value": "{static.black.alpha.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.alpha.strong}"
+                "$value": "{static.black.alpha.strong}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable}"
+                "$value": "{state.disable}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.white.strongest}"
+                "$value": "{static.white.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4316,10 +4315,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4327,10 +4326,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4338,10 +4337,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4349,10 +4348,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4360,10 +4359,10 @@
                   "spread": "{fx.spread.25}",
                   "color": "{static.black.stronger}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4371,118 +4370,118 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               }
             }
           },
           "inline": {
             "wrap": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "label": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strong}"
+                "$value": "{static.black.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strong}"
+                "$value": "{static.black.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "icon": {
               "default": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{static.black.strong}"
+                "$value": "{static.black.strong}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{static.black.strong}"
+                "$value": "{static.black.strong}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{static.black.strongest}"
+                "$value": "{static.black.strongest}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{state.disable-layer}"
+                "$value": "{state.disable-layer}",
+                "$type": "color"
               }
             },
             "stroke": {
               "default": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "hover": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "focus": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "select": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "loader": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               },
               "disable": {
-                "$type": "color",
-                "$value": "{transparent}"
+                "$value": "{transparent}",
+                "$type": "color"
               }
             },
             "shadow": {
               "default": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4490,10 +4489,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "hover": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4501,10 +4500,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "select": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4512,10 +4511,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "loader": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4523,10 +4522,10 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "focus": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4534,10 +4533,10 @@
                   "spread": "{fx.spread.25}",
                   "color": "{static.black.stronger}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               },
               "disable": {
-                "$type": "boxShadow",
                 "$value": {
                   "x": "{fx.axis.none}",
                   "y": "{fx.axis.none}",
@@ -4545,7 +4544,8 @@
                   "spread": "{fx.blur.none}",
                   "color": "{transparent}",
                   "type": "dropShadow"
-                }
+                },
+                "$type": "shadow"
               }
             }
           }
@@ -4555,444 +4555,444 @@
     "size": {
       "sm": {
         "height": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.sm}"
+          "$value": "{cfg.sz.static.sm}",
+          "$type": "sizing"
         },
         "width": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.sm}"
+          "$value": "{cfg.sz.static.sm}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{sem.w-button.radius.sm}"
+          "$value": "{sem.w-button.radius.sm}",
+          "$type": "borderRadius"
         },
         "border": {
           "inselect": {
-            "$type": "borderWidth",
-            "$value": "{bw.sm}"
+            "$value": "{bw.sm}",
+            "$type": "borderWidth"
           },
           "select": {
-            "$type": "borderWidth",
-            "$value": "{bw.md}"
+            "$value": "{bw.md}",
+            "$type": "borderWidth"
           }
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.xs}"
+          "$value": "{cfg.sp.static.xs}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.xs}"
+          "$value": "{cfg.sp.static.xs}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.xs}"
+          "$value": "{cfg.sp.static.xs}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.xs}"
+          "$value": "{cfg.sp.static.xs}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.2xs}"
+          "$value": "{cfg.sz.static.2xs}",
+          "$type": "sizing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         },
         "wrap-label": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.2xs}"
+            "$value": "{cfg.sz.static.2xs}",
+            "$type": "sizing"
           },
           "width": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.2xs}"
+            "$value": "{cfg.sz.static.2xs}",
+            "$type": "sizing"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{sem.w-button.radius.sm}"
+            "$value": "{sem.w-button.radius.sm}",
+            "$type": "borderRadius"
           },
           "border": {
             "inselect": {
-              "$type": "borderWidth",
-              "$value": "{bw.sm}"
+              "$value": "{bw.sm}",
+              "$type": "borderWidth"
             },
             "select": {
-              "$type": "borderWidth",
-              "$value": "{bw.md}"
+              "$value": "{bw.md}",
+              "$type": "borderWidth"
             }
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "icon": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.2xs}"
+            "$value": "{cfg.sz.static.2xs}",
+            "$type": "sizing"
           },
           "typography": {
-            "$type": "typography",
-            "$value": "{tp.label.sm.regular}"
+            "$value": "{tp.label.sm.regular}",
+            "$type": "typography"
           },
           "wrap-label": {
             "gap": {
-              "$type": "spacing",
-              "$value": "{cfg.sp.static.xs}"
+              "$value": "{cfg.sp.static.xs}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           }
         }
       },
       "md": {
         "height": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.md}"
+          "$value": "{cfg.sz.static.md}",
+          "$type": "sizing"
         },
         "width": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.md}"
+          "$value": "{cfg.sz.static.md}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{sem.w-button.radius.md}"
+          "$value": "{sem.w-button.radius.md}",
+          "$type": "borderRadius"
         },
         "border": {
           "inselect": {
-            "$type": "borderWidth",
-            "$value": "{bw.sm}"
+            "$value": "{bw.sm}",
+            "$type": "borderWidth"
           },
           "select": {
-            "$type": "borderWidth",
-            "$value": "{bw.md}"
+            "$value": "{bw.md}",
+            "$type": "borderWidth"
           }
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.sm}"
+          "$value": "{cfg.sp.static.sm}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.sm}"
+          "$value": "{cfg.sp.static.sm}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.sm}"
+          "$value": "{cfg.sp.static.sm}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.sm}"
+          "$value": "{cfg.sp.static.sm}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.2xs}"
+          "$value": "{cfg.sz.static.2xs}",
+          "$type": "sizing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         },
         "wrap-label": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.xs}"
+            "$value": "{cfg.sz.static.xs}",
+            "$type": "sizing"
           },
           "width": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.xs}"
+            "$value": "{cfg.sz.static.xs}",
+            "$type": "sizing"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{sem.w-button.radius.md}"
+            "$value": "{sem.w-button.radius.md}",
+            "$type": "borderRadius"
           },
           "border": {
             "inselect": {
-              "$type": "borderWidth",
-              "$value": "{bw.sm}"
+              "$value": "{bw.sm}",
+              "$type": "borderWidth"
             },
             "select": {
-              "$type": "borderWidth",
-              "$value": "{bw.md}"
+              "$value": "{bw.md}",
+              "$type": "borderWidth"
             }
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.xs}"
+            "$value": "{cfg.sp.static.xs}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "icon": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.xs}"
+            "$value": "{cfg.sz.static.xs}",
+            "$type": "sizing"
           },
           "typography": {
-            "$type": "typography",
-            "$value": "{tp.label.md.regular}"
+            "$value": "{tp.label.md.regular}",
+            "$type": "typography"
           },
           "wrap-label": {
             "gap": {
-              "$type": "spacing",
-              "$value": "{cfg.sp.static.xs}"
+              "$value": "{cfg.sp.static.xs}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           }
         }
       },
       "lg": {
         "height": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.xl}"
+          "$value": "{cfg.sz.static.xl}",
+          "$type": "sizing"
         },
         "width": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.xl}"
+          "$value": "{cfg.sz.static.xl}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{sem.w-button.radius.lg}"
+          "$value": "{sem.w-button.radius.lg}",
+          "$type": "borderRadius"
         },
         "border": {
           "inselect": {
-            "$type": "borderWidth",
-            "$value": "{bw.sm}"
+            "$value": "{bw.sm}",
+            "$type": "borderWidth"
           },
           "select": {
-            "$type": "borderWidth",
-            "$value": "{bw.md}"
+            "$value": "{bw.md}",
+            "$type": "borderWidth"
           }
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{cfg.sp.static.md}"
+          "$value": "{cfg.sp.static.md}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{cfg.sz.static.xs}"
+          "$value": "{cfg.sz.static.xs}",
+          "$type": "sizing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.md.regular}"
+          "$value": "{tp.label.md.regular}",
+          "$type": "typography"
         },
         "wrap-label": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.sm}"
+            "$value": "{cfg.sp.static.sm}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.sm}"
+            "$value": "{cfg.sp.static.sm}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.sm}"
+            "$value": "{cfg.sp.static.sm}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "height": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.sm}"
+            "$value": "{cfg.sz.static.sm}",
+            "$type": "sizing"
           },
           "width": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.sm}"
+            "$value": "{cfg.sz.static.sm}",
+            "$type": "sizing"
           },
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{sem.w-button.radius.lg}"
+            "$value": "{sem.w-button.radius.lg}",
+            "$type": "borderRadius"
           },
           "border": {
             "inselect": {
-              "$type": "borderWidth",
-              "$value": "{bw.sm}"
+              "$value": "{bw.sm}",
+              "$type": "borderWidth"
             },
             "select": {
-              "$type": "borderWidth",
-              "$value": "{bw.md}"
+              "$value": "{bw.md}",
+              "$type": "borderWidth"
             }
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.sm}"
+            "$value": "{cfg.sp.static.sm}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "icon": {
-            "$type": "sizing",
-            "$value": "{cfg.sz.static.sm}"
+            "$value": "{cfg.sz.static.sm}",
+            "$type": "sizing"
           },
           "typography": {
-            "$type": "typography",
-            "$value": "{tp.label.lg.regular}"
+            "$value": "{tp.label.lg.regular}",
+            "$type": "typography"
           },
           "wrap-label": {
             "gap": {
-              "$type": "spacing",
-              "$value": "{cfg.sp.static.sm}"
+              "$value": "{cfg.sp.static.sm}",
+              "$type": "spacing"
             },
             "sp-top": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-right": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-bottom": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             },
             "sp-left": {
-              "$type": "spacing",
-              "$value": "{sp.none}"
+              "$value": "{sp.none}",
+              "$type": "spacing"
             }
           }
         }

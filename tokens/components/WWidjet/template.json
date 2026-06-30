@@ -2,7 +2,6 @@
   "w-widjet": {
     "wrap": {
       "default": {
-        "$type": "composition",
         "$value": {
           "minHeight": "100",
           "borderRadius": "{cfg.br.static.xl}",
@@ -12,10 +11,10 @@
           "paddingBottom": "{cfg.sp.static.lg}",
           "paddingLeft": "{cfg.sp.static.lg}",
           "fill": "{bg.body}"
-        }
+        },
+        "$type": "template"
       },
       "rayback": {
-        "$type": "composition",
         "$value": {
           "minHeight": "100",
           "borderRadius": "{cfg.br.static.xl}",
@@ -26,10 +25,10 @@
           "paddingLeft": "{cfg.sp.static.lg}",
           "fill": "{bg.body}",
           "asset": "{w-widjet.img.rayback}"
-        }
+        },
+        "$type": "template"
       },
       "freebet": {
-        "$type": "composition",
         "$value": {
           "minHeight": "100",
           "borderRadius": "{cfg.br.static.xl}",
@@ -40,10 +39,10 @@
           "paddingLeft": "{cfg.sp.static.lg}",
           "fill": "{bg.body}",
           "asset": "{w-widjet.img.freebet}"
-        }
+        },
+        "$type": "template"
       },
       "reloud": {
-        "$type": "composition",
         "$value": {
           "minHeight": "100",
           "borderRadius": "{cfg.br.static.xl}",
@@ -54,10 +53,10 @@
           "paddingLeft": "{cfg.sp.static.lg}",
           "fill": "{bg.body}",
           "asset": "{w-widjet.img.reloud}"
-        }
+        },
+        "$type": "template"
       },
       "freespin": {
-        "$type": "composition",
         "$value": {
           "minHeight": "100",
           "borderRadius": "{cfg.br.static.xl}",
@@ -68,10 +67,10 @@
           "paddingLeft": "{cfg.sp.static.lg}",
           "fill": "{bg.body}",
           "asset": "{w-widjet.img.freespin}"
-        }
+        },
+        "$type": "template"
       },
       "quest": {
-        "$type": "composition",
         "$value": {
           "minHeight": "100",
           "borderRadius": "{cfg.br.static.xl}",
@@ -82,11 +81,12 @@
           "paddingLeft": "{cfg.sp.static.lg}",
           "fill": "{bg.body}",
           "asset": "{w-widjet.img.quest}"
-        }
+        },
+        "$type": "template"
       }
     },
     "img": {
-      "$type": "asset",
+      "$type": "custom",
       "rayback": {
         "$value": "https://raw.githubusercontent.com/AndySobol/wds/main/assets/Rayback.png"
       },
@@ -106,149 +106,123 @@
     "slot": {
       "right": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.md}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "bottom": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "itemSpacing": "{cfg.sp.static.md}",
               "paddingTop": "{sp.none}",
               "paddingRight": "{sp.none}",
               "paddingBottom": "{sp.none}",
               "paddingLeft": "{sp.none}"
-            }
+            },
+            "$type": "template"
           },
           "buttons-wrap": {
-            "$type": "composition",
             "$value": {
               "itemSpacing": "{cfg.sp.static.xs}",
               "paddingTop": "{sp.none}",
               "paddingRight": "{sp.none}",
               "paddingBottom": "{sp.none}",
               "paddingLeft": "{sp.none}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "left": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.md}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "content": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "itemSpacing": "{cfg.sp.static.sm}",
               "paddingTop": "{sp.none}",
               "paddingRight": "{sp.none}",
               "paddingBottom": "{sp.none}",
               "paddingLeft": "{sp.none}"
-            }
+            },
+            "$type": "template"
           },
           "title": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.lg.semibold}",
               "fill": "{static.white.strongest}"
-            }
+            },
+            "$type": "template"
           },
           "description": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.sm.regular}",
               "fill": "{static.white.strongest}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "step": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.sm}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "group": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.xs}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "dot": {
-          "$type": "composition",
           "$value": {
             "width": "{cfg.sz.static.micro.lg}",
             "height": "{cfg.sz.static.2xs}"
-          }
+          },
+          "$type": "template"
         },
         "vector": {
-          "$type": "composition",
           "$value": {
             "width": "{sz.micro.lg}",
             "height": "{sz.micro.lg}",
             "borderColor": "{accent.medium}",
             "borderWidth": "{bw.md}"
-          }
+          },
+          "$type": "template"
         },
         "text": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.label.sm.regular}",
             "fill": "{static.white.strongest}"
-          }
+          },
+          "$type": "template"
         }
       },
       "progress": {
-        "wrap": {
-          "$type": "composition",
-          "$value": {
-            "itemSpacing": "{cfg.sp.static.md}",
-            "paddingTop": "{cfg.sp.static.2xs}",
-            "paddingRight": "{sp.none}",
-            "paddingBottom": "{sp.none}",
-            "paddingLeft": "{sp.none}"
-          }
-        },
-        "content": {
-          "$type": "composition",
-          "$value": {
-            "paddingTop": "{sp.none}",
-            "paddingRight": "{sp.none}",
-            "paddingBottom": "{sp.none}",
-            "paddingLeft": "{sp.none}"
-          }
-        },
-        "title": {
-          "$type": "composition",
-          "$value": {
-            "typography": "{tp.label.xs.regular}",
-            "fill": "{static.white.alpha.weak}"
-          }
-        },
-        "value": {
+        "$value": {
           "$type": "composition",
           "$value": {
             "typography": "{tp.label.xs.bold}",
@@ -258,47 +232,46 @@
       },
       "time": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.2xs}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "text": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.label.sm.regular}",
             "fill": "{static.white.strongest}"
-          }
+          },
+          "$type": "template"
         }
       },
       "title": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.none}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "text": {
           "sm": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.special.md.bold}",
               "fill": "{static.white.strongest}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "available": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "minHeight": "{sz.md}",
             "itemSpacing": "{sp.none}",
@@ -306,43 +279,43 @@
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "text": {
           "sm": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.sm.regular}",
               "fill": "{static.white.strongest}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "stepper-ly": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.lg}",
             "paddingTop": "{cfg.sp.static.sm}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "stepper": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{sp.none}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         }
       },
       "badge": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "height": "{cfg.sz.static.sm}",
             "maxHeight": "{cfg.sz.static.sm}",
@@ -355,10 +328,10 @@
             "paddingLeft": "{cfg.sp.static.md}",
             "borderColor": "{static.white.alpha.weakest}",
             "borderWidth": "{bw.md}"
-          }
+          },
+          "$type": "template"
         },
         "icon": {
-          "$type": "composition",
           "$value": {
             "height": "{cfg.sz.static.3xs}",
             "maxHeight": "{cfg.sz.static.3xs}",
@@ -366,29 +339,29 @@
             "width": "{cfg.sz.static.3xs}",
             "maxWidth": "{cfg.sz.static.3xs}",
             "minWidth": "{cfg.sz.static.3xs}"
-          }
+          },
+          "$type": "template"
         },
         "wrap-content": {
-          "$type": "composition",
           "$value": {
             "itemSpacing": "{cfg.sp.static.2xs}",
             "paddingTop": "{sp.none}",
             "paddingRight": "{cfg.sp.static.2xs}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{cfg.sp.static.2xs}"
-          }
+          },
+          "$type": "template"
         },
         "curret": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.label.sm.semibold}",
             "fill": "{static.white.strongest}"
-          }
+          },
+          "$type": "template"
         },
         "wrap-vector": {
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "width": "{cfg.sz.static.micro.xs}",
                 "maxWidth": "{cfg.sz.static.micro.xs}",
@@ -396,22 +369,23 @@
                 "height": "{cfg.sz.static.micro.lg}",
                 "maxHeight": "{cfg.sz.static.micro.lg}",
                 "minHeight": "{cfg.sz.static.micro.lg}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{static.white.alpha.weaker}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "total": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.label.sm.semibold}",
             "fill": "{static.white.alpha.weaker}"
-          }
+          },
+          "$type": "template"
         }
       }
     }

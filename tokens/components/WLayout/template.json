@@ -2,7 +2,6 @@
   "WLayout": {
     "component": {
       "grid": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-layout.size.none}",
           "counterAxisSpacing": "{w-layout.size.none}",
@@ -10,17 +9,18 @@
           "paddingRight": "{w-layout.size.none}",
           "paddingBottom": "{w-layout.size.none}",
           "paddingLeft": "{w-layout.size.none}"
-        }
+        },
+        "$type": "template"
       },
       "line": {
-        "$type": "composition",
         "$value": {
           "itemSpacing": "{w-layout.size.none}",
           "paddingTop": "{w-layout.size.none}",
           "paddingRight": "{w-layout.size.none}",
           "paddingBottom": "{w-layout.size.none}",
           "paddingLeft": "{w-layout.size.none}"
-        }
+        },
+        "$type": "template"
       }
     }
   }

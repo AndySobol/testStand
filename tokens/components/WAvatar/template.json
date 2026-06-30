@@ -4,7 +4,6 @@
       "circle": {
         "20": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.20.height}",
               "minHeight": "{w-avatar.size.circle.20.height}",
@@ -17,35 +16,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.20.icon}",
                 "width": "{w-avatar.size.circle.20.icon}",
                 "sizing": "{w-avatar.size.circle.20.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.20.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "24": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.24.height}",
               "minHeight": "{w-avatar.size.circle.24.height}",
@@ -58,35 +57,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.24.icon}",
                 "width": "{w-avatar.size.circle.24.icon}",
                 "sizing": "{w-avatar.size.circle.24.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.24.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "28": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.28.height}",
               "minHeight": "{w-avatar.size.circle.28.height}",
@@ -99,35 +98,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.28.icon}",
                 "width": "{w-avatar.size.circle.28.icon}",
                 "sizing": "{w-avatar.size.circle.28.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.28.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "32": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.32.height}",
               "minHeight": "{w-avatar.size.circle.32.height}",
@@ -140,35 +139,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.32.icon}",
                 "width": "{w-avatar.size.circle.32.icon}",
                 "sizing": "{w-avatar.size.circle.32.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.32.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "36": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.36.height}",
               "minHeight": "{w-avatar.size.circle.36.height}",
@@ -181,35 +180,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.36.icon}",
                 "width": "{w-avatar.size.circle.36.icon}",
                 "sizing": "{w-avatar.size.circle.36.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.36.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "40": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.40.height}",
               "minHeight": "{w-avatar.size.circle.40.height}",
@@ -222,35 +221,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.40.icon}",
                 "width": "{w-avatar.size.circle.40.icon}",
                 "sizing": "{w-avatar.size.circle.40.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.40.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "48": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.48.height}",
               "minHeight": "{w-avatar.size.circle.48.height}",
@@ -263,35 +262,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.48.icon}",
                 "width": "{w-avatar.size.circle.48.icon}",
                 "sizing": "{w-avatar.size.circle.48.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.48.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "56": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.56.height}",
               "minHeight": "{w-avatar.size.circle.56.height}",
@@ -304,35 +303,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.56.icon}",
                 "width": "{w-avatar.size.circle.56.icon}",
                 "sizing": "{w-avatar.size.circle.56.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.56.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "64": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.64.height}",
               "minHeight": "{w-avatar.size.circle.64.height}",
@@ -345,35 +344,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.64.icon}",
                 "width": "{w-avatar.size.circle.64.icon}",
                 "sizing": "{w-avatar.size.circle.64.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.64.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "72": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.72.height}",
               "minHeight": "{w-avatar.size.circle.72.height}",
@@ -386,35 +385,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.72.icon}",
                 "width": "{w-avatar.size.circle.72.icon}",
                 "sizing": "{w-avatar.size.circle.72.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.72.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "80": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.80.height}",
               "minHeight": "{w-avatar.size.circle.80.height}",
@@ -427,35 +426,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.80.icon}",
                 "width": "{w-avatar.size.circle.80.icon}",
                 "sizing": "{w-avatar.size.circle.80.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.80.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "custom": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.circle.24.height}",
               "width": "{w-avatar.size.circle.24.width}",
@@ -464,37 +463,37 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.circle.24.icon}",
                 "width": "{w-avatar.size.circle.24.icon}",
                 "sizing": "{w-avatar.size.circle.24.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.circle.24.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         }
       },
       "square": {
         "20": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.20.height}",
               "minHeight": "{w-avatar.size.square.20.height}",
@@ -507,35 +506,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.20.icon}",
                 "width": "{w-avatar.size.square.20.icon}",
                 "sizing": "{w-avatar.size.square.20.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.20.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "24": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.24.height}",
               "minHeight": "{w-avatar.size.square.24.height}",
@@ -548,35 +547,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.24.icon}",
                 "width": "{w-avatar.size.square.24.icon}",
                 "sizing": "{w-avatar.size.square.24.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.24.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "28": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.28.height}",
               "minHeight": "{w-avatar.size.square.28.height}",
@@ -589,35 +588,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.28.icon}",
                 "width": "{w-avatar.size.square.28.icon}",
                 "sizing": "{w-avatar.size.square.28.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.28.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "32": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.32.height}",
               "minHeight": "{w-avatar.size.square.32.height}",
@@ -630,35 +629,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.32.icon}",
                 "width": "{w-avatar.size.square.32.icon}",
                 "sizing": "{w-avatar.size.square.32.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.32.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "36": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.36.height}",
               "minHeight": "{w-avatar.size.square.36.height}",
@@ -671,35 +670,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.36.icon}",
                 "width": "{w-avatar.size.square.36.icon}",
                 "sizing": "{w-avatar.size.square.36.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.36.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "40": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.40.height}",
               "minHeight": "{w-avatar.size.square.40.height}",
@@ -712,35 +711,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.40.icon}",
                 "width": "{w-avatar.size.square.40.icon}",
                 "sizing": "{w-avatar.size.square.40.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.40.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "48": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.48.height}",
               "minHeight": "{w-avatar.size.square.48.height}",
@@ -753,35 +752,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.48.icon}",
                 "width": "{w-avatar.size.square.48.icon}",
                 "sizing": "{w-avatar.size.square.48.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.48.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "56": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.56.height}",
               "minHeight": "{w-avatar.size.square.56.height}",
@@ -794,35 +793,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.56.icon}",
                 "width": "{w-avatar.size.square.56.icon}",
                 "sizing": "{w-avatar.size.square.56.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.56.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "64": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.64.height}",
               "minHeight": "{w-avatar.size.square.64.height}",
@@ -835,35 +834,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.64.icon}",
                 "width": "{w-avatar.size.square.64.icon}",
                 "sizing": "{w-avatar.size.square.64.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.64.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "72": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.72.height}",
               "minHeight": "{w-avatar.size.square.72.height}",
@@ -876,35 +875,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.72.icon}",
                 "width": "{w-avatar.size.square.72.icon}",
                 "sizing": "{w-avatar.size.square.72.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.72.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "80": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.80.height}",
               "minHeight": "{w-avatar.size.square.80.height}",
@@ -917,35 +916,35 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.80.icon}",
                 "width": "{w-avatar.size.square.80.icon}",
                 "sizing": "{w-avatar.size.square.80.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.80.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         },
         "custom": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "height": "{w-avatar.size.square.24.height}",
               "width": "{w-avatar.size.square.24.width}",
@@ -954,30 +953,31 @@
               "borderColor": "{w-avatar.style.stroke.default}",
               "fill": "{w-avatar.style.wrap.default}",
               "boxShadow": "{w-avatar.style.shadow.default}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "height": "{w-avatar.size.square.24.icon}",
                 "width": "{w-avatar.size.square.24.icon}",
                 "sizing": "{w-avatar.size.square.24.icon}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{w-avatar.style.icon.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "label": {
-            "$type": "composition",
             "$value": {
               "typography": "{w-avatar.size.square.24.typography}",
               "fill": "{w-avatar.style.label.default}"
-            }
+            },
+            "$type": "template"
           }
         }
       }

@@ -5,7 +5,6 @@
         "contrast": {
           "default": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -16,12 +15,12 @@
                 "borderWidth": "{w-accordion.size.sm.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.default}",
                 "fill": "{w-accordion.style.wrap.contrast.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -32,12 +31,12 @@
                 "borderWidth": "{w-accordion.size.sm.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.hover}",
                 "fill": "{w-accordion.style.wrap.contrast.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "active": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -48,12 +47,12 @@
                 "borderWidth": "{w-accordion.size.sm.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.active}",
                 "fill": "{w-accordion.style.wrap.contrast.active}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -65,14 +64,14 @@
                 "borderColor": "{w-accordion.style.stroke.focus}",
                 "fill": "{w-accordion.style.wrap.contrast.focus}",
                 "boxShadow": "{w-accordion.style.shadow.focus}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "soft": {
           "default": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -83,12 +82,12 @@
                 "borderWidth": "{w-accordion.size.sm.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.default}",
                 "fill": "{w-accordion.style.wrap.soft.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -99,12 +98,12 @@
                 "borderWidth": "{w-accordion.size.sm.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.hover}",
                 "fill": "{w-accordion.style.wrap.soft.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "active": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -115,12 +114,12 @@
                 "borderWidth": "{w-accordion.size.sm.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.active}",
                 "fill": "{w-accordion.style.wrap.soft.active}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.sm.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.sm.wrap.gap}",
@@ -132,7 +131,8 @@
                 "borderColor": "{w-accordion.style.stroke.focus}",
                 "fill": "{w-accordion.style.wrap.soft.focus}",
                 "boxShadow": "{w-accordion.style.shadow.focus}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
@@ -141,7 +141,6 @@
         "contrast": {
           "default": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -152,12 +151,12 @@
                 "borderWidth": "{w-accordion.size.xs.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.default}",
                 "fill": "{w-accordion.style.wrap.contrast.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -168,12 +167,12 @@
                 "borderWidth": "{w-accordion.size.xs.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.hover}",
                 "fill": "{w-accordion.style.wrap.contrast.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "active": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -184,12 +183,12 @@
                 "borderWidth": "{w-accordion.size.xs.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.active}",
                 "fill": "{w-accordion.style.wrap.contrast.active}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -201,14 +200,14 @@
                 "borderColor": "{w-accordion.style.stroke.focus}",
                 "fill": "{w-accordion.style.wrap.contrast.focus}",
                 "boxShadow": "{w-accordion.style.shadow.focus}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "soft": {
           "default": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -219,12 +218,12 @@
                 "borderWidth": "{w-accordion.size.xs.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.default}",
                 "fill": "{w-accordion.style.wrap.soft.default}"
-              }
+              },
+              "$type": "template"
             }
           },
           "hover": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -235,12 +234,12 @@
                 "borderWidth": "{w-accordion.size.xs.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.hover}",
                 "fill": "{w-accordion.style.wrap.soft.hover}"
-              }
+              },
+              "$type": "template"
             }
           },
           "active": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -251,12 +250,12 @@
                 "borderWidth": "{w-accordion.size.xs.wrap.border}",
                 "borderColor": "{w-accordion.style.stroke.active}",
                 "fill": "{w-accordion.style.wrap.soft.active}"
-              }
+              },
+              "$type": "template"
             }
           },
           "focus": {
             "wrap": {
-              "$type": "composition",
               "$value": {
                 "borderRadius": "{w-accordion.size.xs.wrap.radius}",
                 "itemSpacing": "{w-accordion.size.xs.wrap.gap}",
@@ -268,7 +267,8 @@
                 "borderColor": "{w-accordion.style.stroke.focus}",
                 "fill": "{w-accordion.style.wrap.soft.focus}",
                 "boxShadow": "{w-accordion.style.shadow.focus}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
@@ -278,7 +278,6 @@
       "simple": {
         "sm": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{br.none}",
               "itemSpacing": "{sp.md}",
@@ -286,25 +285,25 @@
               "paddingRight": "{sp.none}",
               "paddingBottom": "{sp.none}",
               "paddingLeft": "{sp.none}"
-            }
+            },
+            "$type": "template"
           },
           "title": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.md.medium}",
               "fill": "{text.strongest}"
-            }
+            },
+            "$type": "template"
           },
           "description": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.sm.regular}",
               "fill": "{text.strongest}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "width": "{sz.xs}",
                 "maxWidth": "{sz.xs}",
@@ -312,19 +311,19 @@
                 "height": "{sz.xs}",
                 "maxHeight": "{sz.xs}",
                 "minHeight": "{sz.xs}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{icon.strongest}"
-              }
+              },
+              "$type": "template"
             }
           }
         },
         "xs": {
           "wrap": {
-            "$type": "composition",
             "$value": {
               "borderRadius": "{br.none}",
               "itemSpacing": "{sp.md}",
@@ -332,25 +331,25 @@
               "paddingRight": "{sp.none}",
               "paddingBottom": "{sp.none}",
               "paddingLeft": "{sp.none}"
-            }
+            },
+            "$type": "template"
           },
           "title": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.sm.medium}",
               "fill": "{text.strongest}"
-            }
+            },
+            "$type": "template"
           },
           "description": {
-            "$type": "composition",
             "$value": {
               "typography": "{tp.label.xs.regular}",
               "fill": "{text.strongest}"
-            }
+            },
+            "$type": "template"
           },
           "icon": {
             "size": {
-              "$type": "composition",
               "$value": {
                 "width": "{sz.2xs}",
                 "maxWidth": "{sz.2xs}",
@@ -358,20 +357,20 @@
                 "height": "{sz.2xs}",
                 "maxHeight": "{sz.2xs}",
                 "minHeight": "{sz.2xs}"
-              }
+              },
+              "$type": "template"
             },
             "style": {
-              "$type": "composition",
               "$value": {
                 "fill": "{icon.strongest}"
-              }
+              },
+              "$type": "template"
             }
           }
         }
       },
       "market": {
         "wrap": {
-          "$type": "composition",
           "$value": {
             "borderRadius": "{br.none}",
             "itemSpacing": "{sp.md}",
@@ -379,25 +378,25 @@
             "paddingRight": "{sp.none}",
             "paddingBottom": "{sp.none}",
             "paddingLeft": "{sp.none}"
-          }
+          },
+          "$type": "template"
         },
         "contrast": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.label.sm.medium}",
             "fill": "{text.strongest}"
-          }
+          },
+          "$type": "template"
         },
         "refular": {
-          "$type": "composition",
           "$value": {
             "typography": "{tp.label.sm.regular}",
             "fill": "{text.medium}"
-          }
+          },
+          "$type": "template"
         },
         "icon": {
           "size": {
-            "$type": "composition",
             "$value": {
               "width": "{sz.2xs}",
               "maxWidth": "{sz.2xs}",
@@ -405,20 +404,21 @@
               "height": "{sz.2xs}",
               "maxHeight": "{sz.2xs}",
               "minHeight": "{sz.2xs}"
-            }
+            },
+            "$type": "template"
           },
           "style": {
             "contrast": {
-              "$type": "composition",
               "$value": {
                 "fill": "{icon.strongest}"
-              }
+              },
+              "$type": "template"
             },
             "soft": {
-              "$type": "composition",
               "$value": {
                 "fill": "{icon.medium}"
-              }
+              },
+              "$type": "template"
             }
           }
         }

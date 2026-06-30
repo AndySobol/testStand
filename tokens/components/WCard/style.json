@@ -2,112 +2,112 @@
   "w-card-sport": {
     "style": {
       "all": {
-        "$type": "color",
-        "$value": "#002332"
+        "$value": "#002332",
+        "$type": "color"
       },
       "soccer": {
-        "$type": "color",
-        "$value": "#00713B"
+        "$value": "#00713B",
+        "$type": "color"
       },
       "basketball": {
-        "$type": "color",
-        "$value": "#BF430E"
+        "$value": "#BF430E",
+        "$type": "color"
       },
       "volleyball": {
-        "$type": "color",
-        "$value": "#00647A"
+        "$value": "#00647A",
+        "$type": "color"
       },
       "tennis": {
-        "$type": "color",
-        "$value": "#004469"
+        "$value": "#004469",
+        "$type": "color"
       },
       "table-tennis": {
-        "$type": "color",
-        "$value": "#2B5B51"
+        "$value": "#2B5B51",
+        "$type": "color"
       },
       "hockey": {
-        "$type": "color",
-        "$value": "#1A2988"
+        "$value": "#1A2988",
+        "$type": "color"
       },
       "skiing": {
-        "$type": "color",
-        "$value": "#1A2988"
+        "$value": "#1A2988",
+        "$type": "color"
       },
       "cybersport": {
-        "$type": "color",
-        "$value": "#38003D"
+        "$value": "#38003D",
+        "$type": "color"
       },
       "darts": {
-        "$type": "color",
-        "$value": "#3F5A75"
+        "$value": "#3F5A75",
+        "$type": "color"
       },
       "handball": {
-        "$type": "color",
-        "$value": "#3F5A75"
+        "$value": "#3F5A75",
+        "$type": "color"
       },
       "footzal": {
-        "$type": "color",
-        "$value": "#3F5A75"
+        "$value": "#3F5A75",
+        "$type": "color"
       },
       "hockey-with-ball": {
-        "$type": "color",
-        "$value": "#3F5A75"
+        "$value": "#3F5A75",
+        "$type": "color"
       },
       "american-football": {
-        "$type": "color",
-        "$value": "#00713B"
+        "$value": "#00713B",
+        "$type": "color"
       },
       "boxing": {
-        "$type": "color",
-        "$value": "#06060C"
+        "$value": "#06060C",
+        "$type": "color"
       },
       "mma": {
-        "$type": "color",
-        "$value": "#06060C"
+        "$value": "#06060C",
+        "$type": "color"
       },
       "basketball-3х3": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "cycling": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "bowls-game": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "badminton": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "baseball": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "cricket": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "rugby": {
-        "$type": "color",
-        "$value": "#00713B"
+        "$value": "#00713B",
+        "$type": "color"
       },
       "snooker": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "floorball": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       },
       "formula-one": {
-        "$type": "color",
-        "$value": "#C00F0F"
+        "$value": "#C00F0F",
+        "$type": "color"
       },
       "other": {
-        "$type": "color",
-        "$value": "#444343"
+        "$value": "#444343",
+        "$type": "color"
       }
     }
   },
@@ -116,28 +116,25 @@
       "card": {
         "soccer": {
           "wrap": {
-            "$type": "color",
-            "$value": "#0A0E4D"
+            "$value": "#0A0E4D",
+            "$type": "color"
           },
           "stroke": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "shadow-color": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.8}",
-                  "space": "srgb"
-                }
-              }
-            },
+            "$value": "{w-card-event.style.card.soccer.wrap}",
             "$type": "color",
-            "$value": "{w-card-event.style.card.soccer.wrap}"
+            "$extensions": {
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.8}",
+                "space": "srgb"
+              }
+            }
           },
           "shadow": {
-            "$type": "boxShadow",
             "$value": [
               {
                 "x": "{fx.axis.none}",
@@ -155,33 +152,31 @@
                 "color": "{w-card-event.style.card.soccer.shadow-color}",
                 "type": "dropShadow"
               }
-            ]
+            ],
+            "$type": "shadow"
           }
         },
         "tennis": {
           "wrap": {
-            "$type": "color",
-            "$value": "#0921B9"
+            "$value": "#0921B9",
+            "$type": "color"
           },
           "stroke": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "shadow-color": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.8}",
-                  "space": "srgb"
-                }
-              }
-            },
+            "$value": "{w-card-event.style.card.tennis.wrap}",
             "$type": "color",
-            "$value": "{w-card-event.style.card.tennis.wrap}"
+            "$extensions": {
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.8}",
+                "space": "srgb"
+              }
+            }
           },
           "shadow": {
-            "$type": "boxShadow",
             "$value": [
               {
                 "x": "{fx.axis.none}",
@@ -199,33 +194,31 @@
                 "color": "{w-card-event.style.card.tennis.shadow-color}",
                 "type": "dropShadow"
               }
-            ]
+            ],
+            "$type": "shadow"
           }
         },
         "hockey": {
           "wrap": {
-            "$type": "color",
-            "$value": "#1480AA"
+            "$value": "#1480AA",
+            "$type": "color"
           },
           "stroke": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "shadow-color": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.8}",
-                  "space": "srgb"
-                }
-              }
-            },
+            "$value": "{w-card-event.style.card.hockey.wrap}",
             "$type": "color",
-            "$value": "{w-card-event.style.card.hockey.wrap}"
+            "$extensions": {
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.8}",
+                "space": "srgb"
+              }
+            }
           },
           "shadow": {
-            "$type": "boxShadow",
             "$value": [
               {
                 "x": "{fx.axis.none}",
@@ -243,33 +236,31 @@
                 "color": "{w-card-event.style.card.hockey.shadow-color}",
                 "type": "dropShadow"
               }
-            ]
+            ],
+            "$type": "shadow"
           }
         },
         "basketball": {
           "wrap": {
-            "$type": "color",
-            "$value": "#973B10"
+            "$value": "#973B10",
+            "$type": "color"
           },
           "stroke": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "shadow-color": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{core.alpha.8}",
-                  "space": "srgb"
-                }
-              }
-            },
+            "$value": "{w-card-event.style.card.basketball.wrap}",
             "$type": "color",
-            "$value": "{w-card-event.style.card.basketball.wrap}"
+            "$extensions": {
+              "figma.modify": {
+                "type": "alpha",
+                "value": "{core.alpha.8}",
+                "space": "srgb"
+              }
+            }
           },
           "shadow": {
-            "$type": "boxShadow",
             "$value": [
               {
                 "x": "{fx.axis.none}",
@@ -287,17 +278,17 @@
                 "color": "{w-card-event.style.card.basketball.shadow-color}",
                 "type": "dropShadow"
               }
-            ]
+            ],
+            "$type": "shadow"
           }
         }
       },
       "image-team": {
         "wrap": {
-          "$type": "color",
-          "$value": "{static.white.alpha.weakest}"
+          "$value": "{static.white.alpha.weakest}",
+          "$type": "color"
         },
         "shadow": {
-          "$type": "boxShadow",
           "$value": {
             "x": "{fx.axis.100}",
             "y": "{fx.axis.100}",
@@ -305,117 +296,118 @@
             "spread": "{fx.spread.none}",
             "color": "{static.white.alpha.weaker}",
             "type": "innerShadow"
-          }
+          },
+          "$type": "shadow"
         }
       }
     },
     "size": {
       "card": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.sm}"
+          "$value": "{bw.sm}",
+          "$type": "borderWidth"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "wrap": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.sm}"
+          "$value": "{bw.sm}",
+          "$type": "borderWidth"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
           "default": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "hover": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           }
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "image-team": {
         "height": {
-          "$type": "sizing",
-          "$value": "{sz.big.md}"
+          "$value": "{sz.big.md}",
+          "$type": "sizing"
         },
         "width": {
-          "$type": "sizing",
-          "$value": "{sz.big.md}"
+          "$value": "{sz.big.md}",
+          "$type": "sizing"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "image": {
-          "$type": "sizing",
-          "$value": "{sz.big.xs}"
+          "$value": "{sz.big.xs}",
+          "$type": "sizing"
         },
         "image-large": {
-          "$type": "sizing",
-          "$value": "156px"
+          "$value": "156px",
+          "$type": "sizing"
         }
       }
     }
@@ -424,296 +416,296 @@
     "size": {
       "state": {
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.sm}"
+          "$value": "{sp.sm}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.icon.default}"
+          "$value": "{sem.w-card-casino.icon.default}",
+          "$type": "sizing"
         },
         "description": {
-          "$type": "typography",
-          "$value": "{sem.w-card-casino.state.description}"
+          "$value": "{sem.w-card-casino.state.description}",
+          "$type": "typography"
         }
       },
       "img": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.img.min-height}"
+          "$value": "{sem.w-card-casino.img.min-height}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.img.max-height}"
+          "$value": "{sem.w-card-casino.img.max-height}",
+          "$type": "sizing"
         },
         "min-width": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.img.min-width}"
+          "$value": "{sem.w-card-casino.img.min-width}",
+          "$type": "sizing"
         },
         "max-width": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.img.max-width}"
+          "$value": "{sem.w-card-casino.img.max-width}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{sem.w-card-casino.img.radius}"
+          "$value": "{sem.w-card-casino.img.radius}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.icon.default}"
+          "$value": "{sem.w-card-casino.icon.default}",
+          "$type": "sizing"
         }
       },
       "content": {
         "left": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sem.w-card-casino.slot.gap.left}"
+            "$value": "{sem.w-card-casino.slot.gap.left}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "right": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sem.w-card-casino.slot.gap.right}"
+            "$value": "{sem.w-card-casino.slot.gap.right}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "counter": {
-            "$type": "sizing",
-            "$value": "{sz.3xs}"
+            "$value": "{sz.3xs}",
+            "$type": "sizing"
           }
         },
         "wrap": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.sm}"
+            "$value": "{cfg.sp.static.sm}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{cfg.sp.static.sm}"
+            "$value": "{cfg.sp.static.sm}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "skeleton": {
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         },
         "game-name": {
-          "$type": "typography",
-          "$value": "{tp.body.lg.semibold}"
+          "$value": "{tp.body.lg.semibold}",
+          "$type": "typography"
         },
         "description-name": {
-          "$type": "typography",
-          "$value": "{tp.body.sm.medium}"
+          "$value": "{tp.body.sm.medium}",
+          "$type": "typography"
         },
         "live-value": {
-          "$type": "typography",
-          "$value": "{tp.body.md.medium}"
+          "$value": "{tp.body.md.medium}",
+          "$type": "typography"
         }
       },
       "slot": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.md}"
+          "$value": "{sp.md}",
+          "$type": "spacing"
         },
         "badges": {
           "width": {
-            "$type": "sizing",
-            "$value": "64"
+            "$value": "64",
+            "$type": "sizing"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.xs}"
+            "$value": "{sp.xs}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.none}"
+            "$value": "{sp.none}",
+            "$type": "spacing"
           }
         }
       },
       "slot-group": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "wrap": {
         "min-width": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.img.min-width}"
+          "$value": "{sem.w-card-casino.img.min-width}",
+          "$type": "sizing"
         },
         "max-width": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-casino.img.max-width}"
+          "$value": "{sem.w-card-casino.img.max-width}",
+          "$type": "sizing"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "gap-hover": {
-          "$type": "spacing",
-          "$value": "{sem.w-card-casino.wrap.gap-hover}"
+          "$value": "{sem.w-card-casino.wrap.gap-hover}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sem.w-card-casino.wrap.sp-top}"
+          "$value": "{sem.w-card-casino.wrap.sp-top}",
+          "$type": "spacing"
         },
         "sp-top-hover": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       }
     }
@@ -722,103 +714,103 @@
     "style": {
       "wrap": {
         "default": {
-          "$type": "color",
-          "$value": "{sem.w-card-provider.style.wrap}"
+          "$value": "{sem.w-card-provider.style.wrap}",
+          "$type": "color"
         },
         "hover": {
-          "$type": "color",
-          "$value": "{bg.weak}"
+          "$value": "{bg.weak}",
+          "$type": "color"
         }
       },
       "asset": {
         "default": {
-          "$type": "color",
-          "$value": "{icon.strongest}"
+          "$value": "{icon.strongest}",
+          "$type": "color"
         },
         "hover": {
-          "$type": "color",
-          "$value": "{icon.strongest}"
+          "$value": "{icon.strongest}",
+          "$type": "color"
         }
       },
       "label": {
         "default": {
-          "$type": "color",
-          "$value": "{text.strongest}"
+          "$value": "{text.strongest}",
+          "$type": "color"
         },
         "hover": {
-          "$type": "color",
-          "$value": "{text.strongest}"
+          "$value": "{text.strongest}",
+          "$type": "color"
         }
       }
     },
     "size": {
       "wrap": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-provider.wrap.height}"
+          "$value": "{sem.w-card-provider.wrap.height}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-provider.wrap.height}"
+          "$value": "{sem.w-card-provider.wrap.height}",
+          "$type": "sizing"
         },
         "min-width": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-provider.wrap.min-width}"
+          "$value": "{sem.w-card-provider.wrap.min-width}",
+          "$type": "sizing"
         },
         "max-width": {
-          "$type": "sizing",
-          "$value": "{sem.w-card-provider.wrap.max-width}"
+          "$value": "{sem.w-card-provider.wrap.max-width}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.big.3xs}"
+          "$value": "{br.big.3xs}",
+          "$type": "borderRadius"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         }
       },
       "slot": {
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sem.w-card-provider.slot.sp}"
+          "$value": "{sem.w-card-provider.slot.sp}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sem.w-card-provider.slot.sp}"
+          "$value": "{sem.w-card-provider.slot.sp}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sem.w-card-provider.slot.sp}"
+          "$value": "{sem.w-card-provider.slot.sp}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sem.w-card-provider.slot.sp}"
+          "$value": "{sem.w-card-provider.slot.sp}",
+          "$type": "spacing"
         }
       },
       "label": {
-        "$type": "typography",
-        "$value": "{tp.body.md.semibold}"
+        "$value": "{tp.body.md.semibold}",
+        "$type": "typography"
       }
     }
   }

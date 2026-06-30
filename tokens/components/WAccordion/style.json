@@ -47,7 +47,7 @@
         }
       },
       "shadow": {
-        "$type": "boxShadow",
+        "$type": "shadow",
         "default": {
           "$value": {
             "x": "{fx.axis.none}",
@@ -94,64 +94,64 @@
       "sm": {
         "wrap": {
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.2xl}"
+            "$value": "{br.2xl}",
+            "$type": "borderRadius"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.lg}"
+            "$value": "{sp.lg}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.lg}"
+            "$value": "{sp.lg}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.lg}"
+            "$value": "{sp.lg}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.lg}"
+            "$value": "{sp.lg}",
+            "$type": "spacing"
           },
           "border": {
-            "$type": "borderWidth",
-            "$value": "{bw.md}"
+            "$value": "{bw.md}",
+            "$type": "borderWidth"
           }
         }
       },
       "xs": {
         "wrap": {
           "radius": {
-            "$type": "borderRadius",
-            "$value": "{br.lg}"
+            "$value": "{br.lg}",
+            "$type": "borderRadius"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{sp.xs}"
+            "$value": "{sp.xs}",
+            "$type": "spacing"
           },
           "sp-left": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-right": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-top": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "sp-bottom": {
-            "$type": "spacing",
-            "$value": "{sp.md}"
+            "$value": "{sp.md}",
+            "$type": "spacing"
           },
           "border": {
-            "$type": "borderWidth",
-            "$value": "{bw.md}"
+            "$value": "{bw.md}",
+            "$type": "borderWidth"
           }
         }
       }

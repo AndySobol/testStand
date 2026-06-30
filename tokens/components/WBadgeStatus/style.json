@@ -4,248 +4,248 @@
       "filled": {
         "wrap": {
           "error": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{bg.weakest}"
+            "$value": "{bg.weakest}",
+            "$type": "color"
           }
         },
         "label": {
           "error": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           }
         },
         "icon": {
           "error": {
-            "$type": "color",
-            "$value": "{error.medium}"
+            "$value": "{error.medium}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{success.medium}"
+            "$value": "{success.medium}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{accent.medium}"
+            "$value": "{accent.medium}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{warning.medium}"
+            "$value": "{warning.medium}",
+            "$type": "color"
           }
         },
         "stroke": {
           "error": {
-            "$type": "color",
-            "$value": "{static.white.strongest}"
+            "$value": "{static.white.strongest}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{static.white.strongest}"
+            "$value": "{static.white.strongest}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{static.white.strongest}"
+            "$value": "{static.white.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{static.white.strongest}"
+            "$value": "{static.white.strongest}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{static.white.strongest}"
+            "$value": "{static.white.strongest}",
+            "$type": "color"
           }
         }
       },
       "alpha": {
         "wrap": {
           "error": {
-            "$type": "color",
-            "$value": "{error.alpha.weakest}"
+            "$value": "{error.alpha.weakest}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{success.alpha.weakest}"
+            "$value": "{success.alpha.weakest}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{neutral.weakest}"
+            "$value": "{neutral.weakest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{accent.alpha.weakest}"
+            "$value": "{accent.alpha.weakest}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{warning.alpha.weakest}"
+            "$value": "{warning.alpha.weakest}",
+            "$type": "color"
           }
         },
         "label": {
           "error": {
-            "$type": "color",
-            "$value": "{error.medium}"
+            "$value": "{error.medium}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{success.medium}"
+            "$value": "{success.medium}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{accent.medium}"
+            "$value": "{accent.medium}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{warning.medium}"
+            "$value": "{warning.medium}",
+            "$type": "color"
           }
         },
         "icon": {
           "error": {
-            "$type": "color",
-            "$value": "{error.medium}"
+            "$value": "{error.medium}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{success.medium}"
+            "$value": "{success.medium}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{accent.medium}"
+            "$value": "{accent.medium}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{warning.medium}"
+            "$value": "{warning.medium}",
+            "$type": "color"
           }
         }
       },
       "clear": {
         "wrap": {
           "error": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           }
         },
         "label": {
           "error": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{text.strongest}"
+            "$value": "{text.strongest}",
+            "$type": "color"
           }
         },
         "icon": {
           "error": {
-            "$type": "color",
-            "$value": "{error.medium}"
+            "$value": "{error.medium}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{success.medium}"
+            "$value": "{success.medium}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{icon.strongest}"
+            "$value": "{icon.strongest}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{accent.medium}"
+            "$value": "{accent.medium}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{warning.medium}"
+            "$value": "{warning.medium}",
+            "$type": "color"
           }
         },
         "stroke": {
           "error": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "success": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "custom": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "process": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           },
           "warning": {
-            "$type": "color",
-            "$value": "{transparent}"
+            "$value": "{transparent}",
+            "$type": "color"
           }
         }
       }
@@ -253,152 +253,152 @@
     "size": {
       "sm": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.2xs}"
+          "$value": "{sz.2xs}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sz.2xs}"
+          "$value": "{sz.2xs}",
+          "$type": "sizing"
         },
         "min-width": {
-          "$type": "sizing",
-          "$value": "{sz.2xs}"
+          "$value": "{sz.2xs}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.2xs}"
+          "$value": "{br.2xs}",
+          "$type": "borderRadius"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.sm}"
+          "$value": "{bw.sm}",
+          "$type": "borderWidth"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.none}"
+          "$value": "{sp.none}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{sz.3xs}"
+          "$value": "{sz.3xs}",
+          "$type": "sizing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         }
       },
       "md": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.xs}"
+          "$value": "{sz.xs}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sz.xs}"
+          "$value": "{sz.xs}",
+          "$type": "sizing"
         },
         "min-width": {
-          "$type": "sizing",
-          "$value": "{sz.xs}"
+          "$value": "{sz.xs}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.xs}"
+          "$value": "{br.xs}",
+          "$type": "borderRadius"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.sm}"
+          "$value": "{bw.sm}",
+          "$type": "borderWidth"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.2xs}"
+          "$value": "{sp.2xs}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.2xs}"
+          "$value": "{sp.2xs}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{sz.3xs}"
+          "$value": "{sz.3xs}",
+          "$type": "sizing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         }
       },
       "lg": {
         "min-height": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "max-height": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "min-width": {
-          "$type": "sizing",
-          "$value": "{sz.sm}"
+          "$value": "{sz.sm}",
+          "$type": "sizing"
         },
         "radius": {
-          "$type": "borderRadius",
-          "$value": "{br.sm}"
+          "$value": "{br.sm}",
+          "$type": "borderRadius"
         },
         "border": {
-          "$type": "borderWidth",
-          "$value": "{bw.sm}"
+          "$value": "{bw.sm}",
+          "$type": "borderWidth"
         },
         "gap": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-top": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-right": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-bottom": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "sp-left": {
-          "$type": "spacing",
-          "$value": "{sp.xs}"
+          "$value": "{sp.xs}",
+          "$type": "spacing"
         },
         "icon": {
-          "$type": "sizing",
-          "$value": "{sz.3xs}"
+          "$value": "{sz.3xs}",
+          "$type": "sizing"
         },
         "typography": {
-          "$type": "typography",
-          "$value": "{tp.label.sm.regular}"
+          "$value": "{tp.label.sm.regular}",
+          "$type": "typography"
         }
       }
     }
