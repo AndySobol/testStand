@@ -1603,14 +1603,14 @@
           "minWidth": "320",
           "maxWidth": "600"
         },
-        "$type": "template"
+        "$type": "composition"
       },
       "desktop": {
         "$value": {
           "minWidth": "600",
           "maxWidth": "1920"
         },
-        "$type": "template"
+        "$type": "composition"
       }
     }
   }
