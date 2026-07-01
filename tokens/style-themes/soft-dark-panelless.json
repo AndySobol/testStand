@@ -32,14 +32,14 @@
           "800": {
             "$value": "{sjs2.color.project.brand.600}",
             "$type": "color",
+            "$description": "Auto-generated dark version of main brand color.",
             "$extensions": {
               "figma.modify": {
                 "type": "darken",
                 "value": "0.25",
                 "space": "hsl"
               }
-            },
-            "$description": "Auto-generated dark version of main brand color."
+            }
           }
         }
       },
@@ -428,8 +428,8 @@
             "$value": "{sjs2.palette.gray.100}",
             "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
+              "sxl.studio": {
+                "unsupportedModify": {
                   "$type": "lighten",
                   "$value": "0.1",
                   "$space": "hsl"
@@ -2048,7 +2048,7 @@
               "$value": "{sjs2.color.fg.basic.tertiary}",
               "$type": "color"
             },
-            "$description": {
+            "description": {
               "$value": "{sjs2.color.fg.basic.secondary}",
               "$type": "color"
             }
@@ -2078,7 +2078,7 @@
               "$value": "{sjs2.color.fg.basic.tertiary-disabled}",
               "$type": "color"
             },
-            "$description": {
+            "description": {
               "$value": "{sjs2.color.fg.basic.primary-disabled}",
               "$type": "color"
             }
@@ -3686,202 +3686,202 @@
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.default}",
-                "y": "{sjs2.border-offset.y.form.default}",
+                "offsetX": "{sjs2.border-offset.x.form.default}",
+                "offsetY": "{sjs2.border-offset.y.form.default}",
                 "blur": "{sjs2.border-blur.form.default}",
                 "spread": "{sjs2.border-spread.form.default}",
                 "color": "{sjs2.color.component.formbox.default.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.hovered}",
-                "y": "{sjs2.border-offset.y.form.hovered}",
+                "offsetX": "{sjs2.border-offset.x.form.hovered}",
+                "offsetY": "{sjs2.border-offset.y.form.hovered}",
                 "blur": "{sjs2.border-blur.form.hovered}",
                 "spread": "{sjs2.border-spread.form.hovered}",
                 "color": "{sjs2.color.component.formbox.hovered.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "focused": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.focused}",
-                "y": "{sjs2.border-offset.y.form.focused}",
+                "offsetX": "{sjs2.border-offset.x.form.focused}",
+                "offsetY": "{sjs2.border-offset.y.form.focused}",
                 "blur": "{sjs2.border-blur.form.focused}",
                 "spread": "{sjs2.border-spread.form.focused}",
                 "color": "{sjs2.color.component.formbox.focused.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.disabled}",
-                "y": "{sjs2.border-offset.y.form.disabled}",
+                "offsetX": "{sjs2.border-offset.x.form.disabled}",
+                "offsetY": "{sjs2.border-offset.y.form.disabled}",
                 "blur": "{sjs2.border-blur.form.disabled}",
                 "spread": "{sjs2.border-spread.form.disabled}",
                 "color": "{sjs2.color.component.formbox.disabled.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "invalid": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.invalid}",
-                "y": "{sjs2.border-offset.y.form.invalid}",
+                "offsetX": "{sjs2.border-offset.x.form.invalid}",
+                "offsetY": "{sjs2.border-offset.y.form.invalid}",
                 "blur": "{sjs2.border-blur.form.invalid}",
                 "spread": "{sjs2.border-spread.form.invalid}",
                 "color": "{sjs2.color.component.formbox.invalid.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "invalid-focused": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.invalid-focused}",
-                "y": "{sjs2.border-offset.y.form.invalid-focused}",
+                "offsetX": "{sjs2.border-offset.x.form.invalid-focused}",
+                "offsetY": "{sjs2.border-offset.y.form.invalid-focused}",
                 "blur": "{sjs2.border-blur.form.invalid-focused}",
                 "spread": "{sjs2.border-spread.form.invalid-focused}",
                 "color": "{sjs2.color.component.formbox.invalid-focused.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "highlighted": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.highlighted}",
-                "y": "{sjs2.border-offset.y.form.highlighted}",
+                "offsetX": "{sjs2.border-offset.x.form.highlighted}",
+                "offsetY": "{sjs2.border-offset.y.form.highlighted}",
                 "blur": "{sjs2.border-blur.form.highlighted}",
                 "spread": "{sjs2.border-spread.form.highlighted}",
                 "color": "{sjs2.color.component.formbox.highlighted.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "readonly": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.readonly}",
-                "y": "{sjs2.border-offset.y.form.readonly}",
+                "offsetX": "{sjs2.border-offset.x.form.readonly}",
+                "offsetY": "{sjs2.border-offset.y.form.readonly}",
                 "blur": "{sjs2.border-blur.form.readonly}",
                 "spread": "{sjs2.border-spread.form.readonly}",
                 "color": "{sjs2.color.component.formbox.readonly.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "design": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.design}",
-                "y": "{sjs2.border-offset.y.form.design}",
+                "offsetX": "{sjs2.border-offset.x.form.design}",
+                "offsetY": "{sjs2.border-offset.y.form.design}",
                 "blur": "{sjs2.border-blur.form.design}",
                 "spread": "{sjs2.border-spread.form.design}",
                 "color": "{sjs2.color.component.formbox.design.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "transparent",
               "type": "dropShadow"
             },
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "check": {
@@ -3889,198 +3889,198 @@
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.default}",
-                  "y": "{sjs2.border-offset.y.form.default}",
+                  "offsetX": "{sjs2.border-offset.x.form.default}",
+                  "offsetY": "{sjs2.border-offset.y.form.default}",
                   "blur": "{sjs2.border-blur.form.default}",
                   "spread": "{sjs2.border-spread.form.default}",
                   "color": "{sjs2.color.component.check.false.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "hovered": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.hovered}",
-                  "y": "{sjs2.border-offset.y.form.hovered}",
+                  "offsetX": "{sjs2.border-offset.x.form.hovered}",
+                  "offsetY": "{sjs2.border-offset.y.form.hovered}",
                   "blur": "{sjs2.border-blur.form.hovered}",
                   "spread": "{sjs2.border-spread.form.hovered}",
                   "color": "{sjs2.color.component.check.false.hovered.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.disabled}",
-                  "y": "{sjs2.border-offset.y.form.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.form.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.form.disabled}",
                   "blur": "{sjs2.border-blur.form.disabled}",
                   "spread": "{sjs2.border-spread.form.disabled}",
                   "color": "{sjs2.color.component.check.false.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "design": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.design}",
-                  "y": "{sjs2.border-offset.y.form.design}",
+                  "offsetX": "{sjs2.border-offset.x.form.design}",
+                  "offsetY": "{sjs2.border-offset.y.form.design}",
                   "blur": "{sjs2.border-blur.form.design}",
                   "spread": "{sjs2.border-spread.form.design}",
                   "color": "{sjs2.color.component.check.false.design.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "readonly": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.readonly}",
-                  "y": "{sjs2.border-offset.y.form.readonly}",
+                  "offsetX": "{sjs2.border-offset.x.form.readonly}",
+                  "offsetY": "{sjs2.border-offset.y.form.readonly}",
                   "blur": "{sjs2.border-blur.form.readonly}",
                   "spread": "{sjs2.border-spread.form.readonly}",
                   "color": "{sjs2.color.component.check.false.readonly.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "invalid": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.invalid}",
-                  "y": "{sjs2.border-offset.y.form.invalid}",
+                  "offsetX": "{sjs2.border-offset.x.form.invalid}",
+                  "offsetY": "{sjs2.border-offset.y.form.invalid}",
                   "blur": "{sjs2.border-blur.form.invalid}",
                   "spread": "{sjs2.border-spread.form.invalid}",
                   "color": "{sjs2.color.component.check.false.invalid.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "true": {
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.default}",
-                  "y": "{sjs2.border-offset.y.form.default}",
+                  "offsetX": "{sjs2.border-offset.x.form.default}",
+                  "offsetY": "{sjs2.border-offset.y.form.default}",
                   "blur": "{sjs2.border-blur.form.default}",
                   "spread": "{sjs2.border-spread.form.default}",
                   "color": "{sjs2.color.component.check.true.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "hovered": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.hovered}",
-                  "y": "{sjs2.border-offset.y.form.hovered}",
+                  "offsetX": "{sjs2.border-offset.x.form.hovered}",
+                  "offsetY": "{sjs2.border-offset.y.form.hovered}",
                   "blur": "{sjs2.border-blur.form.hovered}",
                   "spread": "{sjs2.border-spread.form.hovered}",
                   "color": "{sjs2.color.component.check.true.hovered.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.disabled}",
-                  "y": "{sjs2.border-offset.y.form.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.form.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.form.disabled}",
                   "blur": "{sjs2.border-blur.form.disabled}",
                   "spread": "{sjs2.border-spread.form.disabled}",
                   "color": "{sjs2.color.component.check.true.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "toggle": {
@@ -4088,225 +4088,225 @@
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.default}",
-                  "y": "{sjs2.border-offset.y.form.default}",
+                  "offsetX": "{sjs2.border-offset.x.form.default}",
+                  "offsetY": "{sjs2.border-offset.y.form.default}",
                   "blur": "{sjs2.border-blur.form.default}",
                   "spread": "{sjs2.border-spread.form.default}",
                   "color": "{sjs2.color.component.toggle.false.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "hovered": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.hovered}",
-                  "y": "{sjs2.border-offset.y.form.hovered}",
+                  "offsetX": "{sjs2.border-offset.x.form.hovered}",
+                  "offsetY": "{sjs2.border-offset.y.form.hovered}",
                   "blur": "{sjs2.border-blur.form.hovered}",
                   "spread": "{sjs2.border-spread.form.hovered}",
                   "color": "{sjs2.color.component.toggle.false.hovered.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.disabled}",
-                  "y": "{sjs2.border-offset.y.form.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.form.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.form.disabled}",
                   "blur": "{sjs2.border-blur.form.disabled}",
                   "spread": "{sjs2.border-spread.form.disabled}",
                   "color": "{sjs2.color.component.toggle.false.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "true": {
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.default}",
-                  "y": "{sjs2.border-offset.y.form.default}",
+                  "offsetX": "{sjs2.border-offset.x.form.default}",
+                  "offsetY": "{sjs2.border-offset.y.form.default}",
                   "blur": "{sjs2.border-blur.form.default}",
                   "spread": "{sjs2.border-spread.form.default}",
                   "color": "{sjs2.color.component.toggle.true.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "hovered": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.hovered}",
-                  "y": "{sjs2.border-offset.y.form.hovered}",
+                  "offsetX": "{sjs2.border-offset.x.form.hovered}",
+                  "offsetY": "{sjs2.border-offset.y.form.hovered}",
                   "blur": "{sjs2.border-blur.form.hovered}",
                   "spread": "{sjs2.border-spread.form.hovered}",
                   "color": "{sjs2.color.component.toggle.true.hovered.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.form.disabled}",
-                  "y": "{sjs2.border-offset.y.form.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.form.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.form.disabled}",
                   "blur": "{sjs2.border-blur.form.disabled}",
                   "spread": "{sjs2.border-spread.form.disabled}",
                   "color": "{sjs2.color.component.toggle.true.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "innerShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "tagbox-item": {
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.default}",
-                "y": "{sjs2.border-offset.y.trigger.default}",
+                "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                "offsetY": "{sjs2.border-offset.y.trigger.default}",
                 "blur": "{sjs2.border-blur.trigger.default}",
                 "spread": "{sjs2.border-spread.trigger.default}",
                 "color": "{sjs2.color.component.tagbox-item.default.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.hovered}",
-                "y": "{sjs2.border-offset.y.trigger.hovered}",
+                "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                 "blur": "{sjs2.border-blur.trigger.hovered}",
                 "spread": "{sjs2.border-spread.trigger.hovered}",
                 "color": "{sjs2.color.component.tagbox-item.hovered.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.disabled}",
-                "y": "{sjs2.border-offset.y.trigger.disabled}",
+                "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                 "blur": "{sjs2.border-blur.trigger.disabled}",
                 "spread": "{sjs2.border-spread.trigger.disabled}",
                 "color": "{sjs2.color.component.tagbox-item.disabled.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "readonly": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.readonly}",
-                "y": "{sjs2.border-offset.y.trigger.readonly}",
+                "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+                "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
                 "blur": "{sjs2.border-blur.trigger.readonly}",
                 "spread": "{sjs2.border-spread.trigger.readonly}",
                 "color": "{sjs2.color.component.tagbox-item.readonly.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "buttongroup-item": {
@@ -4314,156 +4314,156 @@
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.default}",
-                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.default}",
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.buttongroup-item.false.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "hovered": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.hovered}",
-                  "y": "{sjs2.border-offset.y.trigger.hovered}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                   "blur": "{sjs2.border-blur.trigger.hovered}",
                   "spread": "{sjs2.border-spread.trigger.hovered}",
                   "color": "{sjs2.color.component.buttongroup-item.false.hovered.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.disabled}",
-                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.buttongroup-item.false.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "readonly": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.readonly}",
-                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.buttongroup-item.false.readonly.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "true": {
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.default}",
-                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.default}",
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.buttongroup-item.true.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.disabled}",
-                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.buttongroup-item.true.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "readonly": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.readonly}",
-                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.buttongroup-item.true.readonly.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "boolean-item": {
@@ -4471,814 +4471,814 @@
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.default}",
-                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.default}",
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.boolean-item.false.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "hovered": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.hovered}",
-                  "y": "{sjs2.border-offset.y.trigger.hovered}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                   "blur": "{sjs2.border-blur.trigger.hovered}",
                   "spread": "{sjs2.border-spread.trigger.hovered}",
                   "color": "{sjs2.color.component.boolean-item.false.hovered.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.disabled}",
-                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.boolean-item.false.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "readonly": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.readonly}",
-                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.boolean-item.false.readonly.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "true": {
             "default": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.default}",
-                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.default}",
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.boolean-item.true.default.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "disabled": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.disabled}",
-                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.boolean-item.true.disabled.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             },
             "readonly": {
               "$value": [
                 {
-                  "x": "{sjs2.border-offset.x.trigger.readonly}",
-                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+                  "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.boolean-item.true.readonly.border}",
                   "type": "innerShadow"
                 },
                 {
-                  "x": "0",
-                  "y": "0",
+                  "offsetX": "0",
+                  "offsetY": "0",
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
                   "type": "dropShadow"
                 }
               ],
-              "$type": "boxShadow"
+              "$type": "shadow"
             }
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "boolean": {
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.default}",
-                "y": "{sjs2.border-offset.y.form.default}",
+                "offsetX": "{sjs2.border-offset.x.form.default}",
+                "offsetY": "{sjs2.border-offset.y.form.default}",
                 "blur": "{sjs2.border-blur.form.default}",
                 "spread": "{sjs2.border-spread.form.default}",
                 "color": "{sjs2.color.component.boolean.default.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.disabled}",
-                "y": "{sjs2.border-offset.y.form.disabled}",
+                "offsetX": "{sjs2.border-offset.x.form.disabled}",
+                "offsetY": "{sjs2.border-offset.y.form.disabled}",
                 "blur": "{sjs2.border-blur.form.disabled}",
                 "spread": "{sjs2.border-spread.form.disabled}",
                 "color": "{sjs2.color.component.boolean.disabled.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "invalid": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.invalid}",
-                "y": "{sjs2.border-offset.y.form.invalid}",
+                "offsetX": "{sjs2.border-offset.x.form.invalid}",
+                "offsetY": "{sjs2.border-offset.y.form.invalid}",
                 "blur": "{sjs2.border-blur.form.invalid}",
                 "spread": "{sjs2.border-spread.form.invalid}",
                 "color": "{sjs2.color.component.boolean.invalid.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "highlighted": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.highlighted}",
-                "y": "{sjs2.border-offset.y.form.highlighted}",
+                "offsetX": "{sjs2.border-offset.x.form.highlighted}",
+                "offsetY": "{sjs2.border-offset.y.form.highlighted}",
                 "blur": "{sjs2.border-blur.form.highlighted}",
                 "spread": "{sjs2.border-spread.form.highlighted}",
                 "color": "{sjs2.color.component.boolean.highlighted.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "readonly": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.readonly}",
-                "y": "{sjs2.border-offset.y.form.readonly}",
+                "offsetX": "{sjs2.border-offset.x.form.readonly}",
+                "offsetY": "{sjs2.border-offset.y.form.readonly}",
                 "blur": "{sjs2.border-blur.form.readonly}",
                 "spread": "{sjs2.border-spread.form.readonly}",
                 "color": "{sjs2.color.component.boolean.readonly.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "design": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.design}",
-                "y": "{sjs2.border-offset.y.form.design}",
+                "offsetX": "{sjs2.border-offset.x.form.design}",
+                "offsetY": "{sjs2.border-offset.y.form.design}",
                 "blur": "{sjs2.border-blur.form.design}",
                 "spread": "{sjs2.border-spread.form.design}",
                 "color": "{sjs2.color.component.boolean.design.border}",
                 "type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "innerShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "action": {
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "alert": {
             "primary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "secondary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "quaternary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-muted": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-muted-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "quaternary-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             }
           },
@@ -5287,520 +5287,520 @@
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "secondary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "quaternary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-muted": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-muted-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "quaternary-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             }
           },
@@ -5809,390 +5809,390 @@
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "secondary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "quaternary": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "tertiary-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             },
             "quaternary-surface": {
               "default": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.default}",
-                    "y": "{sjs2.border-offset.y.trigger.default}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.default}",
                     "blur": "{sjs2.border-blur.trigger.default}",
                     "spread": "{sjs2.border-spread.trigger.default}",
                     "color": "{sjs2.color.utility.shadow.trigger.default}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "hovered": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.hovered}",
-                    "y": "{sjs2.border-offset.y.trigger.hovered}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                     "blur": "{sjs2.border-blur.trigger.hovered}",
                     "spread": "{sjs2.border-spread.trigger.hovered}",
                     "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               },
               "disabled": {
                 "$value": [
                   {
-                    "x": "{sjs2.border-offset.x.trigger.disabled}",
-                    "y": "{sjs2.border-offset.y.trigger.disabled}",
+                    "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                    "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                     "blur": "{sjs2.border-blur.trigger.disabled}",
                     "spread": "{sjs2.border-spread.trigger.disabled}",
                     "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                     "type": "dropShadow"
                   },
                   {
-                    "x": "0",
-                    "y": "0",
+                    "offsetX": "0",
+                    "offsetY": "0",
                     "blur": "0",
                     "spread": "0",
                     "color": "rgba(0,0,0,0)",
                     "type": "dropShadow"
                   }
                 ],
-                "$type": "boxShadow"
+                "$type": "shadow"
               }
             }
           }
@@ -6201,681 +6201,681 @@
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.default}",
-                "y": "{sjs2.border-offset.y.trigger.default}",
+                "offsetX": "{sjs2.border-offset.x.trigger.default}",
+                "offsetY": "{sjs2.border-offset.y.trigger.default}",
                 "blur": "{sjs2.border-blur.trigger.default}",
                 "spread": "{sjs2.border-spread.trigger.default}",
                 "color": "{sjs2.color.utility.shadow.trigger.default}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.hovered}",
-                "y": "{sjs2.border-offset.y.trigger.hovered}",
+                "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+                "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
                 "blur": "{sjs2.border-blur.trigger.hovered}",
                 "spread": "{sjs2.border-spread.trigger.hovered}",
                 "color": "{sjs2.color.utility.shadow.trigger.hovered}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.disabled}",
-                "y": "{sjs2.border-offset.y.trigger.disabled}",
+                "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+                "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
                 "blur": "{sjs2.border-blur.trigger.disabled}",
                 "spread": "{sjs2.border-spread.trigger.disabled}",
                 "color": "{sjs2.color.utility.shadow.trigger.disabled}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "invalid": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.invalid}",
-                "y": "{sjs2.border-offset.y.trigger.invalid}",
+                "offsetX": "{sjs2.border-offset.x.trigger.invalid}",
+                "offsetY": "{sjs2.border-offset.y.trigger.invalid}",
                 "blur": "{sjs2.border-blur.trigger.invalid}",
                 "spread": "{sjs2.border-spread.trigger.invalid}",
                 "color": "{sjs2.color.utility.shadow.trigger.invalid}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "readonly": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.readonly}",
-                "y": "{sjs2.border-offset.y.trigger.readonly}",
+                "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+                "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
                 "blur": "{sjs2.border-blur.trigger.readonly}",
                 "spread": "{sjs2.border-spread.trigger.readonly}",
                 "color": "{sjs2.color.utility.shadow.trigger.readonly}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "design": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.trigger.design}",
-                "y": "{sjs2.border-offset.y.trigger.design}",
+                "offsetX": "{sjs2.border-offset.x.trigger.design}",
+                "offsetY": "{sjs2.border-offset.y.trigger.design}",
                 "blur": "{sjs2.border-blur.trigger.design}",
                 "spread": "{sjs2.border-spread.trigger.design}",
                 "color": "{sjs2.color.utility.shadow.trigger.design}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "preview": {
             "$value": [
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "panel": {
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.default}",
-                "y": "{sjs2.border-offset.y.surface.default}",
+                "offsetX": "{sjs2.border-offset.x.surface.default}",
+                "offsetY": "{sjs2.border-offset.y.surface.default}",
                 "blur": "{sjs2.border-blur.surface.default}",
                 "spread": "{sjs2.border-spread.surface.default}",
                 "color": "{sjs2.color.component.panel.default.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.hovered}",
-                "y": "{sjs2.border-offset.y.surface.hovered}",
+                "offsetX": "{sjs2.border-offset.x.surface.hovered}",
+                "offsetY": "{sjs2.border-offset.y.surface.hovered}",
                 "blur": "{sjs2.border-blur.surface.hovered}",
                 "spread": "{sjs2.border-spread.surface.hovered}",
                 "color": "{sjs2.color.utility.shadow.surface.hovered}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "pressed": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.pressed}",
-                "y": "{sjs2.border-offset.y.surface.pressed}",
+                "offsetX": "{sjs2.border-offset.x.surface.pressed}",
+                "offsetY": "{sjs2.border-offset.y.surface.pressed}",
                 "blur": "{sjs2.border-blur.surface.pressed}",
                 "spread": "{sjs2.border-spread.surface.pressed}",
                 "color": "{sjs2.color.utility.shadow.surface.pressed}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "focused": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.focused}",
-                "y": "{sjs2.border-offset.y.surface.focused}",
+                "offsetX": "{sjs2.border-offset.x.surface.focused}",
+                "offsetY": "{sjs2.border-offset.y.surface.focused}",
                 "blur": "{sjs2.border-blur.surface.focused}",
                 "spread": "{sjs2.border-spread.surface.focused}",
                 "color": "{sjs2.color.utility.shadow.surface.focused}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.disabled}",
-                "y": "{sjs2.border-offset.y.surface.disabled}",
+                "offsetX": "{sjs2.border-offset.x.surface.disabled}",
+                "offsetY": "{sjs2.border-offset.y.surface.disabled}",
                 "blur": "{sjs2.border-blur.surface.disabled}",
                 "spread": "{sjs2.border-spread.surface.disabled}",
                 "color": "{sjs2.color.utility.shadow.surface.disabled}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "dragging": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.dragging}",
-                "y": "{sjs2.border-offset.y.surface.dragging}",
+                "offsetX": "{sjs2.border-offset.x.surface.dragging}",
+                "offsetY": "{sjs2.border-offset.y.surface.dragging}",
                 "blur": "{sjs2.border-blur.surface.dragging}",
                 "spread": "{sjs2.border-spread.surface.dragging}",
                 "color": "{sjs2.color.utility.shadow.surface.dragging}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "panel-nested": {
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.default}",
-                "y": "{sjs2.border-offset.y.surface.default}",
+                "offsetX": "{sjs2.border-offset.x.surface.default}",
+                "offsetY": "{sjs2.border-offset.y.surface.default}",
                 "blur": "{sjs2.border-blur.surface.default}",
                 "spread": "{sjs2.border-spread.surface.default}",
                 "color": "{sjs2.color.component.panel-nested.default.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.hovered}",
-                "y": "{sjs2.border-offset.y.surface.hovered}",
+                "offsetX": "{sjs2.border-offset.x.surface.hovered}",
+                "offsetY": "{sjs2.border-offset.y.surface.hovered}",
                 "blur": "{sjs2.border-blur.surface.hovered}",
                 "spread": "{sjs2.border-spread.surface.hovered}",
                 "color": "{sjs2.color.utility.shadow.surface.hovered}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "pressed": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.pressed}",
-                "y": "{sjs2.border-offset.y.surface.pressed}",
+                "offsetX": "{sjs2.border-offset.x.surface.pressed}",
+                "offsetY": "{sjs2.border-offset.y.surface.pressed}",
                 "blur": "{sjs2.border-blur.surface.pressed}",
                 "spread": "{sjs2.border-spread.surface.pressed}",
                 "color": "{sjs2.color.utility.shadow.surface.pressed}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "focused": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.focused}",
-                "y": "{sjs2.border-offset.y.surface.focused}",
+                "offsetX": "{sjs2.border-offset.x.surface.focused}",
+                "offsetY": "{sjs2.border-offset.y.surface.focused}",
                 "blur": "{sjs2.border-blur.surface.focused}",
                 "spread": "{sjs2.border-spread.surface.focused}",
                 "color": "{sjs2.color.utility.shadow.surface.focused}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.disabled}",
-                "y": "{sjs2.border-offset.y.surface.disabled}",
+                "offsetX": "{sjs2.border-offset.x.surface.disabled}",
+                "offsetY": "{sjs2.border-offset.y.surface.disabled}",
                 "blur": "{sjs2.border-blur.surface.disabled}",
                 "spread": "{sjs2.border-spread.surface.disabled}",
                 "color": "{sjs2.color.utility.shadow.surface.disabled}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "dragging": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.dragging}",
-                "y": "{sjs2.border-offset.y.surface.dragging}",
+                "offsetX": "{sjs2.border-offset.x.surface.dragging}",
+                "offsetY": "{sjs2.border-offset.y.surface.dragging}",
                 "blur": "{sjs2.border-blur.surface.dragging}",
                 "spread": "{sjs2.border-spread.surface.dragging}",
                 "color": "{sjs2.color.utility.shadow.surface.dragging}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "panel-simple": {
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.default}",
-                "y": "{sjs2.border-offset.y.surface.default}",
+                "offsetX": "{sjs2.border-offset.x.surface.default}",
+                "offsetY": "{sjs2.border-offset.y.surface.default}",
                 "blur": "{sjs2.border-blur.surface.default}",
                 "spread": "{sjs2.border-spread.surface.default}",
                 "color": "{sjs2.color.component.panel-simple.default.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.hovered}",
-                "y": "{sjs2.border-offset.y.surface.hovered}",
+                "offsetX": "{sjs2.border-offset.x.surface.hovered}",
+                "offsetY": "{sjs2.border-offset.y.surface.hovered}",
                 "blur": "{sjs2.border-blur.surface.hovered}",
                 "spread": "{sjs2.border-spread.surface.hovered}",
                 "color": "{sjs2.color.utility.shadow.surface.hovered}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "pressed": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.pressed}",
-                "y": "{sjs2.border-offset.y.surface.pressed}",
+                "offsetX": "{sjs2.border-offset.x.surface.pressed}",
+                "offsetY": "{sjs2.border-offset.y.surface.pressed}",
                 "blur": "{sjs2.border-blur.surface.pressed}",
                 "spread": "{sjs2.border-spread.surface.pressed}",
                 "color": "{sjs2.color.utility.shadow.surface.pressed}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "focused": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.focused}",
-                "y": "{sjs2.border-offset.y.surface.focused}",
+                "offsetX": "{sjs2.border-offset.x.surface.focused}",
+                "offsetY": "{sjs2.border-offset.y.surface.focused}",
                 "blur": "{sjs2.border-blur.surface.focused}",
                 "spread": "{sjs2.border-spread.surface.focused}",
                 "color": "{sjs2.color.utility.shadow.surface.focused}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.disabled}",
-                "y": "{sjs2.border-offset.y.surface.disabled}",
+                "offsetX": "{sjs2.border-offset.x.surface.disabled}",
+                "offsetY": "{sjs2.border-offset.y.surface.disabled}",
                 "blur": "{sjs2.border-blur.surface.disabled}",
                 "spread": "{sjs2.border-spread.surface.disabled}",
                 "color": "{sjs2.color.utility.shadow.surface.disabled}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "dragging": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.dragging}",
-                "y": "{sjs2.border-offset.y.surface.dragging}",
+                "offsetX": "{sjs2.border-offset.x.surface.dragging}",
+                "offsetY": "{sjs2.border-offset.y.surface.dragging}",
                 "blur": "{sjs2.border-blur.surface.dragging}",
                 "spread": "{sjs2.border-spread.surface.dragging}",
                 "color": "{sjs2.color.utility.shadow.surface.dragging}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "panel-dynamic": {
           "default": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.default}",
-                "y": "{sjs2.border-offset.y.surface.default}",
+                "offsetX": "{sjs2.border-offset.x.surface.default}",
+                "offsetY": "{sjs2.border-offset.y.surface.default}",
                 "blur": "{sjs2.border-blur.surface.default}",
                 "spread": "{sjs2.border-spread.surface.default}",
                 "color": "{sjs2.color.component.panel-dynamic.default.border}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "hovered": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.hovered}",
-                "y": "{sjs2.border-offset.y.surface.hovered}",
+                "offsetX": "{sjs2.border-offset.x.surface.hovered}",
+                "offsetY": "{sjs2.border-offset.y.surface.hovered}",
                 "blur": "{sjs2.border-blur.surface.hovered}",
                 "spread": "{sjs2.border-spread.surface.hovered}",
                 "color": "{sjs2.color.utility.shadow.surface.hovered}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "pressed": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.pressed}",
-                "y": "{sjs2.border-offset.y.surface.pressed}",
+                "offsetX": "{sjs2.border-offset.x.surface.pressed}",
+                "offsetY": "{sjs2.border-offset.y.surface.pressed}",
                 "blur": "{sjs2.border-blur.surface.pressed}",
                 "spread": "{sjs2.border-spread.surface.pressed}",
                 "color": "{sjs2.color.utility.shadow.surface.pressed}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "focused": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.focused}",
-                "y": "{sjs2.border-offset.y.surface.focused}",
+                "offsetX": "{sjs2.border-offset.x.surface.focused}",
+                "offsetY": "{sjs2.border-offset.y.surface.focused}",
                 "blur": "{sjs2.border-blur.surface.focused}",
                 "spread": "{sjs2.border-spread.surface.focused}",
                 "color": "{sjs2.color.utility.shadow.surface.focused}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "disabled": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.disabled}",
-                "y": "{sjs2.border-offset.y.surface.disabled}",
+                "offsetX": "{sjs2.border-offset.x.surface.disabled}",
+                "offsetY": "{sjs2.border-offset.y.surface.disabled}",
                 "blur": "{sjs2.border-blur.surface.disabled}",
                 "spread": "{sjs2.border-spread.surface.disabled}",
                 "color": "{sjs2.color.utility.shadow.surface.disabled}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "dragging": {
             "$value": [
               {
-                "x": "{sjs2.border-offset.x.surface.dragging}",
-                "y": "{sjs2.border-offset.y.surface.dragging}",
+                "offsetX": "{sjs2.border-offset.x.surface.dragging}",
+                "offsetY": "{sjs2.border-offset.y.surface.dragging}",
                 "blur": "{sjs2.border-blur.surface.dragging}",
                 "spread": "{sjs2.border-spread.surface.dragging}",
                 "color": "{sjs2.color.utility.shadow.surface.dragging}",
                 "type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
+                "offsetX": "0",
+                "offsetY": "0",
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
                 "type": "dropShadow"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "a11y": {
             "$value": "{sjs2.border-effect.a11y}",
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         }
       },
@@ -6883,322 +6883,322 @@
         "default": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.default}",
-              "y": "{sjs2.border-offset.y.trigger.default}",
+              "offsetX": "{sjs2.border-offset.x.trigger.default}",
+              "offsetY": "{sjs2.border-offset.y.trigger.default}",
               "blur": "{sjs2.border-blur.trigger.default}",
               "spread": "{sjs2.border-spread.trigger.default}",
               "color": "{sjs2.color.utility.shadow.trigger.default}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "hovered": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.hovered}",
-              "y": "{sjs2.border-offset.y.trigger.hovered}",
+              "offsetX": "{sjs2.border-offset.x.trigger.hovered}",
+              "offsetY": "{sjs2.border-offset.y.trigger.hovered}",
               "blur": "{sjs2.border-blur.trigger.hovered}",
               "spread": "{sjs2.border-spread.trigger.hovered}",
               "color": "{sjs2.color.utility.shadow.trigger.hovered}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "pressed": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.pressed}",
-              "y": "{sjs2.border-offset.y.trigger.pressed}",
+              "offsetX": "{sjs2.border-offset.x.trigger.pressed}",
+              "offsetY": "{sjs2.border-offset.y.trigger.pressed}",
               "blur": "{sjs2.border-blur.trigger.pressed}",
               "spread": "{sjs2.border-spread.trigger.pressed}",
               "color": "{sjs2.color.utility.shadow.trigger.pressed}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "disabled": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.disabled}",
-              "y": "{sjs2.border-offset.y.trigger.disabled}",
+              "offsetX": "{sjs2.border-offset.x.trigger.disabled}",
+              "offsetY": "{sjs2.border-offset.y.trigger.disabled}",
               "blur": "{sjs2.border-blur.trigger.disabled}",
               "spread": "{sjs2.border-spread.trigger.disabled}",
               "color": "{sjs2.color.utility.shadow.trigger.disabled}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "design": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.design}",
-              "y": "{sjs2.border-offset.y.trigger.design}",
+              "offsetX": "{sjs2.border-offset.x.trigger.design}",
+              "offsetY": "{sjs2.border-offset.y.trigger.design}",
               "blur": "{sjs2.border-blur.trigger.design}",
               "spread": "{sjs2.border-spread.trigger.design}",
               "color": "{sjs2.color.utility.shadow.trigger.design}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "readonly": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.readonly}",
-              "y": "{sjs2.border-offset.y.trigger.readonly}",
+              "offsetX": "{sjs2.border-offset.x.trigger.readonly}",
+              "offsetY": "{sjs2.border-offset.y.trigger.readonly}",
               "blur": "{sjs2.border-blur.trigger.readonly}",
               "spread": "{sjs2.border-spread.trigger.readonly}",
               "color": "{sjs2.color.utility.shadow.trigger.readonly}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "invalid": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.trigger.invalid}",
-              "y": "{sjs2.border-offset.y.trigger.invalid}",
+              "offsetX": "{sjs2.border-offset.x.trigger.invalid}",
+              "offsetY": "{sjs2.border-offset.y.trigger.invalid}",
               "blur": "{sjs2.border-blur.trigger.invalid}",
               "spread": "{sjs2.border-spread.trigger.invalid}",
               "color": "{sjs2.color.utility.shadow.trigger.invalid}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         }
       },
       "surface": {
         "default": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.surface.default}",
-              "y": "{sjs2.border-offset.y.surface.default}",
+              "offsetX": "{sjs2.border-offset.x.surface.default}",
+              "offsetY": "{sjs2.border-offset.y.surface.default}",
               "blur": "{sjs2.border-blur.surface.default}",
               "spread": "{sjs2.border-spread.surface.default}",
               "color": "{sjs2.color.utility.shadow.surface.default}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "hovered": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.surface.hovered}",
-              "y": "{sjs2.border-offset.y.surface.hovered}",
+              "offsetX": "{sjs2.border-offset.x.surface.hovered}",
+              "offsetY": "{sjs2.border-offset.y.surface.hovered}",
               "blur": "{sjs2.border-blur.surface.hovered}",
               "spread": "{sjs2.border-spread.surface.hovered}",
               "color": "{sjs2.color.utility.shadow.surface.hovered}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "pressed": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.surface.pressed}",
-              "y": "{sjs2.border-offset.y.surface.pressed}",
+              "offsetX": "{sjs2.border-offset.x.surface.pressed}",
+              "offsetY": "{sjs2.border-offset.y.surface.pressed}",
               "blur": "{sjs2.border-blur.surface.pressed}",
               "spread": "{sjs2.border-spread.surface.pressed}",
               "color": "{sjs2.color.utility.shadow.surface.pressed}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "focused": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.surface.focused}",
-              "y": "{sjs2.border-offset.y.surface.focused}",
+              "offsetX": "{sjs2.border-offset.x.surface.focused}",
+              "offsetY": "{sjs2.border-offset.y.surface.focused}",
               "blur": "{sjs2.border-blur.surface.focused}",
               "spread": "{sjs2.border-spread.surface.focused}",
               "color": "{sjs2.color.utility.shadow.surface.focused}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "disabled": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.surface.disabled}",
-              "y": "{sjs2.border-offset.y.surface.disabled}",
+              "offsetX": "{sjs2.border-offset.x.surface.disabled}",
+              "offsetY": "{sjs2.border-offset.y.surface.disabled}",
               "blur": "{sjs2.border-blur.surface.disabled}",
               "spread": "{sjs2.border-spread.surface.disabled}",
               "color": "{sjs2.color.utility.shadow.surface.disabled}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "dragging": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.surface.dragging}",
-              "y": "{sjs2.border-offset.y.surface.dragging}",
+              "offsetX": "{sjs2.border-offset.x.surface.dragging}",
+              "offsetY": "{sjs2.border-offset.y.surface.dragging}",
               "blur": "{sjs2.border-blur.surface.dragging}",
               "spread": "{sjs2.border-spread.surface.dragging}",
               "color": "{sjs2.color.utility.shadow.surface.dragging}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         }
       },
       "floating": {
         "default": {
           "$value": [
             {
-              "x": "{sjs2.border-offset.x.floating.default}",
-              "y": "{sjs2.border-offset.y.floating.default}",
+              "offsetX": "{sjs2.border-offset.x.floating.default}",
+              "offsetY": "{sjs2.border-offset.y.floating.default}",
               "blur": "{sjs2.border-blur.floating.default}",
               "spread": "{sjs2.border-spread.floating.default}",
               "color": "{sjs2.color.utility.shadow.floating.default}",
               "type": "dropShadow"
             },
             {
-              "x": "0",
-              "y": "0",
+              "offsetX": "0",
+              "offsetY": "0",
               "blur": "0",
               "spread": "0",
               "color": "rgba(0,0,0,0)",
               "type": "dropShadow"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         }
       },
       "a11y": {
         "$value": [
           {
-            "x": "0",
-            "y": "0",
+            "offsetX": "0",
+            "offsetY": "0",
             "blur": "0",
             "spread": "{sjs2.border-width.a11y}",
             "color": "{sjs2.color.utility.a11y}",
             "type": "dropShadow"
           },
           {
-            "x": "0",
-            "y": "0",
+            "offsetX": "0",
+            "offsetY": "0",
             "blur": "0",
             "spread": "0",
             "color": "rgba(0,0,0,0)",
             "type": "dropShadow"
           }
         ],
-        "$type": "boxShadow"
+        "$type": "shadow"
       }
     }
   }

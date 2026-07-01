@@ -30,9 +30,9 @@
         "$type": "opacity"
       },
       "scale": {
-        "$value": "1%",
-        "$type": "dimension"
+        "$value": "1px"
       }
-    }
+    },
+    "$type": "dimension"
   }
 }
